@@ -79,7 +79,7 @@ OrganicView {
         Action {
             objectName: "addButton"
             text: i18n.tr("Add to Album")
-            iconName: "add"
+            iconName: "ok"
             enabled: mediaSelector.selection.selectedCount
             onTriggered: {
                 mediaSelector.addClicked();
