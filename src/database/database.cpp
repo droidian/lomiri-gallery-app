@@ -26,6 +26,7 @@
 #include <QFile>
 #include <QSqlTableModel>
 #include <QtSql>
+#include <QDebug>
 
 /*!
  * \brief Database::Database
@@ -40,10 +41,19 @@ Database::Database(Resource *resource, QObject* parent) :
     m_db(new QSqlDatabase())
 {
     if (!QFile::exists(m_databaseDirectory)) {
-        QDir dir;
-        bool createOk = dir.mkpath(m_databaseDirectory);
-        if (!createOk)
-            qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+        if (!QFile::exists(m_databaseDirectory + QDir::separator() + "com.ubuntu.gallery")) {
+            qDebug() << "Datenbank auf falschem Pfad gefunden";
+            QDir dir;
+            bool createOk = dir.mkpath(m_databaseDirectory);
+            if (!createOk)
+                qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+        } else {
+            qDebug() << "Keine Datenbank gefunden";
+            QDir dir;
+            bool createOk = dir.mkpath(m_databaseDirectory);
+            if (!createOk)
+                qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+        }
     }
 
     m_albumTable = new AlbumTable(this, this);
