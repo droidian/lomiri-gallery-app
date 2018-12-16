@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
 "PO-Revision-Date: 2018-12-16 18:32+0000\n"
-"Last-Translator: Anne Onyme <anneonyme017@tutanota.com>\n"
+"Last-Translator: Max Libre <libremax@protonmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fr/>\n"
 "Language: fr\n"
@@ -290,7 +290,7 @@ msgstr "Choisir"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
-msgstr "Corbeille,Supprimer"
+msgstr "Corbeille;Supprimer"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
