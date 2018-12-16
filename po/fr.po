@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-16 14:19+0000\n"
+"PO-Revision-Date: 2018-12-16 14:52+0000\n"
 "Last-Translator: Max Libre <libremax@protonmail.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fr/>\n"
@@ -219,7 +219,7 @@ msgstr "Modifier"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr "Information"
+msgstr "Info"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
@@ -251,7 +251,7 @@ msgstr "Heure : "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr "ok"
+msgstr "Valider"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -272,7 +272,7 @@ msgstr "Une erreur est survenue en essayant de charger le support"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr "Talle de la grille"
+msgstr "Taille de la grille"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
@@ -286,7 +286,7 @@ msgstr "Terminé"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
-msgstr "Choisissez"
+msgstr "Choisir"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
