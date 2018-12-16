@@ -122,7 +122,7 @@ const QString &Resource::databaseDirectory() const
 {
     if (m_databaseDirectory.isEmpty()) {
         if (m_mediaDirectories.contains(QStandardPaths::writableLocation(QStandardPaths::PicturesLocation))) {
-            m_databaseDirectory = QStandardPaths::writableLocation(QStandardPaths::DataLocation) +
+            m_databaseDirectory = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
                     QDir::separator() + DATABASE_DIR;
         } else {
             m_databaseDirectory = m_mediaDirectories.at(0) + QDir::separator() + "." + DATABASE_DIR;
