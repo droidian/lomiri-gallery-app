@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
 "PO-Revision-Date: 2018-12-17 17:24+0000\n"
-"Last-Translator: Mike <miguel2000@livecom.it>\n"
+"Last-Translator: rocco <roccofoti@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/it/>\n"
 "Language: it\n"
@@ -227,7 +227,7 @@ msgstr "Informazioni"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "Tipo media: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "photo"
@@ -239,7 +239,7 @@ msgstr "video"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "Nome media: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
@@ -247,7 +247,7 @@ msgstr "Data: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "Tempo: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
