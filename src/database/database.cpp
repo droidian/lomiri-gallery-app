@@ -40,6 +40,16 @@ Database::Database(Resource *resource, QObject* parent) :
     m_db(new QSqlDatabase())
 {
     
+    if (QFile::exists(m_databaseDirectory) && QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
+        
+        QDir vividdir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+        QDir::separator() + "database");
+        bool removeOk = vividdir.removeRecursively();
+        if (!removeOk)
+            qWarning() << "Unable to remove old directory";                       
+    }
+    
     if (!QFile::exists(m_databaseDirectory)) {
         if (!QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
                     QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
