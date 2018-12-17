@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-17 17:24+0000\n"
+"PO-Revision-Date: 2018-12-17 17:25+0000\n"
 "Last-Translator: rocco <roccofoti@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/it/>\n"
@@ -275,13 +275,11 @@ msgid "Grid Size"
 msgstr "Dimensione della griglia"
 
 #: rc/qml/PhotosOverview.qml:117
-#, fuzzy
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
 "Seleziona la dimensione della griglia in unità gu tra 8 e 20 (default 12)"
 
 #: rc/qml/PhotosOverview.qml:132
-#, fuzzy
 msgid "Finished"
 msgstr "Completato"
 
