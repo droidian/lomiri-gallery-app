@@ -14,7 +14,7 @@
     "maintainer": "UBports <dev@ubports.com>",
     "name": "@APP_PACKAGE_NAME@",
     "title": "Gallery",
-    "version": "2.9.9",
+    "version": "2.10.1",
     "x-test": {
         "autopilot": "@AUTOPILOT_DIR@"
     }
