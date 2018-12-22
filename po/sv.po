@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-22 11:51+0000\n"
+"PO-Revision-Date: 2018-12-23 01:01+0000\n"
 "Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
 "Language-Team: Swedish <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sv/>\n"
@@ -127,7 +127,7 @@ msgstr "Kunde inte dela foton och videor samtidigt"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr "OK"
+msgstr "Ok"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
 #, qt-format
@@ -260,7 +260,7 @@ msgstr "Redigera foto"
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
 msgid "Gallery"
-msgstr "Fotoalbum"
+msgstr "Galleri"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
@@ -272,11 +272,12 @@ msgstr "Ett fel har uppstått vid försök att läsa in media"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr "Gitter storlek"
+msgstr "Gitter Storlek"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr "Välj gitter storlek i enheten gu, mellan 8 och 20 (förvalt värde är 12)"
+msgstr ""
+"Välj gitter storlek i enheten gu, mellan 8 och 20 (standard värdet är 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
@@ -292,7 +293,7 @@ msgstr "Papperskorg;Radera"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr "Publicera;Skicka upp;Lägg till"
+msgstr "Publicera;Ladda upp;Lägg till"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
