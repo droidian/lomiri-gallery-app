@@ -39,11 +39,41 @@ Database::Database(Resource *resource, QObject* parent) :
     m_sqlSchemaDirectory(resource->getRcUrl("sql").path()),
     m_db(new QSqlDatabase())
 {
+    
+    if (QFile::exists(m_databaseDirectory) && QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
+        
+        QDir vividdir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+        QDir::separator() + "database");
+        bool removeOk = vividdir.removeRecursively();
+        if (!removeOk)
+            qWarning() << "Unable to remove old directory";                       
+    }
+    
     if (!QFile::exists(m_databaseDirectory)) {
-        QDir dir;
-        bool createOk = dir.mkpath(m_databaseDirectory);
-        if (!createOk)
-            qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+        if (!QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
+            QDir dir;
+            bool createOk = dir.mkpath(m_databaseDirectory);
+            if (!createOk)
+                qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+        } else {
+            QDir dir;
+            bool createOk = dir.mkpath(m_databaseDirectory);
+            if (!createOk)
+                qWarning() << "Unable to create DB directory" << m_databaseDirectory;
+            
+            QFile::copy(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database/gallery.sqlite", 
+                    QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "database/gallery.sqlite");
+            
+            QDir olddir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
+                    QDir::separator() + "com.ubuntu.gallery");
+            bool removeOk = olddir.removeRecursively();
+            if (!removeOk)
+                qWarning() << "Unable to remove old directory";
+        }
     }
 
     m_albumTable = new AlbumTable(this, this);
