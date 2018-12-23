@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-29 21:45+0000\n"
-"PO-Revision-Date: 2018-11-23 16:51+0000\n"
+"POT-Creation-Date: 2018-11-22 21:06+0000\n"
+"PO-Revision-Date: 2018-12-23 00:00+0000\n"
 "Last-Translator: ierihon <idekovets@mail.ru>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ru/>\n"
@@ -28,14 +28,14 @@ msgstr "Редактировать альбом"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
-#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:347
-#: rc/qml/PhotosOverview.qml:160 rc/qml/Utility/EditingHUD.qml:67
+#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
+#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr "Удалить"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
-#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:275
-#: rc/qml/PhotosOverview.qml:183 rc/qml/PickerScreen.qml:285
+#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
+#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -59,12 +59,12 @@ msgstr "Шаблон"
 msgid "Red"
 msgstr "Красный"
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
 msgid "Album"
 msgstr "Альбом"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
-#: rc/qml/MediaViewer/MediaViewer.qml:337
+#: rc/qml/MediaViewer/MediaViewer.qml:340
 msgid "Add to album"
 msgstr "Добавить в альбом"
 
@@ -81,15 +81,15 @@ msgid "Subtitle"
 msgstr "Подзаголовок"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:138
+#: rc/qml/PhotosOverview.qml:173
 msgid "Camera"
 msgstr "Камера"
 
-#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:223
+#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
 msgstr "Да"
 
-#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:234
+#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
 msgid "No"
 msgstr "Нет"
 
@@ -114,7 +114,7 @@ msgstr "dd"
 msgid "Add to Album"
 msgstr "Добавить в Альбом"
 
-#: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:78
+#: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
 msgstr "Добавить Фото в альбом"
 
@@ -130,7 +130,7 @@ msgstr "Нельзя делиться фото и видео одновреме�
 msgid "Ok"
 msgstr "ОК"
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
@@ -138,7 +138,7 @@ msgstr[0] "Удалить %1 фотографию"
 msgstr[1] "Удалить %1 фотографии"
 msgstr[2] "Удалить %1 фотографий"
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
@@ -146,7 +146,7 @@ msgstr[0] "Удалить %1 видеофайл"
 msgstr[1] "Удалить %1 видеофайла"
 msgstr[2] "Удалить %1 видеофайлов"
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
@@ -154,24 +154,24 @@ msgstr[0] "Удалить %1 мультимедийный файл"
 msgstr[1] "Удалить %1 мультимедийных файла"
 msgstr[2] "Удалить %1 мультимедийных файлов"
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:201
-#: rc/qml/MainScreen.qml:253 rc/qml/PhotosOverview.qml:131
+#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
+#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
 #: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
 msgid "Select"
 msgstr "Выбрать"
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:150
-#: rc/qml/Utility/EditingHUD.qml:77
+#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
 msgstr "Добавить"
 
-#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:358
-#: rc/qml/PhotosOverview.qml:167 rc/qml/Utility/EditingHUD.qml:72
+#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
+#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
 msgstr "Поделиться"
 
-#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:179
-#: rc/qml/PhotosOverview.qml:202
+#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
+#: rc/qml/PhotosOverview.qml:241
 msgid "Share to"
 msgstr "Поделиться с"
 
@@ -179,47 +179,83 @@ msgstr "Поделиться с"
 msgid "Loading…"
 msgstr "Загрузка…"
 
-#: rc/qml/MainScreen.qml:149
+#: rc/qml/MainScreen.qml:148
 msgid "Albums"
 msgstr "Альбомы"
 
-#: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:203
+#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
 #: rc/qml/PickerScreen.qml:154
 msgid "Events"
 msgstr "События"
 
-#: rc/qml/MainScreen.qml:212 rc/qml/MainScreen.qml:255
+#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
 #: rc/qml/PickerScreen.qml:203
 msgid "Photos"
 msgstr "Фотографии"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:212
+#: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
 msgstr "Удалить изображение"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:212
+#: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
 msgstr "Удалить видео"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:245
+#: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
 msgstr "Удалить фото из альбома"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:245
+#: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
 msgstr "Удалить видео из альбома"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:254
+#: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
 msgstr "Удалить из альбома"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:265
+#: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
 msgstr "Удалить из альбома и стереть"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:312
+#: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
 msgstr "Правка"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:371
+msgid "Info"
+msgstr "Инфо"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:394
+msgid "Informations"
+msgstr "Информация"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:397
+msgid "Media type: "
+msgstr "Тип медиа: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:398
+msgid "photo"
+msgstr "Фотографии"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:398
+msgid "video"
+msgstr "видео"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:399
+msgid "Media name: "
+msgstr "Название медиа: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:400
+msgid "Date: "
+msgstr "Дата: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:401
+msgid "Time: "
+msgstr "Время: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:407
+msgid "ok"
+msgstr "ОК"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -238,127 +274,139 @@ msgstr "Применить выбранное"
 msgid "An error has occurred attempting to load media"
 msgstr "Произошла ошибка во время попытки загрузить медиа"
 
+#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+msgid "Grid Size"
+msgstr "Размер сетки"
+
+#: rc/qml/PhotosOverview.qml:117
+msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
+msgstr "Выберите число ячеек в сетке от 8 до 20 (по умолчанию 12)"
+
+#: rc/qml/PhotosOverview.qml:132
+msgid "Finished"
+msgstr "Готово"
+
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
 msgstr "Выбрать"
 
-#: rc/qml/Utility/EditingHUD.qml:68
+#: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
 msgstr "Корзина;Стереть"
 
-#: rc/qml/Utility/EditingHUD.qml:73
+#: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
 msgstr "Отправить;Загрузить;Прикрепить"
 
-#: rc/qml/Utility/EditingHUD.qml:82
+#: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
 msgstr "Отменить"
 
-#: rc/qml/Utility/EditingHUD.qml:83
+#: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
 msgstr "Отменить действие;Назад"
 
-#: rc/qml/Utility/EditingHUD.qml:87
+#: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
 msgstr "Вернуть"
 
-#: rc/qml/Utility/EditingHUD.qml:88
+#: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
 msgstr "Применить повторно;Сделать снова"
 
-#: rc/qml/Utility/EditingHUD.qml:92
+#: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
 msgstr "Автоулучшение"
 
-#: rc/qml/Utility/EditingHUD.qml:93
+#: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
 msgstr "Автоматически улучшить изображение"
 
-#: rc/qml/Utility/EditingHUD.qml:94
+#: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
 msgstr "Автоматическая настройка фотографии"
 
-#: rc/qml/Utility/EditingHUD.qml:99
+#: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
 msgstr "Вращать"
 
-#: rc/qml/Utility/EditingHUD.qml:100
+#: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
 msgstr "Повернуть по часовой стрелке"
 
-#: rc/qml/Utility/EditingHUD.qml:101
+#: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
 msgstr "Повернуть изображение по часовой стрелке"
 
-#: rc/qml/Utility/EditingHUD.qml:106
+#: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
 msgstr "Кадрировать"
 
-#: rc/qml/Utility/EditingHUD.qml:107
+#: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
 msgstr "Обрезка;Вырезать"
 
-#: rc/qml/Utility/EditingHUD.qml:108
+#: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
 msgstr "Обрезать изображение"
 
-#: rc/qml/Utility/EditingHUD.qml:113
+#: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
 msgstr "Вернуться к оригиналу"
 
-#: rc/qml/Utility/EditingHUD.qml:114
+#: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
 msgstr "Отменить изменения"
 
-#: rc/qml/Utility/EditingHUD.qml:115
+#: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
 msgstr "Отменить все изменения"
 
-#: rc/qml/Utility/EditingHUD.qml:119
+#: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
 msgstr "Экспозиция"
 
-#: rc/qml/Utility/EditingHUD.qml:120
+#: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
 msgstr "Отрегулировать экспозицию"
 
-#: rc/qml/Utility/EditingHUD.qml:121
+#: rc/qml/Utility/EditingHUD.qml:120
 msgid "Underexposed;Overexposed"
 msgstr "Недодержан;Передержан"
 
-#: rc/qml/Utility/EditingHUD.qml:122 rc/qml/Utility/EditingHUD.qml:163
+#: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
 msgstr "Подтвердить"
 
-#: rc/qml/Utility/EditingHUD.qml:126
+#: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
 msgstr "Выравнивание"
 
-#: rc/qml/Utility/EditingHUD.qml:160
+#: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
 msgstr "Цветовой баланс"
 
-#: rc/qml/Utility/EditingHUD.qml:161
+#: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
 msgstr "Настройка цветового баланса"
 
-#: rc/qml/Utility/EditingHUD.qml:162
+#: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
 msgstr "Насыщенность; Оттенок"
 
-#: rc/qml/Utility/EditingHUD.qml:167
+#: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
 msgstr "Яркость"
 
-#: rc/qml/Utility/EditingHUD.qml:178
+#: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
 msgstr "Контрастность"
 
-#: rc/qml/Utility/EditingHUD.qml:189
+#: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
 msgstr "Насыщенность"
 
-#: rc/qml/Utility/EditingHUD.qml:200
+#: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Оттенок"
 

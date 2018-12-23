@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-29 21:45+0000\n"
-"PO-Revision-Date: 2018-08-23 18:39+0000\n"
-"Last-Translator: P_E_T_O <peto.bena@gmail.com>\n"
+"POT-Creation-Date: 2018-11-22 21:06+0000\n"
+"PO-Revision-Date: 2018-12-17 17:21+0000\n"
+"Last-Translator: jEzEk <jezek@chicki.sk>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sk/>\n"
 "Language: sk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.20\n"
+"X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -27,14 +27,14 @@ msgstr "Upraviť album"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
-#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:347
-#: rc/qml/PhotosOverview.qml:160 rc/qml/Utility/EditingHUD.qml:67
+#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
+#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr "Vymazať"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
-#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:275
-#: rc/qml/PhotosOverview.qml:183 rc/qml/PickerScreen.qml:285
+#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
+#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -58,12 +58,12 @@ msgstr "Vzor"
 msgid "Red"
 msgstr "Červená"
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
 msgid "Album"
 msgstr "Album"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
-#: rc/qml/MediaViewer/MediaViewer.qml:337
+#: rc/qml/MediaViewer/MediaViewer.qml:340
 msgid "Add to album"
 msgstr "Pridať k albumu"
 
@@ -80,15 +80,15 @@ msgid "Subtitle"
 msgstr "Titulky"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:138
+#: rc/qml/PhotosOverview.qml:173
 msgid "Camera"
 msgstr "Fotoaparát"
 
-#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:223
+#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
 msgstr "Áno"
 
-#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:234
+#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
 msgid "No"
 msgstr "Nie"
 
@@ -113,7 +113,7 @@ msgstr "dd"
 msgid "Add to Album"
 msgstr "Pridať k albumu"
 
-#: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:78
+#: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
 msgstr "Pridať fotografiu k albumu"
 
@@ -129,7 +129,7 @@ msgstr "Nedá sa zdieľať naraz aj fotky aj videá"
 msgid "Ok"
 msgstr "Ok"
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
@@ -137,7 +137,7 @@ msgstr[0] "Vymazať %1 fotku"
 msgstr[1] "Vymazať %1 fotky"
 msgstr[2] "Vymazať %1 fotiek"
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
@@ -145,7 +145,7 @@ msgstr[0] "Vymazať %1 video"
 msgstr[1] "Vymazať %1 videá"
 msgstr[2] "Vymazať %1 videí"
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
@@ -153,24 +153,24 @@ msgstr[0] "Vymazať %1 médium"
 msgstr[1] "Vymazať %1 médiá"
 msgstr[2] "Vymazať %1 médií"
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:201
-#: rc/qml/MainScreen.qml:253 rc/qml/PhotosOverview.qml:131
+#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
+#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
 #: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
 msgid "Select"
 msgstr "Vybrať"
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:150
-#: rc/qml/Utility/EditingHUD.qml:77
+#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
 msgstr "Pridať"
 
-#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:358
-#: rc/qml/PhotosOverview.qml:167 rc/qml/Utility/EditingHUD.qml:72
+#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
+#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
 msgstr "Zdieľať"
 
-#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:179
-#: rc/qml/PhotosOverview.qml:202
+#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
+#: rc/qml/PhotosOverview.qml:241
 msgid "Share to"
 msgstr "Zdieľať"
 
@@ -178,47 +178,83 @@ msgstr "Zdieľať"
 msgid "Loading…"
 msgstr "Načítavam…"
 
-#: rc/qml/MainScreen.qml:149
+#: rc/qml/MainScreen.qml:148
 msgid "Albums"
 msgstr "Albumy"
 
-#: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:203
+#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
 #: rc/qml/PickerScreen.qml:154
 msgid "Events"
 msgstr "Udalosti"
 
-#: rc/qml/MainScreen.qml:212 rc/qml/MainScreen.qml:255
+#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
 #: rc/qml/PickerScreen.qml:203
 msgid "Photos"
 msgstr "Fotografie"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:212
+#: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
 msgstr "Vymazať fotografiu"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:212
+#: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
 msgstr "Vymazať video"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:245
+#: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
 msgstr "Vymazať fotografiu z albumu"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:245
+#: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
 msgstr "Vymazať video z albumu"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:254
+#: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
 msgstr "Vymazať z albumu"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:265
+#: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
 msgstr "Vymazať z albumu a odstrániť"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:312
+#: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
 msgstr "Upraviť"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:371
+msgid "Info"
+msgstr "Informácie"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:394
+msgid "Informations"
+msgstr "Informácie"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:397
+msgid "Media type: "
+msgstr "Typ média: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:398
+msgid "photo"
+msgstr "fotografia"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:398
+msgid "video"
+msgstr "video"
+
+#: rc/qml/MediaViewer/MediaViewer.qml:399
+msgid "Media name: "
+msgstr "Meno média: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:400
+msgid "Date: "
+msgstr "Dátum: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:401
+msgid "Time: "
+msgstr "Čas: "
+
+#: rc/qml/MediaViewer/MediaViewer.qml:407
+msgid "ok"
+msgstr "ok"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -237,127 +273,139 @@ msgstr "Výber prepnutím"
 msgid "An error has occurred attempting to load media"
 msgstr "Došlo k chybe pri pokuse o načítanie média"
 
+#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+msgid "Grid Size"
+msgstr "Veľkosť mriežky"
+
+#: rc/qml/PhotosOverview.qml:117
+msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
+msgstr "Vyberte veľkost mriežky v jednotkách gu medzi 8 a 20 (štandart je 12)"
+
+#: rc/qml/PhotosOverview.qml:132
+msgid "Finished"
+msgstr "Dokončené"
+
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
 msgstr "Vybrať"
 
-#: rc/qml/Utility/EditingHUD.qml:68
+#: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
 msgstr "Kôš;Odstrániť"
 
-#: rc/qml/Utility/EditingHUD.qml:73
+#: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
 msgstr "Zdielať;Nahrať;Priložiť"
 
-#: rc/qml/Utility/EditingHUD.qml:82
+#: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
 msgstr "Vrátiť späť"
 
-#: rc/qml/Utility/EditingHUD.qml:83
+#: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
 msgstr "Zrušiť akciu;Krok späť"
 
-#: rc/qml/Utility/EditingHUD.qml:87
+#: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
 msgstr "Znova"
 
-#: rc/qml/Utility/EditingHUD.qml:88
+#: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
 msgstr "Aplikovať;Znova vykonať"
 
-#: rc/qml/Utility/EditingHUD.qml:92
+#: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
 msgstr "Auto vylepšenie"
 
-#: rc/qml/Utility/EditingHUD.qml:93
+#: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
 msgstr "Prispôsobiť obrázok automaticky"
 
-#: rc/qml/Utility/EditingHUD.qml:94
+#: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
 msgstr "Automatické prispôsobenie fotografie"
 
-#: rc/qml/Utility/EditingHUD.qml:99
+#: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
 msgstr "Otočiť"
 
-#: rc/qml/Utility/EditingHUD.qml:100
+#: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
 msgstr "Otočiť doprava"
 
-#: rc/qml/Utility/EditingHUD.qml:101
+#: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
 msgstr "Otočiť obrázok doprava"
 
-#: rc/qml/Utility/EditingHUD.qml:106
+#: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
 msgstr "Orezať"
 
-#: rc/qml/Utility/EditingHUD.qml:107
+#: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
 msgstr "Upraviť;Orezať"
 
-#: rc/qml/Utility/EditingHUD.qml:108
+#: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
 msgstr "Orezať obrázok"
 
-#: rc/qml/Utility/EditingHUD.qml:113
+#: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
 msgstr "Vrátiť do pôvodného stavu"
 
-#: rc/qml/Utility/EditingHUD.qml:114
+#: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
 msgstr "Zahodiť zmeny"
 
-#: rc/qml/Utility/EditingHUD.qml:115
+#: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
 msgstr "Zahodiť všetky zmeny"
 
-#: rc/qml/Utility/EditingHUD.qml:119
+#: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
 msgstr "Expozícia"
 
-#: rc/qml/Utility/EditingHUD.qml:120
+#: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
 msgstr "Prispôsobiť expozíciu"
 
-#: rc/qml/Utility/EditingHUD.qml:121
+#: rc/qml/Utility/EditingHUD.qml:120
 msgid "Underexposed;Overexposed"
 msgstr "Podexponované;Preexponované"
 
-#: rc/qml/Utility/EditingHUD.qml:122 rc/qml/Utility/EditingHUD.qml:163
+#: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
 msgstr "Potvrdiť"
 
-#: rc/qml/Utility/EditingHUD.qml:126
+#: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
 msgstr "Kompenzácia"
 
-#: rc/qml/Utility/EditingHUD.qml:160
+#: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
 msgstr "Vyváženie farieb"
 
-#: rc/qml/Utility/EditingHUD.qml:161
+#: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
 msgstr "Upraviť vyváženie farieb"
 
-#: rc/qml/Utility/EditingHUD.qml:162
+#: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
 msgstr "Sýtosť;Odtieň"
 
-#: rc/qml/Utility/EditingHUD.qml:167
+#: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
 msgstr "Jas"
 
-#: rc/qml/Utility/EditingHUD.qml:178
+#: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
 msgstr "Kontrast"
 
-#: rc/qml/Utility/EditingHUD.qml:189
+#: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
 msgstr "Sýtosť"
 
-#: rc/qml/Utility/EditingHUD.qml:200
+#: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Odtieň"
 
