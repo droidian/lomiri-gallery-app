@@ -391,7 +391,7 @@ Item {
 	
         Dialog {
             id: mediaInfoDialog
-            title: i18n.tr("Informations")
+            title: i18n.tr("Information")
            
             Label { 
                 text: i18n.tr("Media type: ") +

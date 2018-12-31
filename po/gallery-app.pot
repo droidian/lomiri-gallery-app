@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-22 21:06+0000\n"
+"POT-Creation-Date: 2018-12-31 09:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,13 +26,13 @@ msgstr ""
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
-#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
+#: rc/qml/PhotosOverview.qml:193 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
-#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
+#: rc/qml/PhotosOverview.qml:216 rc/qml/PickerScreen.qml:289
 msgid "Cancel"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
 msgid "Album"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgid "Subtitle"
 msgstr ""
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:173
+#: rc/qml/PhotosOverview.qml:171
 msgid "Camera"
 msgstr ""
 
@@ -127,45 +127,45 @@ msgstr ""
 msgid "Ok"
 msgstr ""
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] ""
 msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] ""
 msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
-#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
-#: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
+#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:200
+#: rc/qml/MainScreen.qml:252 rc/qml/PhotosOverview.qml:164
+#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
 msgstr ""
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
 msgstr ""
 
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
-#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
+#: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
 msgstr ""
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
-#: rc/qml/PhotosOverview.qml:241
+#: rc/qml/PhotosOverview.qml:235
 msgid "Share to"
 msgstr ""
 
@@ -173,17 +173,17 @@ msgstr ""
 msgid "Loading…"
 msgstr ""
 
-#: rc/qml/MainScreen.qml:148
+#: rc/qml/MainScreen.qml:149
 msgid "Albums"
 msgstr ""
 
-#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
-#: rc/qml/PickerScreen.qml:154
+#: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:202
+#: rc/qml/PickerScreen.qml:157
 msgid "Events"
 msgstr ""
 
-#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
-#: rc/qml/PickerScreen.qml:203
+#: rc/qml/MainScreen.qml:211 rc/qml/MainScreen.qml:254
+#: rc/qml/PickerScreen.qml:206
 msgid "Photos"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgid "Info"
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
-msgid "Informations"
+msgid "Information"
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
@@ -268,19 +268,19 @@ msgstr ""
 msgid "An error has occurred attempting to load media"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+#: rc/qml/PhotosOverview.qml:114 rc/qml/PhotosOverview.qml:157
 msgid "Grid Size"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:117
+#: rc/qml/PhotosOverview.qml:115
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:132
+#: rc/qml/PhotosOverview.qml:130
 msgid "Finished"
 msgstr ""
 
-#: rc/qml/PickerScreen.qml:291
+#: rc/qml/PickerScreen.qml:295
 msgid "Pick"
 msgstr ""
 
