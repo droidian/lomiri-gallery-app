@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-28 09:08+0000\n"
+"PO-Revision-Date: 2019-01-12 10:56+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sc/>\n"
@@ -228,7 +228,6 @@ msgid "Media type: "
 msgstr "Genia de cuntenutu multimediale: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
 msgstr "Fotografias"
 
@@ -271,11 +270,13 @@ msgstr "B'est istada una faddina in su carrigamentu de s'archìviu multimediale"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "Mannària de sa grìllia"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"Sèbera sa mannària de sa grìllia in unidades gus, intre 8 e 20 (predefinidu: "
+"12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
