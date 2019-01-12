@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-01-12 10:56+0000\n"
+"PO-Revision-Date: 2019-01-20 00:00+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sc/>\n"
@@ -131,22 +131,22 @@ msgstr "AB"
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "Cantzella %1 fotografia"
-msgstr[1] "Cantzella %1 fotografias"
+msgstr[0] "Boles cantzellare %1 fotografia?"
+msgstr[1] "Boles cantzellare %1 fotografias?"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "Cantzella %1 vìdeu"
-msgstr[1] "Cantzella %1 vìdeos"
+msgstr[0] "Boles cantzellare %1 vìdeu?"
+msgstr[1] "Boles cantzellare %1 vìdeos?"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "Cantzella %1 cuntenutu multimediale"
-msgstr[1] "Cantzella %1 cuntenutos multimediales"
+msgstr[0] "Boles cantzellare %1 cuntenutu multimediale?"
+msgstr[1] "Boles cantzellare %1 cuntenutos multimediales?"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
