@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-21 08:24+0000\n"
+"PO-Revision-Date: 2019-03-07 21:53+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "gallery-app/cs/>\n"
@@ -82,7 +82,7 @@ msgstr "Podtitulek"
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:173
 msgid "Camera"
-msgstr "Fotoaparát"
+msgstr "Kamera"
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
@@ -307,7 +307,7 @@ msgstr "Zrušit akci;Krok zpět"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "Znovu"
+msgstr "Opakovat"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
