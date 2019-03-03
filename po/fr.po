@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-01-06 00:00+0000\n"
+"PO-Revision-Date: 2019-03-07 21:54+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fr/>\n"
@@ -306,7 +306,7 @@ msgstr "Annuler l'action;Revenir en arrière"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "Refaire"
+msgstr "Rétablir"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
