@@ -1,8 +1,8 @@
 {
 	"template": "cmake",
 
-	"make_jobs": "2",
-	"dependencies": [
+	"make_jobs": 2,
+	"dependencies_target": [
 		"libmediainfo-dev",
 		"libexiv2-dev"
 	]
