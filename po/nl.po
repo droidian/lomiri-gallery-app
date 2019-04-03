@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-03-31 00:00+0000\n"
+"PO-Revision-Date: 2019-04-07 00:00+0000\n"
 "Last-Translator: Tom Dom <thomas@patoel.nl>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -30,7 +30,7 @@ msgstr "Album bewerken"
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
 #: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "Verwijderen"
+msgstr "Verwijder"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
@@ -219,7 +219,7 @@ msgstr "Bewerken"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr "Informatie"
+msgstr "Info"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
