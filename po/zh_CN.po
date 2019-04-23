@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-04-23 20:33+0000\n"
+"PO-Revision-Date: 2019-04-24 21:35+0000\n"
 "Last-Translator: 不朽正义 <tanyongle0633@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/gallery-app/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.2.2\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -273,7 +273,7 @@ msgstr "网格尺寸"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr "选择单元格中8至20的网格大小（默认为12）"
+msgstr "选择单元格中8至20的网格尺寸（默认为12）"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
@@ -301,7 +301,7 @@ msgstr "取消操作;回退"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "准备"
+msgstr "还原"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
@@ -345,7 +345,7 @@ msgstr "裁剪图片"
 
 #: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
-msgstr "恢复至原图"
+msgstr "恢复至原图状态"
 
 #: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
