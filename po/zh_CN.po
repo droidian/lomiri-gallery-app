@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-04-14 00:00+0000\n"
-"Last-Translator: Hugh Y <hugh_yan@live.com>\n"
+"PO-Revision-Date: 2019-04-23 20:33+0000\n"
+"Last-Translator: 不朽正义 <tanyongle0633@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
 "ubports/gallery-app/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -227,7 +227,6 @@ msgid "Media type: "
 msgstr "媒体类型： "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
 msgstr "照片"
 
@@ -274,11 +273,11 @@ msgstr "网格尺寸"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr ""
+msgstr "选择单元格中8至20的网格大小（默认为12）"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "完成"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
