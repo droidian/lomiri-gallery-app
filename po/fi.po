@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-12-23 00:00+0000\n"
+"PO-Revision-Date: 2019-04-29 19:03+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -36,7 +36,7 @@ msgstr "Poista"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Peru"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -219,11 +219,11 @@ msgstr "Muokkaa"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "Tiedot"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "Tietoja"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
@@ -251,7 +251,7 @@ msgstr "Aika: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "ok"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -276,11 +276,11 @@ msgstr "Ruudukon koko"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr ""
+msgstr "Valitse ruudukon koko gu-yksiköissä välillä 8-20 (oletus on 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "Valmis"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
