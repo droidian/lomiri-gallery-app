@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-05-03 21:02+0000\n"
+"PO-Revision-Date: 2019-06-21 00:04+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ca/>\n"
@@ -281,7 +281,7 @@ msgstr ""
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr "Acabat"
+msgstr "Fet"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
