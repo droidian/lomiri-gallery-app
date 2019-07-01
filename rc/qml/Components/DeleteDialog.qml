@@ -33,8 +33,8 @@ Dialog {
 
     Button {
         objectName: "deleteDialogYes"
-        text: i18n.tr("Yes")
-        color: Gallery.HIGHLIGHT_BUTTON_COLOR
+        text: i18n.tr("Delete")
+        color: UbuntuColors.red
         onClicked: {
             dialogue.deleteClicked()
             PopupUtils.close(dialogue);
@@ -42,8 +42,7 @@ Dialog {
     }
     Button {
         objectName: "deleteDialogNo"
-        text: i18n.tr("No")
-        gradient: UbuntuColors.greyGradient
+        text: i18n.tr("Cancel")
         onClicked: PopupUtils.close(dialogue);
     }
 }
