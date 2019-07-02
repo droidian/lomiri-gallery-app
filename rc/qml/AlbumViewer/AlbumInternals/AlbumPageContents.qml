@@ -18,6 +18,7 @@
  */
 
 import QtQuick 2.4
+import QtQuick.Controls.Suru 2.2
 import Gallery 1.0
 import ".."
 
@@ -228,7 +229,7 @@ Item {
             y: 0
             width: (isRight ? parent.width * 2 : parent.width)
             height: parent.height
-            color: "white"
+            color: Suru.backgroundColor
         }
     }
 
