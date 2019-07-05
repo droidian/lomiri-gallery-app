@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2018-11-18 19:19+0000\n"
+"PO-Revision-Date: 2019-07-06 22:48+0000\n"
 "Last-Translator: Aitzol Berasategi <aitzol@disroot.org>\n"
 "Language-Team: Basque <https://translate.ubports.com/projects/ubports/"
 "gallery-app/eu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -36,7 +36,7 @@ msgstr "Ezabatu"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Utzi"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -219,7 +219,7 @@ msgstr "Editatu"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "Informazioa"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
