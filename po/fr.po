@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-03-07 21:54+0000\n"
+"PO-Revision-Date: 2019-09-03 19:50+0000\n"
 "Last-Translator: Anne Onyme <anneonyme017@netcourrier.com>\n"
 "Language-Team: French <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -133,22 +133,22 @@ msgstr "Valider"
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "Supprimer une photo"
-msgstr[1] "Supprimer %1 photos"
+msgstr[0] "Supprimer une photo ?"
+msgstr[1] "Supprimer %1 photos ?"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "Supprimer une vidéo"
-msgstr[1] "Supprimer %1 vidéos"
+msgstr[0] "Supprimer une vidéo ?"
+msgstr[1] "Supprimer %1 vidéos ?"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "Supprimer un fichier multimédia"
-msgstr[1] "Supprimer %1 fichiers multimédia"
+msgstr[0] "Supprimer un fichier multimédia ?"
+msgstr[1] "Supprimer %1 fichiers multimédia ?"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -191,11 +191,11 @@ msgstr "Photos"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr "Supprimer une photo"
+msgstr "Supprimer une photo ?"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr "Supprimer une vidéo"
+msgstr "Supprimer une vidéo ?"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
