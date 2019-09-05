@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-31 09:25+0000\n"
-"PO-Revision-Date: 2019-08-11 10:49+0000\n"
+"PO-Revision-Date: 2019-09-06 19:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/lt/>\n"
@@ -163,7 +163,7 @@ msgstr ""
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
-msgstr ""
+msgstr "Pridėti"
 
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
