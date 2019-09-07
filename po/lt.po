@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-31 09:25+0000\n"
-"PO-Revision-Date: 2019-09-06 19:50+0000\n"
+"PO-Revision-Date: 2019-09-08 13:50+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/lt/>\n"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr ""
+msgstr "Grąžinti"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
