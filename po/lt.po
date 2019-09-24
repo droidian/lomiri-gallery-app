@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-31 09:25+0000\n"
-"PO-Revision-Date: 2019-09-21 20:50+0000\n"
+"PO-Revision-Date: 2019-09-25 19:51+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/lt/>\n"
@@ -158,7 +158,7 @@ msgstr[2] ""
 #: rc/qml/MainScreen.qml:252 rc/qml/PhotosOverview.qml:164
 #: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
-msgstr ""
+msgstr "Pasirinkti"
 
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
 #: rc/qml/Utility/EditingHUD.qml:76
