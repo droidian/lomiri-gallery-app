@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2017-11-26 19:47+0000\n"
-"Last-Translator: Arda Canbolat <oardacn@gmail.com>\n"
+"PO-Revision-Date: 2019-11-03 20:36+0000\n"
+"Last-Translator: Ege Öz <ege.oz@tutanota.com>\n"
 "Language-Team: Turkish <https://translate.ubports.com/projects/ubports/"
 "gallery-app/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -40,7 +40,7 @@ msgstr "İptal"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr "Öntanımlı"
+msgstr "Varsayılan"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
@@ -82,7 +82,7 @@ msgstr "Alt başlık"
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:173
 msgid "Camera"
-msgstr "Fotoğraf Makinesi"
+msgstr "Kamera"
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
@@ -97,9 +97,8 @@ msgid "Delete album"
 msgstr "Albüm sil"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "Albüm ve içerikleri sil"
+msgstr "Albüm VE içeriklerini sil"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -138,18 +137,18 @@ msgstr[0] "%1 fotoğraf sil"
 msgstr[1] "%1 fotoğraf sil"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "%1 fotoğraf sil"
-msgstr[1] "%1 fotoğraf sil"
+msgstr[0] "%1 video sil"
+msgstr[1] "%1 video sil"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "%1 fotoğraf sil"
-msgstr[1] "%1 fotoğraf sil"
+msgstr[0] "%1 medya dosyası sil"
+msgstr[1] "%1 medya dosyası sil"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -212,7 +211,7 @@ msgstr "Albümden kaldır"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr "ALbümden kaldır ve Sİl"
+msgstr "Abümden kaldır ve Sil"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
@@ -220,40 +219,39 @@ msgstr "Düzenle"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "Bilgi"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "Bilgiler"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "Medya tipi: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "Fotoğraflar"
+msgstr "fotoğraf"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "Medya ismi: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "Tarih: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "Saat: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "tamam"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -274,7 +272,7 @@ msgstr "Ortam yüklenmeye çalışılırken bir hata oluştu"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "Izgara Boyutu"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
@@ -282,7 +280,7 @@ msgstr ""
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "Tamamlandı"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
@@ -322,7 +320,7 @@ msgstr "Resmi otomatik olarak düzelt"
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr "Fotoğrafı Otomatik Olarak düzelt"
+msgstr "Fotoğrafı Otomatik Olarak Düzelt"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
@@ -330,7 +328,7 @@ msgstr "Döndür"
 
 #: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
-msgstr "Saat yönünde Döndür"
+msgstr "Saat Yönünde Döndür"
 
 #: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
