@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-31 09:25+0000\n"
-"PO-Revision-Date: 2019-09-25 19:51+0000\n"
+"PO-Revision-Date: 2019-11-11 22:36+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/lt/>\n"
@@ -74,7 +74,7 @@ msgstr "Pridėti naują albumą"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr ""
+msgstr "Naujas nuotraukų albumas"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
@@ -99,15 +99,15 @@ msgstr "Ištrinti albumą"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr ""
+msgstr "Ištrinti albumą IR jo turinį"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr ""
+msgstr "yyyy MMM"
 
 #: rc/qml/Components/EventCard.qml:73
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -116,7 +116,7 @@ msgstr "Pridėti į albumą"
 
 #: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
-msgstr ""
+msgstr "Pridėti nuotrauką į albumą"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
@@ -258,7 +258,6 @@ msgid "ok"
 msgstr "Gerai"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
-#, fuzzy
 msgid "Edit Photo"
 msgstr "Redaguoti nuotrauką"
 
@@ -385,7 +384,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
-msgstr ""
+msgstr "Spalvų balansas"
 
 #: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
@@ -397,7 +396,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr ""
+msgstr "Ryškumas"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
@@ -405,11 +404,11 @@ msgstr "Kontrastas"
 
 #: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
-msgstr ""
+msgstr "Grynis"
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr ""
+msgstr "Atspalvis"
 
 #: desktop/gallery-app.desktop.in.in.h:2
 msgid "Ubuntu Photo Viewer"
