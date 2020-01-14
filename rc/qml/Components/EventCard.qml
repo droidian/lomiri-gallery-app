@@ -37,8 +37,7 @@ UbuntuShape {
     */
 
     radius: "medium"
-    backgroundColor: "#dddddd"
-    opacity: 0.8
+    backgroundColor: theme.palette.normal.base
 
     width: units.gu(12)
     height: units.gu(12)
@@ -47,16 +46,18 @@ UbuntuShape {
         id: eventMonthYear
 
         y: units.gu(1.5)
-        width: parent.width
+        width: parent.width - units.gu(2)
         height: units.gu(1)
+        anchors.horizontalCenter: parent.horizontalCenter
 
-        font.pixelSize: units.dp(15)
+        font.pixelSize: units.dp(12)
 
         font.capitalization: Font.AllUppercase
         horizontalAlignment: Text.AlignHCenter
 
         /// The event ubuntushape's month/year part, keep as is unless you know what you're doing
         text: (event) ? Qt.formatDate(event.date, i18n.tr("MMM yyyy")) : ""
+        color: theme.palette.normal.baseText
     }
 
     Label {
@@ -71,5 +72,6 @@ UbuntuShape {
 
         /// The event ubuntushape's day part, keep as is unless you know what you're doing
         text: (event) ? Qt.formatDate(event.date, i18n.tr("dd")) : ""
+        color: theme.palette.normal.baseText
     }
 }

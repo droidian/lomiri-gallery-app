@@ -34,7 +34,7 @@ Dialog {
     Button {
         objectName: "deleteDialogYes"
         text: i18n.tr("Delete")
-        color: UbuntuColors.red
+        color: theme.palette.normal.negative
         onClicked: {
             dialogue.deleteClicked()
             PopupUtils.close(dialogue);

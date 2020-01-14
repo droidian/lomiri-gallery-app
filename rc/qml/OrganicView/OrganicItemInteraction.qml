@@ -61,8 +61,8 @@ Item {
             rightMargin: units.gu(0.5)
         }
         width: units.gu(4)
-        height: width 
-        color: isSelected ? UbuntuColors.orange : UbuntuColors.coolGrey
+        height: width
+        color: isSelected ? theme.palette.normal.positive : UbuntuColors.inkstone
         radius: 10
         opacity: isSelected ? 0.8 : 0.6
         visible: selection.inSelectionMode && !isEventHeader
