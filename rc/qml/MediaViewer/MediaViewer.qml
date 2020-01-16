@@ -16,7 +16,7 @@
  * Authors:
  * Jim Nelson <jim@yorba.org>
  * Lucas Beeler <lucas@yorba.org>
- * 
+ *
  * Emanuele Sorce <emanuele.sorce@hotmail.com>
  */
 
@@ -178,9 +178,9 @@ Item {
         Page {
             id: sharePicker
             visible: false
-            
+
             title: i18n.tr("Share to")
-               
+
             onVisibleChanged: viewerWrapper.setHeaderVisibilityRequested(!visible)
 
             ContentPeerPicker {
@@ -223,8 +223,8 @@ Item {
 
                 Button {
                     objectName: "deletePhotoDialogYes"
-                    text: i18n.tr("Yes")
-                    color: Gallery.HIGHLIGHT_BUTTON_COLOR
+                    text: i18n.tr("Delete")
+                    color: theme.palette.normal.negative
                     onClicked: {
                         PopupUtils.close(dialogue)
                         viewerWrapper.model.destroyMedia(galleryPhotoViewer.media, true);
@@ -232,9 +232,10 @@ Item {
                         dialogue.finishRemove();
                     }
                 }
+
                 Button {
                     objectName: "deletePhotoDialogNo"
-                    text: i18n.tr("No")
+                    text: i18n.tr("Cancel")
                     onClicked: PopupUtils.close(dialogue)
                 }
             }
@@ -255,7 +256,7 @@ Item {
                 Button {
                     objectName: "removeFromAlbumButton"
                     text: i18n.tr("Remove from Album")
-                    color: Gallery.HIGHLIGHT_BUTTON_COLOR
+                    color: theme.palette.normal.negative
                     onClicked: {
                         PopupUtils.close(dialogue)
                         viewerWrapper.model.removeMediaFromAlbum(album, galleryPhotoViewer.media);
@@ -296,7 +297,7 @@ Item {
         onNewAlbumPicked: {
             viewerWrapper.closeRequested();
         }
-    }  
+    }
 
     ActivityIndicator {
         id: busySpinner
@@ -375,7 +376,7 @@ Item {
                 }
             }
         ]
- 
+
         property Action backAction: Action {
             objectName: "backButton"
             iconName: "back"
@@ -388,25 +389,25 @@ Item {
 
     Component {
         id: mediaInfo
-	
+
         Dialog {
             id: mediaInfoDialog
             title: i18n.tr("Information")
-           
-            Label { 
+
+            Label {
                 text: i18n.tr("Media type: ") +
-                      ((galleryPhotoViewer.media.type === MediaSource.Photo) ? i18n.tr("photo") : i18n.tr("video")) + "<br><br>" + 
+                      ((galleryPhotoViewer.media.type === MediaSource.Photo) ? i18n.tr("photo") : i18n.tr("video")) + "<br><br>" +
                       i18n.tr("Media name: ") + galleryPhotoViewer.media.path.toString() + "<br><br>" +
                       i18n.tr("Date: ") + galleryPhotoViewer.media.exposureDate.toLocaleString(Qt.locale(), "ddd MMM d yyyy") + "<br><br>" +
                       i18n.tr("Time: ") + galleryPhotoViewer.media.exposureTimeOfDay.toLocaleTimeString(Qt.locale(), "h:mm:ss a t")
                 horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.WordWrap
             }
-           
+
             Button {
-                 text: i18n.tr("ok")
-                 color: UbuntuColors.green
-                 onClicked: PopupUtils.close(mediaInfoDialog)
+                text: i18n.tr("ok")
+                color: theme.palette.normal.focus
+                onClicked: PopupUtils.close(mediaInfoDialog)
             }
         }
     }
