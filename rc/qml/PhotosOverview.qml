@@ -21,6 +21,7 @@ import QtQuick 2.4
 import Gallery 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
+import QtQuick.Controls 2.2 as QC
 import Ubuntu.Content 1.3
 import "Components"
 import "OrganicView"
@@ -67,6 +68,16 @@ Page {
 
     head.actions: inSelectionMode ? d.selectActions : d.overviewActions
     head.backAction: inSelectionMode ? d.selectBackAction : null
+    head.locked: true
+
+    ScrollView {
+        id: scrollWrapper
+        anchors.top: parent.top
+        anchors.topMargin: units.gu(6) //header height
+        anchors.bottom: parent.bottom
+        width: parent.width
+        contentItem: photosGrid
+    }
 
     MediaGrid {
         id: photosGrid
@@ -114,18 +125,18 @@ Page {
             title: i18n.tr("Grid Size")
             text: i18n.tr("Select the grid size in gu units between 8 and 20 (default is 12)")
 
-	    Slider {
-		function formatValue(v) { return v.toFixed(0) }
-		minimumValue: 8
-		maximumValue: 20
-		value: settings.gridUnits
-		live: true
-			
-		onValueChanged: {
-		    settings.gridUnits = value
-		}
-	    }    
-	    
+            Slider {
+                function formatValue(v) { return v.toFixed(0) }
+                minimumValue: 8
+                maximumValue: 20
+                value: settings.gridUnits
+                live: true
+
+                onValueChanged: {
+                    settings.gridUnits = value
+                }
+            }
+
             Button {
                 text: i18n.tr("Finished")
                 onClicked: PopupUtils.close(gridDia)
@@ -228,7 +239,7 @@ Page {
         id: contentItemComp
         ContentItem {}
     }
-    
+
     Page {
         id: sharePicker
         visible: false
