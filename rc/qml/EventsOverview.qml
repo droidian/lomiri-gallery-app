@@ -12,10 +12,10 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * 
+ *
  * Authors
  * Emanuele Sorce <emanuele.sorce@hotmail.com>
- * 
+ *
  */
 
 import QtQuick 2.4
@@ -124,14 +124,14 @@ OrganicView {
         Action {
             id: addButton
             objectName: "addButton"
- 
+
             text: i18n.tr("Add")
             iconName: "add"
             enabled: selection.selectedCount > 0
             onTriggered: __albumPicker = PopupUtils.open(Qt.resolvedUrl("Components/PopupAlbumPicker.qml"),
                                                          null,
                                                          {contentHeight: organicEventView.__pickerContentHeight});
- 
+
         },
         Action {
             objectName: "deleteButton"
@@ -161,7 +161,7 @@ OrganicView {
         text: i18n.tr("Cancel")
         iconName: "back"
         onTriggered: organicEventView.leaveSelectionMode();
-    } 
+    }
 
     property int __pickerContentHeight: height - units.gu(20)
     property PopupAlbumPicker __albumPicker
@@ -177,6 +177,7 @@ OrganicView {
 
     head.actions: selectionMode ? selectActions : overviewActions
     head.backAction: selectionMode ? selectBackAction : null
+    head.locked: true
 
     Component {
         id: unableShareDialog
@@ -191,7 +192,7 @@ OrganicView {
     Page {
         id: sharePicker
         visible: false
-        
+
         title: i18n.tr("Share to")
 
         ContentPeerPicker {
