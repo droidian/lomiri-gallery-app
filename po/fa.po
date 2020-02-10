@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2016-03-26 11:51+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@gmail.com>\n"
-"Language-Team: Persian <fa@li.org>\n"
+"PO-Revision-Date: 2020-02-11 14:21+0000\n"
+"Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
+"Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
+"gallery-app/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.8\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
-"X-Generator: Launchpad (build 18335)\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -34,7 +36,7 @@ msgstr "حذف"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "لغو"
+msgstr "انصراف"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -284,7 +286,7 @@ msgstr ""
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
-msgstr "برداشتن"
+msgstr "انتخاب"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
