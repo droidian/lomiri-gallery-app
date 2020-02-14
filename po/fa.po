@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-02-11 14:21+0000\n"
+"PO-Revision-Date: 2020-02-16 01:21+0000\n"
 "Last-Translator: HSN80 <hosseinabbasi80@outlook.com>\n"
 "Language-Team: Persian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fa/>\n"
@@ -97,7 +97,6 @@ msgid "Delete album"
 msgstr "حذف آلبوم"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
 msgstr "حذف آلبوم به همراه محتویات"
 
@@ -120,36 +119,36 @@ msgstr "افزودن عکس به آلبوم"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "ناتوان در هم‌رسانی"
+msgstr "اشتراک گذاری امکان پذیر نیست"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "ناتوان در هم‌رسانی هم‌زمان عکس‌ها و ویدیوها"
+msgstr "به اشتراک گذاشتن عکس ها و فیلم ها به طور همزمان امکان پذیر نیست"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
 msgstr "قبول"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] "حذف %1 عکس"
 msgstr[1] "حذف %1 عکس"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] "حذف %1 ویدیو"
 msgstr[1] "حذف %1 ویدیو"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "حذف %1 ویدیو"
-msgstr[1] "حذف %1 ویدیو"
+msgstr[0] "حذف %1 رسانه"
+msgstr[1] "حذف %1 رسانه"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -220,40 +219,39 @@ msgstr "ویرایش"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "جزئیات"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "اطلاعات"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "نوع رسانه:. "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "عکس‌ها"
+msgstr "عکی"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "ویدیو"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "نام رسانه: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "تاریخ: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "زمان: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "قبول"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -262,7 +260,7 @@ msgstr "ویرایش عکس"
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
 msgid "Gallery"
-msgstr "نگارخانه"
+msgstr "گالری"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
@@ -274,15 +272,16 @@ msgstr "هنام تلاش برای بار کردن رسانه، خطایی رخ 
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "اندازه شبکه"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"اندازه شبکه را در واحدهای راهنمایی بین 8 تا 20 انتخاب کنید (پیش فرض 12 است)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "تمام شده"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
