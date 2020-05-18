@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-03-03 14:22+0000\n"
+"PO-Revision-Date: 2020-05-19 19:24+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "gallery-app/cs/>\n"
@@ -134,7 +134,7 @@ msgstr "OK"
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] "Smazat %1 fotku"
-msgstr[1] "Smazat %1 fotek"
+msgstr[1] "Smazat %1 fotky"
 msgstr[2] "Smazat %1 fotek"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
@@ -234,7 +234,7 @@ msgstr "Druh média: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "photo"
-msgstr "fotografie"
+msgstr "fotka"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
@@ -323,7 +323,7 @@ msgstr "Upravit obrázek automaticky"
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr "Upravit fotkui automaticky"
+msgstr "Upravit fotku automaticky"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
