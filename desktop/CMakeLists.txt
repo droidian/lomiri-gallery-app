@@ -1,7 +1,10 @@
 if(CLICK_MODE)
     install(FILES gallery-app.png DESTINATION
         ${CMAKE_INSTALL_DATADIR}/icons)
+    install(FILES splash.png DESTINATION
+        ${CMAKE_INSTALL_DATADIR}/icons)
 	set(ICON "${CMAKE_INSTALL_DATADIR}/icons/${GALLERY}.png")
+  set(SPLASH "${CMAKE_INSTALL_DATADIR}/icons/splash.png")
 	set(APP_EXEC "./${GALLERY}")
 else(CLICK_MODE)
     install(DIRECTORY icons/hicolor DESTINATION DESTINATION
