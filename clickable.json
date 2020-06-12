@@ -1,6 +1,6 @@
 {
-	"template": "cmake",
-
+	"builder": "cmake",
+	"clickable_minimum_required": "6.12.2",
 	"make_jobs": 2,
 	"dependencies_target": [
 		"libmediainfo-dev",
