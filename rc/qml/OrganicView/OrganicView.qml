@@ -62,10 +62,20 @@ Page {
         positionEventsAtBeginning()
     }
 
+    ScrollView {
+        id: scrollWrapper
+        anchors.top: parent.top
+        anchors.topMargin: units.gu(6) //header height
+        anchors.bottom: parent.bottom
+        width: parent.width
+        contentItem: organicList
+    }
+
     ListView {
         id: organicList
 
         anchors.fill: parent
+        anchors.rightMargin: units.gu(2)
         clip: true
         maximumFlickVelocity: units.gu(350)
         flickDeceleration: maximumFlickVelocity * 0.8
