@@ -21,10 +21,8 @@ import QtQuick 2.4
 import Gallery 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import QtQuick.Controls 2.2 as QC
 import Ubuntu.Content 1.3
 import "Components"
-import "OrganicView"
 import "Utility"
 import "../js/Gallery.js" as Gallery
 import "../js/GalleryUtility.js" as GalleryUtility
