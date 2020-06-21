@@ -5,5 +5,6 @@
 	"dependencies_target": [
 		"libmediainfo-dev",
 		"libexiv2-dev"
-	]
+	],
+	"kill": "gallery-app"
 }
