@@ -79,8 +79,8 @@ GalleryApplication::GalleryApplication(int& argc, char** argv)
 
     m_formFactors.insert("desktop", QSize(120, 80)); // In BGU.
     m_formFactors.insert("tablet", QSize(160, 100));
-    m_formFactors.insert("phone", QSize(71, 40));
-    m_formFactors.insert("sidebar", QSize(71, 40));
+    m_formFactors.insert("phone", QSize(40, 40));
+    m_formFactors.insert("sidebar", QSize(40, 40));
 
     m_cmdLineParser = new CommandLineParser(m_formFactors);
     bool ok = m_cmdLineParser->processArguments(arguments());
@@ -224,7 +224,7 @@ void GalleryApplication::createView()
 
     m_view->setResizeMode(QQuickView::SizeRootObjectToView);
     if (isDesktopMode()) {
-        m_view->setMinimumSize(QSize(60 * m_bguSize, 60 * m_bguSize));
+        m_view->setMinimumSize(QSize(40 * m_bguSize, 60 * m_bguSize));
     }
 
     QQmlContext *rootContext = m_view->engine()->rootContext();
