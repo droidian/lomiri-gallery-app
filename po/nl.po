@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-03 12:42+0000\n"
+"PO-Revision-Date: 2020-07-03 18:52+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -119,11 +119,11 @@ msgstr "Foto toevoegen aan album"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Delen niet mogelijk"
+msgstr "Delen is niet mogelijk"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "Het tegelijkertijd delen van foto's en video's is niet mogelijk"
+msgstr "Foto's en video's kunnen niet tegelijk worden gedeeld"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
