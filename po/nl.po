@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-04 13:24+0000\n"
+"PO-Revision-Date: 2020-07-04 19:31+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -215,7 +215,7 @@ msgstr "Uit album en definitief verwijderen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Aanpassen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
