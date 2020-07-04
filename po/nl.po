@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-03 18:52+0000\n"
+"PO-Revision-Date: 2020-07-04 11:35+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -219,7 +219,7 @@ msgstr "Bewerken"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr "Info"
+msgstr "Informatie"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
