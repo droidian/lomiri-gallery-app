@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-04 11:35+0000\n"
+"PO-Revision-Date: 2020-07-04 13:24+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -272,11 +272,11 @@ msgstr "Er is een fout opgetreden tijdens het laden van de media"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr "Rastergrootte"
+msgstr "Roostergrootte"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr "Kies de rastergrootte in gu-eenheden tussen 8 en 20 (standaard is 12)"
+msgstr "Kies de roostergrootte in gu-eenheden tussen 8 en 20 (standaard: 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
@@ -316,11 +316,11 @@ msgstr "Automatisch verbeteren"
 
 #: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
-msgstr "Afbeelding automatisch aanpassen"
+msgstr "Afbeelding automatisch inpassen"
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr "Foto automatisch aanpassen"
+msgstr "Foto automatisch inpassen"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
@@ -416,7 +416,7 @@ msgstr "Blader door je foto's"
 
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
-msgstr "Foto's; Afbeeldingen;Albums"
+msgstr "Foto's;Afbeeldingen;Albums"
 
 #~ msgid "Delete 1 photo"
 #~ msgstr "1 foto verwijderen"
