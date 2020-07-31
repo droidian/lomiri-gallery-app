@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-31 03:56+0000\n"
+"PO-Revision-Date: 2020-07-31 09:12+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ko/>\n"
@@ -217,7 +217,7 @@ msgstr "편집"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
