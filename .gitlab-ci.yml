@@ -1,49 +1,47 @@
-# -- armhf --
-publish-armhf:
-  stage: deploy
-  image: clickable/ci-16.04-armhf
-  only:
-    - tags
-  script:
-    - clickable clean build click-build
-    - clickable publish "$CI_COMMIT_MESSAGE"
+build-arm64:
   artifacts:
-    paths:
-      - build/arm-linux-gnueabihf/app/*.click
     expire_in: 1 week
+    paths:
+    - build/aarch64-linux-gnu/app/*.click
+  image: clickable/ci-16.04-arm64
+  script:
+  - clickable clean-build
+  stage: build
 
 build-armhf:
-  stage: build
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - build/arm-linux-gnueabihf/app/*.click
   image: clickable/ci-16.04-armhf
-  except:
-    - tags
+  rules:
+  - if: $CI_COMMIT_TAG == null
   script:
-    - clickable clean build
-  artifacts:
-    paths:
-      - build/arm-linux-gnueabihf/app/*.click
-    expire_in: 1 week
-
-# -- arm64 --
-build-arm64:
+  - clickable clean-build
   stage: build
-  image: clickable/ci-16.04-arm64
-  script:
-    - clickable clean build
-  artifacts:
-    paths:
-      - build/aarch64-linux-gnu/app/*.click
-    expire_in: 1 week
-    
+
 publish-arm64:
-  stage: deploy
-  image: clickable/ci-16.04-arm64
-  only:
-    - tags
-  script:
-    - clickable clean build click-build
-    - clickable publish "$CI_COMMIT_MESSAGE"
   artifacts:
-    paths:
-      - build/aarch64-linux-gnu/app/*.click
     expire_in: 1 week
+    paths:
+    - build/aarch64-linux-gnu/app/*.click
+  image: clickable/ci-16.04-arm64
+  rules:
+  - if: $CI_COMMIT_TAG
+  script:
+  - clickable clean-build
+  - clickable publish "$CI_COMMIT_MESSAGE"
+  stage: deploy
+
+publish-armhf:
+  artifacts:
+    expire_in: 1 week
+    paths:
+    - build/arm-linux-gnueabihf/app/*.click
+  image: clickable/ci-16.04-armhf
+  rules:
+  - if: $CI_COMMIT_TAG
+  script:
+  - clickable clean-build
+  - clickable publish "$CI_COMMIT_MESSAGE"
+  stage: deploy
