@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2013-10-09 11:34+0000\n"
-"Last-Translator: Htike Aung Kyaw <htikeaungkyaw@gmail.com>\n"
-"Language-Team: Burmese <my@li.org>\n"
+"PO-Revision-Date: 2020-08-06 10:05+0000\n"
+"Last-Translator: suntron <suntorn.mon@gmail.com>\n"
+"Language-Team: Burmese <https://translate.ubports.com/projects/ubports/"
+"gallery-app/my/>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
-"X-Generator: Launchpad (build 18335)\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -58,7 +60,7 @@ msgstr "အနီ"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
 msgid "Album"
-msgstr ""
+msgstr "รูปภาพ"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:340
