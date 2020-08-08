@@ -17,6 +17,4 @@ X-Ubuntu-Single-Instance=true
 X-Ubuntu-Default-Department-ID=accessories
 X-Ubuntu-Splash-Show-Header=false
 X-Ubuntu-Splash-Image=@SPLASH@
-X-Ubuntu-Splash-Color-Header=#c0eaee
-X-Ubuntu-Splash-Color=#a4dee3
-X-Ubuntu-Splash-Color-Footer=#9cd2d6
+X-Ubuntu-Splash-Color=#37a9eb
