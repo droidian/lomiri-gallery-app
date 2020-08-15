@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-01-27 00:00+0000\n"
-"Last-Translator: Anastopoulos Theocharis <harris.anastopoulos@gmail.com>\n"
+"PO-Revision-Date: 2020-08-15 18:56+0000\n"
+"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
 "gallery-app/el/>\n"
 "Language: el\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -97,9 +97,8 @@ msgid "Delete album"
 msgstr "Διαγραφή άλμπουμ"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "Διαγραφή άλμπουμ + περιεχομένων"
+msgstr "Διαγραφή άλμπουμ ΚΑΙ περιεχομένων"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -124,32 +123,32 @@ msgstr "Αδύνατη η κοινοποίηση"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "Αδύνατη η κοινοποίηση φωτογραφίων και βίντεο την ίδια στιγμή"
+msgstr "Αδύνατη η κοινοποίηση φωτογραφιών και βίντεο την ίδια στιγμή"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
 msgstr "Εντάξει"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "Διαγραφή %1 φωτογραφιών"
+msgstr[0] "Διαγραφή %1 φωτογραφίας"
 msgstr[1] "Διαγραφή %1 φωτογραφιών"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] "Διαγραφή %1 βίντεο"
 msgstr[1] "Διαγραφή %1 βίντεο"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "Διαγραφή %1 βίντεο"
-msgstr[1] "Διαγραφή %1 βίντεο"
+msgstr[0] "Διαγραφή %1 αρχείου μέσου"
+msgstr[1] "Διαγραφή %1 αρχείων μέσου"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -165,7 +164,7 @@ msgstr "Προσθήκη"
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr "Κοινοποίηση"
+msgstr "Διαμοιρασμός"
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
@@ -174,7 +173,7 @@ msgstr "Διαμοιρασμός με"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "Γίνεται φόρτωση..."
+msgstr "Γίνεται φόρτωση…"
 
 #: rc/qml/MainScreen.qml:148
 msgid "Albums"
@@ -220,40 +219,39 @@ msgstr "Επεξεργασία"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "Τύπος μέσου: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "Φωτογραφίες"
+msgstr "φωτογραφία"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "βίντεο"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "Όνομα μέσου: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "Ημερομηνία: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "Ώρα: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "OK"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -274,15 +272,17 @@ msgstr "Ένα σφάλμα συνέβη κατά την προσπάθεια φ
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "Μέγεθος πλέγματος"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"Επιλέξτε το μέγεθος πλέγματος σε μονάδες gu μεταξύ 8 και 20 (η προεπιλογή "
+"είναι 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "Ολοκληρώθηκε"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
@@ -294,7 +294,7 @@ msgstr "Κάδος;Διαγραφή"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr "Δημοσίευση;Επιφόρτωση;Ανέβασμα;Επισύναψη"
+msgstr "Δημοσίευση;Μεταφόρτωση;Επισύναψη"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
@@ -302,7 +302,7 @@ msgstr "Αναίρεση"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
-msgstr "Ακύρωση ενέργειας;Επιστροφή;Πίσω"
+msgstr "Ακύρωση ενέργειας;Επιστροφή"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
@@ -310,7 +310,7 @@ msgstr "Επανάληψη"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
-msgstr "Εφαρμόστε ξανά;Κάντε πάλι;Επανάληψη"
+msgstr "Εφαρμόστε ξανά;Επανάληψη"
 
 #: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
@@ -342,7 +342,7 @@ msgstr "Περικοπή"
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
-msgstr "Περικοπή;Τομή;Ψαλίδισμα"
+msgstr "Περικοπή;Αποκοπή"
 
 #: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
