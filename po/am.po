@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-01-06 02:00+0000\n"
+"PO-Revision-Date: 2020-08-30 00:27+0000\n"
 "Last-Translator: Samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic <https://translate.ubports.com/projects/ubports/"
 "gallery-app/am/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -292,7 +292,7 @@ msgstr "ቆሻሻ:መሰረዣ"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr "መለጠፊያ:መጫኛ:ማያያዣ:"
+msgstr "መለጠፊያ;መጫኛ;ማያያዣ"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
