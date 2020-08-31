@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-02-25 16:21+0000\n"
+"PO-Revision-Date: 2020-08-31 13:14+0000\n"
 "Last-Translator: dano6 <dano.kutka@gmail.com>\n"
 "Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -254,7 +254,7 @@ msgstr "Čas: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr "ok"
+msgstr "OK"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
