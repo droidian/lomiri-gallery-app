@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-09-04 21:20+0000\n"
+"PO-Revision-Date: 2020-09-05 00:01+0000\n"
 "Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "gallery-app/he/>\n"
@@ -36,7 +36,7 @@ msgstr "מחק"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "ביטול"
+msgstr "בטול"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -97,9 +97,8 @@ msgid "Delete album"
 msgstr "מחיקת האלבום"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "מחיקת האלבום ותוכנו"
+msgstr "מחק אלבום ותוכן"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -131,25 +130,25 @@ msgid "Ok"
 msgstr "אישור"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "מחיקת %1 תמונות"
+msgstr[0] "מחיקת %1 תמונה"
 msgstr[1] "מחיקת %1 תמונות"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "מחיקת %1 סרטונים"
+msgstr[0] "מחיקת %1 סרטון"
 msgstr[1] "מחיקת %1 סרטונים"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "מחיקת %1 סרטונים"
-msgstr[1] "מחיקת %1 סרטונים"
+msgstr[0] "מחק את קובץ המדיה %1"
+msgstr[1] "מחק %1 קבצי מדיה"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -224,11 +223,11 @@ msgstr "מידע"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "מידע"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "סוג המדיה: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "photo"
@@ -236,23 +235,23 @@ msgstr "תמונה"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "וידאו"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "שם מדיה: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "תאריך: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "זמן: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "בסדר"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -273,15 +272,15 @@ msgstr "אירעה שגיאה בעת הניסיון לטעינת המדיה"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "גודל רשת"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr ""
+msgstr "בחר את גודל הרשת ביחידות gu בין 8 ל -20 (ברירת המחדל היא 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "הסתיים"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
@@ -305,7 +304,7 @@ msgstr "ביטול הפעולה;צעד אחורה"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "ביצוע שוב"
+msgstr "בצע שוב"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
