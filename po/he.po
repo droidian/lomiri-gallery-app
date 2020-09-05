@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-09-05 00:01+0000\n"
+"PO-Revision-Date: 2020-09-05 14:38+0000\n"
 "Last-Translator: tamer dab <dabsantamer@yahoo.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "gallery-app/he/>\n"
@@ -154,7 +154,7 @@ msgstr[1] "מחק %1 קבצי מדיה"
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
 #: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
 msgid "Select"
-msgstr "בחירה"
+msgstr "בחר"
 
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
 #: rc/qml/Utility/EditingHUD.qml:76
