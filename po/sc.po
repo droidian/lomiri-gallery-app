@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-17 13:49+0000\n"
+"PO-Revision-Date: 2020-09-18 15:59+0000\n"
 "Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/sc/>\n"
@@ -197,19 +197,19 @@ msgstr "Cantzella unu vìdeu"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr "Fùlia una fotografia dae s'album"
+msgstr "Boga una fotografia dae s'album"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr "Fùlia unu vìdeu dae s'album"
+msgstr "Boga unu vìdeu dae s'album"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
-msgstr "Fùlia dae s'album"
+msgstr "Boga dae s'album"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr "Fùlia dae s'album e dae su dispositivu"
+msgstr "Boga dae s'album e dae su dispositivu"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
