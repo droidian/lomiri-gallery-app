@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-07-07 16:32+0000\n"
+"PO-Revision-Date: 2020-10-18 18:59+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -191,19 +191,19 @@ msgstr "Foto's"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr "Een foto verwijderen"
+msgstr "Foto verwijderen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr "Een video verwijderen"
+msgstr "Video verwijderen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr "Een foto uit album verwijderen"
+msgstr "Foto uit album verwijderen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr "Een video uit album verwijderen"
+msgstr "Video uit album verwijderen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
