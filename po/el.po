@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-08-15 18:56+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"PO-Revision-Date: 2020-10-29 01:02+0000\n"
+"Last-Translator: George Kitsopoulos <gkitsopoulos@tutanota.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
 "gallery-app/el/>\n"
 "Language: el\n"
@@ -40,7 +40,7 @@ msgstr "Ακύρωση"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr "Προεπιλογή"
+msgstr "Προκαθορισμένο"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
