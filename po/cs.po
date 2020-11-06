@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-08-31 13:14+0000\n"
+"PO-Revision-Date: 2020-11-01 12:04+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "gallery-app/cs/>\n"
@@ -36,7 +36,7 @@ msgstr "Smazat"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"

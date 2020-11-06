@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2019-07-16 07:48+0000\n"
-"Last-Translator: Yasser Lotfy <yasser-lotfy@hotmail.com>\n"
+"PO-Revision-Date: 2020-11-06 11:55+0000\n"
+"Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
@@ -31,13 +31,13 @@ msgstr "تحرير الألبوم"
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
 #: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "حذف"
+msgstr "احذف"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "إلغاء"
+msgstr "ألغ"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -228,7 +228,7 @@ msgstr "حذف من الألبوم وإزالة"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr "تحرير"
+msgstr "حرر"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
@@ -339,7 +339,7 @@ msgstr "اضبط الصورة آلياً"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
-msgstr "تدوير"
+msgstr "أدر"
 
 #: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
