@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-11-06 11:55+0000\n"
+"PO-Revision-Date: 2020-11-13 19:53+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ar/>\n"
@@ -243,9 +243,8 @@ msgid "Media type: "
 msgstr "نوع الوسائط: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "الصور"
+msgstr "صورة"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
@@ -351,7 +350,7 @@ msgstr "تدوير الصورة في إتجاه عقارب الساعة"
 
 #: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
-msgstr "اقتصاص"
+msgstr "قص"
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
@@ -387,7 +386,7 @@ msgstr "ضبط تعرُض الصورة"
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "تأكيد"
+msgstr "أكد"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
