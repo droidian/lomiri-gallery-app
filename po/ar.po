@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-11-13 19:53+0000\n"
+"PO-Revision-Date: 2020-11-16 14:47+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ar/>\n"
@@ -120,11 +120,11 @@ msgstr "أضف الصورة إلى ألبوم"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "تعذر المشاركة"
+msgstr "تعذرت المشاركة"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "يتعذر مشاركة الصور ومقاطع الفيديو في الوقت نفسه"
+msgstr "تتعذر مشاركة الصور ومقاطع الفيديو في نفس الوقت"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
@@ -167,7 +167,7 @@ msgstr[5] "حذف %1 فيديو/فيديوهات"
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
 #: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
 msgid "Select"
-msgstr "تحديد"
+msgstr "حدد"
 
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -177,7 +177,7 @@ msgstr "إضافة"
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr "مشاركة"
+msgstr "شارك"
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
@@ -268,7 +268,7 @@ msgstr "موافق"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr "تحرير الصورة"
+msgstr "حرر الصورة"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
