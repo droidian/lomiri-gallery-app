@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-11-10 07:42+0000\n"
+"PO-Revision-Date: 2020-11-23 04:33+0000\n"
 "Last-Translator: Zmicer <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
 "gallery-app/be/>\n"
@@ -177,7 +177,7 @@ msgstr "Падзяліцца"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "Загрузка..."
+msgstr "Загрузка…"
 
 #: rc/qml/MainScreen.qml:148
 msgid "Albums"
@@ -308,23 +308,23 @@ msgstr "Скасаваць дзеянне;Назад"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "Вярнуць"
+msgstr "Паўтарыць"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
-msgstr "Ужыць паўторна;Зрабіць ізноў"
+msgstr "Ужыць паўторна;Зрабіць зноў"
 
 #: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
-msgstr "Аўтаматычнае палямшэньня"
+msgstr "Аўтаматычнае паляпшэнне"
 
 #: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
-msgstr "Аўтаматычна палепшыць выяву"
+msgstr "Аўтаматычная падладка выявы"
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr "Аўтаматычна наладзіць фотаздымак"
+msgstr "Аўтаматычная падладка фотаздымка"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
@@ -344,7 +344,7 @@ msgstr "Абрэзаць"
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
-msgstr "Абразаньне;Выразаць"
+msgstr "Абразанне;Выразаць"
 
 #: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
@@ -352,63 +352,63 @@ msgstr "Абрэзаць выяву"
 
 #: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
-msgstr "Вярнуцца да арыгіналу"
+msgstr "Вярнуцца да арыгінала"
 
 #: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
-msgstr "Скасаваць зьмены"
+msgstr "Адкінуць змены"
 
 #: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
-msgstr "Скасаваць усе зьмены"
+msgstr "Адкінуць усе змены"
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr "Вытрымка"
+msgstr "Экспазіцыя"
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
-msgstr "Адрэгуляваць вытрымку"
+msgstr "Падладка экспазіцыі"
 
 #: rc/qml/Utility/EditingHUD.qml:120
 msgid "Underexposed;Overexposed"
-msgstr "Недатрымацт;Ператрымаць"
+msgstr "Недатрымана;Ператрымана"
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "Пацьвердзіць"
+msgstr "Пацвердзіць"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
-msgstr "Выраўнаваць"
+msgstr "Выраўноўванне"
 
 #: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
-msgstr "Каляровы балянс"
+msgstr "Каляровы баланс"
 
 #: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
-msgstr "Зьмяніць каляровы баланс"
+msgstr "Падладка каляровага балансу"
 
 #: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
-msgstr "Насычанасьць; Адценьне"
+msgstr "Насычанасць; Адценне"
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr "Яскравасьць"
+msgstr "Яркасць"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
-msgstr "Кантраст"
+msgstr "Кантраснасць"
 
 #: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
-msgstr "Насычанасьць"
+msgstr "Насычанасць"
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr "Тон"
+msgstr "Адценне"
 
 #: desktop/gallery-app.desktop.in.in.h:2
 msgid "Ubuntu Photo Viewer"
@@ -416,7 +416,7 @@ msgstr "Аглядальнік фатаздымкаў Ubuntu"
 
 #: desktop/gallery-app.desktop.in.in.h:3
 msgid "Browse your photographs"
-msgstr "Праглядвайце фатаздымкі"
+msgstr "Праглядайце свае фатаздымкі"
 
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
