@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-12-01 07:45+0000\n"
+"PO-Revision-Date: 2020-12-08 00:43+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ar/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
 msgid "Edit album"
-msgstr "تحرير الألبوم"
+msgstr "حرر الألبوم"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
@@ -52,6 +52,7 @@ msgid "Green"
 msgstr "أخضر"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:116
+#, fuzzy
 msgid "Pattern"
 msgstr "قالب"
 
@@ -61,12 +62,12 @@ msgstr "أحمر"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
 msgid "Album"
-msgstr "الألبوم"
+msgstr "ألبوم"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:340
 msgid "Add to album"
-msgstr "أضف إلى الألبوم"
+msgstr "أضف إلى ألبوم"
 
 #: rc/qml/AlbumsOverview.qml:229 rc/qml/Components/PopupAlbumPicker.qml:91
 msgid "Add new album"
@@ -99,7 +100,7 @@ msgstr "احذف الألبوم"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr "حذف الألبوم و المحتويات"
+msgstr "حذف الألبوم و محتوياته"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -112,11 +113,11 @@ msgstr "dd"
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
 msgid "Add to Album"
-msgstr "أضف إلى الألبوم"
+msgstr "أضف إلى ألبوم"
 
 #: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
-msgstr "أضف الصورة إلى ألبوم"
+msgstr "أضف صورة إلى ألبوم"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
@@ -131,37 +132,37 @@ msgid "Ok"
 msgstr "موافق"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "حذف %1 صور/صورة"
-msgstr[1] "حذف %1 صور/صورة"
-msgstr[2] "حذف %1 صور/صورة"
-msgstr[3] "حذف %1 صور/صورة"
-msgstr[4] "حذف %1 صور/صورة"
-msgstr[5] "حذف %1 صور/صورة"
+msgstr[0] "لا صور لحذفها"
+msgstr[1] "احذف صورة واحدة"
+msgstr[2] "احذف صورتين"
+msgstr[3] "احذف %1 صور"
+msgstr[4] "احذف %1 صورة"
+msgstr[5] "احذف %1 صورة"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "حذف %1 فيديو/فيديوهات"
-msgstr[1] "حذف %1 فيديو/فيديوهات"
-msgstr[2] "حذف %1 فيديو/فيديوهات"
-msgstr[3] "حذف %1 فيديو/فيديوهات"
-msgstr[4] "حذف %1 فيديو/فيديوهات"
-msgstr[5] "حذف %1 فيديو/فيديوهات"
+msgstr[0] "لا فيديوهات لحذفها"
+msgstr[1] "احذف فيديو واحد"
+msgstr[2] "احذف فيديوهين"
+msgstr[3] "احذف %1 فيديوهات"
+msgstr[4] "احذف %1 فيديو"
+msgstr[5] "احذف %1 فيديو"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "حذف %1 فيديو/فيديوهات"
-msgstr[1] "حذف %1 فيديو/فيديوهات"
-msgstr[2] "حذف %1 فيديو/فيديوهات"
-msgstr[3] "حذف %1 فيديو/فيديوهات"
-msgstr[4] "حذف %1 فيديو/فيديوهات"
-msgstr[5] "حذف %1 فيديو/فيديوهات"
+msgstr[0] "لا ملفات وسائط لحذفها"
+msgstr[1] "احذف ملف وسائط واحد"
+msgstr[2] "احذف ملفي وسائط"
+msgstr[3] "احذف %1 ملفات وسائط"
+msgstr[4] "احذف %1 ملف وسائط"
+msgstr[5] "احذف %1 ملف وسائط"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -182,49 +183,49 @@ msgstr "شارك"
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
 msgid "Share to"
-msgstr "مشاركة إلى"
+msgstr "شارك مع"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "جاري التحميل"
+msgstr "يحمل…"
 
 #: rc/qml/MainScreen.qml:148
 msgid "Albums"
-msgstr "الألبومات"
+msgstr "ألبومات"
 
 #: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
 #: rc/qml/PickerScreen.qml:154
 msgid "Events"
-msgstr "الأحداث"
+msgstr "أحداث"
 
 #: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
 #: rc/qml/PickerScreen.qml:203
 msgid "Photos"
-msgstr "الصور"
+msgstr "صور"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr "حذف صورة"
+msgstr "احذف صورة"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr "حذف فيديو"
+msgstr "احذف فيديو"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr "حذف صورة من الألبوم"
+msgstr "احذف صورة من ألبوم"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr "حذف فيديو من الألبوم"
+msgstr "احذف فيديو من ألبوم"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
-msgstr "حذف من الألبوم"
+msgstr "احذف من الألبوم"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr "حذف من الألبوم وإزالة"
+msgstr "احذف من الألبوم وأزاله"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
@@ -248,7 +249,7 @@ msgstr "صورة"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr "الفيديو"
+msgstr "فيديو"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
@@ -268,7 +269,7 @@ msgstr "موافق"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr "حرر الصورة"
+msgstr "حرر صورة"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
@@ -277,24 +278,23 @@ msgstr "المعرض"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
-msgstr "إختيار تبديل"
+msgstr "بدّل الاختيار"
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr "حصل خطأ اثناء تحميل الوسائط"
+msgstr "حصل خطأ اثناء محاولة تحميل الوسائط"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr "الحجم الشبكي"
+msgstr "حجم الشبكة"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr ""
-"تحديد الحجم الشبكي في وحدة الجيو ما بين 8 و 20 ( القيمة الإفتراضية هي 12)"
+msgstr "اختر حجم الشبكة في وحدة الجيو ما بين 8 و 20 ( القيمة الإفتراضية هي 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr "منتهي"
+msgstr "انتهى"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
@@ -314,13 +314,14 @@ msgstr "تراجع"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
-msgstr "ألغِاء الإجراء ;تراجع عن آخر إجراء;تراجع خطوة واحدة"
+msgstr "ألغِ الإجراء;تراجع خطوة"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
 msgstr "أعِد"
 
 #: rc/qml/Utility/EditingHUD.qml:87
+#, fuzzy
 msgid "Reapply;Make Again"
 msgstr "أعِد ما تراجعت عنه;طبّقه مجددا"
 
@@ -341,12 +342,13 @@ msgid "Rotate"
 msgstr "أدر"
 
 #: rc/qml/Utility/EditingHUD.qml:99
+#, fuzzy
 msgid "Turn Clockwise"
-msgstr "تدوير مع عقارب الساعة"
+msgstr "دوّر مع عقارب السّاعة"
 
 #: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
-msgstr "تدوير الصورة في إتجاه عقارب الساعة"
+msgstr "أدِر مع عقارب الساعة"
 
 #: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
@@ -354,7 +356,7 @@ msgstr "قص"
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
-msgstr "اقتصاص الأطراف;تشذيب"
+msgstr "تشذيب;قص"
 
 #: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
@@ -374,13 +376,14 @@ msgstr "تجاهل جميع التغييرات"
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr "التعرض"
+msgstr "زمن التعرض"
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
-msgstr "اضبط التعرض"
+msgstr "اضبط زمن التعرض"
 
 #: rc/qml/Utility/EditingHUD.qml:120
+#, fuzzy
 msgid "Underexposed;Overexposed"
 msgstr "ضبط تعرُض الصورة"
 
@@ -398,7 +401,7 @@ msgstr "توازن الألوان"
 
 #: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
-msgstr "ضبط توازن اللون"
+msgstr "اضبط توازن اللون"
 
 #: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
@@ -410,15 +413,15 @@ msgstr "السطوع"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
-msgstr "التباين"
+msgstr "تباين"
 
 #: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
-msgstr "التشبّع"
+msgstr "تشبّع"
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr "الصبغة"
+msgstr "صبغة"
 
 #: desktop/gallery-app.desktop.in.in.h:2
 msgid "Ubuntu Photo Viewer"
