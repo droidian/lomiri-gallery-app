@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-12-17 14:38+0000\n"
+"PO-Revision-Date: 2020-12-24 08:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "gallery-app/he/>\n"
@@ -30,7 +30,7 @@ msgstr "עריכת האלבום"
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
 #: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
@@ -215,7 +215,7 @@ msgstr "הסרה מאלבום ומחיקה"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr "ערוך"
+msgstr "עריכה"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
@@ -304,7 +304,7 @@ msgstr "ביטול הפעולה;צעד אחורה"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "בצע שוב"
+msgstr "ביצוע חוזר"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
