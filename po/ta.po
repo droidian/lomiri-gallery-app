@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2014-10-26 03:19+0000\n"
-"Last-Translator: முரளி (murali) <Unknown>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"PO-Revision-Date: 2021-01-02 18:40+0000\n"
+"Last-Translator: GK <miscgk@pm.me>\n"
+"Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
+"gallery-app/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
-"X-Generator: Launchpad (build 18335)\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -28,7 +30,7 @@ msgstr "படத்தொகுப்பை தொகு"
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
 #: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "நீக்கு"
+msgstr "நீக்குக"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
@@ -58,7 +60,7 @@ msgstr "சிகப்பு"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
 msgid "Album"
-msgstr "தொகுப்பு"
+msgstr "செருகேடு"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:340
@@ -80,7 +82,7 @@ msgstr "துணை உரை"
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:173
 msgid "Camera"
-msgstr "புகைப்பட கருவி"
+msgstr "நிழற்படக் கருவி"
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
@@ -95,17 +97,18 @@ msgid "Delete album"
 msgstr "படத்தொகுப்பை நீக்கு"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "படத்தொகுப்பு + உள்ளடக்கங்கள் நீக்கு"
+msgstr "படத்தொகுப்பையும் உள்ளடக்கங்களையும் நீக்கு"
 
 #: rc/qml/Components/EventCard.qml:59
+#, fuzzy
 msgid "MMM yyyy"
-msgstr ""
+msgstr "MMM yyyy"
 
 #: rc/qml/Components/EventCard.qml:73
+#, fuzzy
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -118,36 +121,36 @@ msgstr "படத்தை படத்தொகுப்பில் சே�
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "பகிர முடியவில்லை"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr ""
+msgstr "நிழற்படங்களையும் ஒளித்தோற்றங்களையும் ஒரே நேரத்தில் பகிர இயலவில்லை"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "சரி"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "ஒரு புகைப்படத்தை நீக்கு"
-msgstr[1] "ஒரு புகைப்படத்தை நீக்கு"
+msgstr[0] "%1 புகைப்படத்தை நீக்கு"
+msgstr[1] "%1 புகைப்படங்களை நீக்கு"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "ஒரு புகைப்படத்தை நீக்கு"
-msgstr[1] "ஒரு புகைப்படத்தை நீக்கு"
+msgstr[0] "%1 புகைப்படத்தை நீக்கு"
+msgstr[1] "%1 புகைப்படங்களை நீக்கு"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ஊடகக் கோப்பை நீக்குக"
+msgstr[1] "%1 ஊடகக் கோப்புக்களை நீக்குக"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -168,15 +171,15 @@ msgstr "பகிர்"
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
 msgid "Share to"
-msgstr ""
+msgstr "இவருடன் பகிர்"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "ஏற்றுகிறது..."
+msgstr "ஏற்றுகிறது…"
 
 #: rc/qml/MainScreen.qml:148
 msgid "Albums"
-msgstr "படத்தொகுப்புகள்"
+msgstr "செருகேடுகள்"
 
 #: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
 #: rc/qml/PickerScreen.qml:154
@@ -194,7 +197,7 @@ msgstr "ஒரு புகைப்படத்தை நீக்கு"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr ""
+msgstr "ஒளித்தோற்றத்தை நீக்குக"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
@@ -202,7 +205,7 @@ msgstr "தொகுப்பிலிருந்து ஒரு படத்�
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr ""
+msgstr "சேகர ஏட்டிலிருந்து ஒளித்தோற்றத்தை நீக்குக"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
@@ -218,44 +221,43 @@ msgstr "திருத்து"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "தகவல்"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "தகவல்கள்"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "ஊடக வகைகள்: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "புகைப்படங்கள்"
+msgstr "நிழற்படம்"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "ஒளித்தோற்றம்"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "ஊடகப் பெயர்: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "தேதி: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "நேரம்: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "சரி"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr ""
+msgstr "நிழற்படத்தைத் திருத்து"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
@@ -264,23 +266,24 @@ msgstr "படத்தொகுப்பு"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
-msgstr ""
+msgstr "தேர்வை நிலைமாற்றுக"
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr ""
+msgstr "ஊடகத்தை ஏற்றும்பொழுது பிழை ஏற்பட்டுவிட்டது"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "கட்டத்தின் அளவு"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"கட்டத்தின் அளவை 8 முதல் 20ற்குள்ளான gu அலகில் தேர்வுசெய்க (முன்னிருப்பு 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "முடிவுற்றது"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
@@ -296,7 +299,7 @@ msgstr "பதிவு; பதிவேற்றம்; இணை"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr "ரத்து செய்க"
+msgstr "செய்ததைத் தவிர்"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
@@ -304,7 +307,7 @@ msgstr "செயலை ரத்துசெய்;பின்செல்"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "மீளச்செய்"
+msgstr "மீண்டும் செய்க"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
@@ -392,7 +395,7 @@ msgstr "தெவிட்டுநிலை; சாயலிடு"
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr "பிரகாசம்"
+msgstr "ஒளியளவு"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
