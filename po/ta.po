@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-01-02 18:40+0000\n"
+"PO-Revision-Date: 2021-01-06 01:37+0000\n"
 "Last-Translator: GK <miscgk@pm.me>\n"
 "Language-Team: Tamil <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ta/>\n"
@@ -36,7 +36,7 @@ msgstr "நீக்குக"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "ரத்துசெய்"
+msgstr "தவிர்க்க"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -101,14 +101,12 @@ msgid "Delete album AND contents"
 msgstr "படத்தொகுப்பையும் உள்ளடக்கங்களையும் நீக்கு"
 
 #: rc/qml/Components/EventCard.qml:59
-#, fuzzy
 msgid "MMM yyyy"
-msgstr "MMM yyyy"
+msgstr "மமம ஆஆஆஆ"
 
 #: rc/qml/Components/EventCard.qml:73
-#, fuzzy
 msgid "dd"
-msgstr "dd"
+msgstr "தத"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -166,7 +164,7 @@ msgstr "சேர்"
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr "பகிர்"
+msgstr "பகிர்க"
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
@@ -217,7 +215,7 @@ msgstr "தொகுப்பிலிருந்து நீக்கி அ�
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr "திருத்து"
+msgstr "திருத்துக"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
@@ -237,7 +235,7 @@ msgstr "நிழற்படம்"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr "ஒளித்தோற்றம்"
+msgstr "காணொளி"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
@@ -257,7 +255,7 @@ msgstr "சரி"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr "நிழற்படத்தைத் திருத்து"
+msgstr "நிழற்படத்தைத் திருத்துக"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
@@ -395,7 +393,7 @@ msgstr "தெவிட்டுநிலை; சாயலிடு"
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr "ஒளியளவு"
+msgstr "ஒளிர்வளவு"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
