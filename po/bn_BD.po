@@ -1,229 +1,227 @@
-# Hungarian translation for gallery-app
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
 # This file is distributed under the same license as the gallery-app package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-01-28 03:24+0000\n"
-"Last-Translator: Adam <padamyno@gmail.com>\n"
-"Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
-"gallery-app/hu/>\n"
-"Language: hu\n"
+"POT-Creation-Date: 2018-12-31 09:25+0000\n"
+"PO-Revision-Date: 2021-01-30 15:27+0000\n"
+"Last-Translator: imrufbd <imrufbd@gmail.com>\n"
+"Language-Team: Bengali (Bangladesh) <https://translate.ubports.com/projects/"
+"ubports/gallery-app/bn_BD/>\n"
+"Language: bn_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.11.3\n"
-"X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
 msgid "Edit album"
-msgstr "Album szerkesztése"
+msgstr "অ্যালবাম সম্পাদনা"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
-#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
+#: rc/qml/PhotosOverview.qml:193 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "Törlés"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
-#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
+#: rc/qml/PhotosOverview.qml:216 rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr "Alapértelmezett"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
-msgstr "Kék"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:115
 msgid "Green"
-msgstr "Zöld"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:116
 msgid "Pattern"
-msgstr "Minta"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:117
 msgid "Red"
-msgstr "Piros"
+msgstr ""
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
 msgid "Album"
-msgstr "Album"
+msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:340
 msgid "Add to album"
-msgstr "Albumhoz"
+msgstr ""
 
 #: rc/qml/AlbumsOverview.qml:229 rc/qml/Components/PopupAlbumPicker.qml:91
 msgid "Add new album"
-msgstr "Új album hozzáadása"
+msgstr ""
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr "Új fényképalbum"
+msgstr ""
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
-msgstr "Alcím"
+msgstr ""
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:173
+#: rc/qml/PhotosOverview.qml:171
 msgid "Camera"
-msgstr "Fényképezőgép"
+msgstr ""
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
-msgstr "Igen"
+msgstr ""
 
 #: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
 msgid "No"
-msgstr "Nem"
+msgstr ""
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
-msgstr "Album törlése"
+msgstr ""
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "Album és tartalom törlése"
+msgstr ""
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr "yyyy. MMM"
+msgstr ""
 
 #: rc/qml/Components/EventCard.qml:73
 msgid "dd"
-msgstr "dd."
+msgstr ""
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
 msgid "Add to Album"
-msgstr "Hozzáadás albumhoz"
+msgstr ""
 
 #: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
-msgstr "Fénykép hozzáadása albumhoz"
+msgstr ""
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Nem sikerült a megosztás"
+msgstr ""
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "Nem lehetséges jelenleg a fényképek és videók megosztása"
+msgstr ""
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr "OK"
+msgstr ""
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "%1 fénykép törlése"
-msgstr[1] "%1 fénykép törlése"
+msgstr[0] ""
+msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "%1 videó törlése"
-msgstr[1] "%1 videó törlése"
+msgstr[0] ""
+msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
-#, fuzzy, qt-format
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "%1 videó törlése"
-msgstr[1] "%1 videó törlése"
+msgstr[0] ""
+msgstr[1] ""
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
-#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
-#: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
+#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:200
+#: rc/qml/MainScreen.qml:252 rc/qml/PhotosOverview.qml:164
+#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
-msgstr "Kiválasztás"
+msgstr ""
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
-msgstr "Hozzáadás"
+msgstr ""
 
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
-#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
+#: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr "Megosztás"
+msgstr ""
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
-#: rc/qml/PhotosOverview.qml:241
+#: rc/qml/PhotosOverview.qml:235
 msgid "Share to"
-msgstr "Megosztás"
+msgstr ""
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "Betöltés…"
+msgstr ""
 
-#: rc/qml/MainScreen.qml:148
+#: rc/qml/MainScreen.qml:149
 msgid "Albums"
-msgstr "Albumok"
+msgstr ""
 
-#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
-#: rc/qml/PickerScreen.qml:154
+#: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:202
+#: rc/qml/PickerScreen.qml:157
 msgid "Events"
-msgstr "Események"
+msgstr ""
 
-#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
-#: rc/qml/PickerScreen.qml:203
+#: rc/qml/MainScreen.qml:211 rc/qml/MainScreen.qml:254
+#: rc/qml/PickerScreen.qml:206
 msgid "Photos"
-msgstr "Fényképek"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr "Fénykép törlése"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr "Videó törlése"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr "Fénykép eltávolítása az albumból"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr "Videó eltávolítása az albumból"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
-msgstr "Eltávolítás az albumból"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr "Eltávolítás az albumból és törlés"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr "Szerkesztés"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
-msgid "Informations"
+msgid "Information"
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
@@ -231,9 +229,8 @@ msgid "Media type: "
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
-msgstr "Fényképek"
+msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
@@ -257,183 +254,165 @@ msgstr ""
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr "Szerkesztés"
+msgstr ""
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
 msgid "Gallery"
-msgstr "Galéria"
+msgstr ""
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
-msgstr "Kijelölés megfordítása"
+msgstr ""
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr "Hiba történt a média betöltése közben"
+msgstr ""
 
-#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+#: rc/qml/PhotosOverview.qml:114 rc/qml/PhotosOverview.qml:157
 msgid "Grid Size"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:117
+#: rc/qml/PhotosOverview.qml:115
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:132
+#: rc/qml/PhotosOverview.qml:130
 msgid "Finished"
 msgstr ""
 
-#: rc/qml/PickerScreen.qml:291
+#: rc/qml/PickerScreen.qml:295
 msgid "Pick"
-msgstr "Válasszon"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
-msgstr "Kuka;Ürítés"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr "Küldés;Feltöltés;Csatolás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr "Visszavonás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
-msgstr "Művelet visszavonása;Visszalépés"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "Újra"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
-msgstr "Újra;Mégis"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
-msgstr "Automatikus javítás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
-msgstr "Kép módosítása automatikusan"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr "Fénykép automatikus módosítása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
-msgstr "Forgatás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
-msgstr "Forgatás az órajárással egyező irányba"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
-msgstr "Forgatás az órajárással ellentétes irányba"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
-msgstr "Levágás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
-msgstr "Levágás;Kivágás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
-msgstr "Kép levágása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
-msgstr "Vissza az eredetihez"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
-msgstr "Változtatások eldobása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
-msgstr "Összes változtatás eldobása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr "Expozíció"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
-msgstr "Expozíció beállítása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:120
 msgid "Underexposed;Overexposed"
-msgstr "Alulexponált;Túlexponált"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "Megerősítés"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
-msgstr "Ellensúlyozás"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
-msgstr "Színegyensúly"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
-msgstr "Színegyensúly beállítása"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
-msgstr "Telítettség;Árnyalat"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr "Fényerő"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
-msgstr "Kontraszt"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
-msgstr "Telítettség"
+msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr "Árnyalat"
+msgstr ""
 
 #: desktop/gallery-app.desktop.in.in.h:2
 msgid "Ubuntu Photo Viewer"
-msgstr "Ubuntu fényképmegjelenítő"
+msgstr ""
 
 #: desktop/gallery-app.desktop.in.in.h:3
 msgid "Browse your photographs"
-msgstr "Fényképek böngészése"
+msgstr ""
 
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
-msgstr "Fényképek;Fotók;Képek;Albumok"
-
-#~ msgid "Delete 1 photo"
-#~ msgstr "1 fénykép törlése"
-
-#~ msgid "Delete 1 video"
-#~ msgstr "1 videó törlése"
-
-#~ msgid "Delete %1 photos and 1 video"
-#~ msgstr "%1 fénykép és 1 videó törlése"
-
-#~ msgid "Delete 1 photo and %1 videos"
-#~ msgstr "1 fénykép és %1 videó törlése"
-
-#~ msgid "Delete 1 photo and 1 video"
-#~ msgstr "1 fénykép és 1 videó törlése"
-
-#~ msgid "Delete %1 photos and %2 videos"
-#~ msgstr "%1 fénykép és %2 videó törlése"
+msgstr ""
