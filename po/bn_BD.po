@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-31 09:25+0000\n"
-"PO-Revision-Date: 2021-01-30 15:27+0000\n"
+"PO-Revision-Date: 2021-01-31 16:07+0000\n"
 "Last-Translator: imrufbd <imrufbd@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://translate.ubports.com/projects/"
 "ubports/gallery-app/bn_BD/>\n"
@@ -29,237 +29,237 @@ msgstr "অ্যালবাম সম্পাদনা"
 #: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
 #: rc/qml/PhotosOverview.qml:193 rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr ""
+msgstr "মুছুন"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:216 rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr ""
+msgstr "বাতিল"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr ""
+msgstr "সুনির্দিষ্ট"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
-msgstr ""
+msgstr "নীল"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:115
 msgid "Green"
-msgstr ""
+msgstr "সবুজ"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:116
 msgid "Pattern"
-msgstr ""
+msgstr "ছাঁচ"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:117
 msgid "Red"
-msgstr ""
+msgstr "লাল"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
 msgid "Album"
-msgstr ""
+msgstr "অ্যালবাম"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:340
 msgid "Add to album"
-msgstr ""
+msgstr "অ্যালবামে সাঁটুন"
 
 #: rc/qml/AlbumsOverview.qml:229 rc/qml/Components/PopupAlbumPicker.qml:91
 msgid "Add new album"
-msgstr ""
+msgstr "নতুন অ্যালবাম সৃষ্টি করুন"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr ""
+msgstr "নতুন ছবি অ্যালবাম"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
-msgstr ""
+msgstr "শিরোভাষা"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:171
 msgid "Camera"
-msgstr ""
+msgstr "চিত্রযন্ত্র"
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
-msgstr ""
+msgstr "হ্যাঁ"
 
 #: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
 msgid "No"
-msgstr ""
+msgstr "না"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
-msgstr ""
+msgstr "অ্যালবাম মুছুন"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr ""
+msgstr "অ্যালবাম ও উপাদানগুলি মুছুন"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr ""
+msgstr "মাস বছর"
 
 #: rc/qml/Components/EventCard.qml:73
 msgid "dd"
-msgstr ""
+msgstr "দিন"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
 msgid "Add to Album"
-msgstr ""
+msgstr "অ্যালবামে সাঁটুন"
 
 #: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
-msgstr ""
+msgstr "ছবি অ্যালবামে সাঁটুন"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "বিনিময়ে ব্যার্থ"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr ""
+msgstr "একসাথে ছবি ও চলচিত্র বিনিময় করতে ব্যর্থ"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "ঠিক আছে"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ছবি মুছুন"
+msgstr[1] "%1 ছবিগুলো মুছুন"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 চলচিত্র মুছুন"
+msgstr[1] "%1 চলচিত্রগুলো মুছুন"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 বিনোদোপাদান মুছুন"
+msgstr[1] "%1 বিনোদোপদানগুলি মুছুন"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:200
 #: rc/qml/MainScreen.qml:252 rc/qml/PhotosOverview.qml:164
 #: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
-msgstr ""
+msgstr "নির্বাচন"
 
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
-msgstr ""
+msgstr "সংযোগ"
 
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr ""
+msgstr "বিনিময়"
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:235
 msgid "Share to"
-msgstr ""
+msgstr "বিনিময় করুন"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr ""
+msgstr "লোড হচ্ছে …"
 
 #: rc/qml/MainScreen.qml:149
 msgid "Albums"
-msgstr ""
+msgstr "অ্যালবামগুলি"
 
 #: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:202
 #: rc/qml/PickerScreen.qml:157
 msgid "Events"
-msgstr ""
+msgstr "সূচীগুলি"
 
 #: rc/qml/MainScreen.qml:211 rc/qml/MainScreen.qml:254
 #: rc/qml/PickerScreen.qml:206
 msgid "Photos"
-msgstr ""
+msgstr "ছবিগুলি"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr ""
+msgstr "ছবি মুছুন"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr ""
+msgstr "চলচিত্র মুছুন"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr ""
+msgstr "অ্যালবাম থেকে একটি ছবি সরান"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr ""
+msgstr "অ্যালবাম থেকে একটি চলচিত্র সরান"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
-msgstr ""
+msgstr "অ্যালবাম হতে সরান"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr ""
+msgstr "অ্যলবাম হতে সরান এবং মুছুন"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
-msgstr ""
+msgstr "সম্পাদন"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "তথ্য"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Information"
-msgstr ""
+msgstr "তথ্য"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "বিনোদোপাদানের ধরণ: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "photo"
-msgstr ""
+msgstr "ছবি"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "চলচিত্র"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "বিনোদোপাদানের নাম: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "তারিখ: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "সময়: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "ঠিক আছে"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr ""
+msgstr "ছবি সম্পাদন"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
 msgid "Gallery"
-msgstr ""
+msgstr "চিত্রশালা"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr ""
+msgstr "বিনোদোপাদানটি লোড করতে গিয়ে একটি ত্রুটি দেখা দিয়েছে"
 
 #: rc/qml/PhotosOverview.qml:114 rc/qml/PhotosOverview.qml:157
 msgid "Grid Size"
