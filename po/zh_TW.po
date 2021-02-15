@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2020-09-24 19:00+0000\n"
-"Last-Translator: P.-H. Lin <cypressyew@gmail.com>\n"
+"PO-Revision-Date: 2021-02-14 19:08+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
 "ubports/gallery-app/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -277,7 +277,7 @@ msgstr "以 gu 單位為單位選擇8到20之間的網格尺寸大小 (預設值
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr "完成"
+msgstr "已完成"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
