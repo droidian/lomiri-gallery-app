@@ -258,6 +258,8 @@ Item {
 
             MouseArea {
                 id: viewerMouseArea
+                // Work around being parented under flickable.contentItem
+                parent: flickable
                 anchors.fill: parent
                 property bool eventAccepted: false
 
@@ -301,6 +303,8 @@ Item {
             }
 
             MouseArea {
+                // Work around being parented under flickable.contentItem
+                parent: flickable
                 anchors.centerIn: parent
                 width: units.gu(10)
                 height: units.gu(10)
