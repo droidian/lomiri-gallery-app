@@ -287,8 +287,19 @@ Item {
                     }
                 }
                 onClicked: {
-                    viewerMouseArea.eventAccepted = false
-                    clickTimer.start()
+                    // For videos, we check for a tap in the center on the
+                    // play button icon
+                    if (viewer.isVideo
+                        && mouse.x > width / 2 - units.gu(5)
+                        && mouse.x < width / 2 + units.gu(5)
+                        && mouse.y > height / 2 - units.gu(5)
+                        && mouse.y < height / 2 + units.gu(5)) {
+                        var url = mediaSource.path.toString().replace("file://", "video://");
+                        Qt.openUrlExternally(url);
+                    } else {
+                        viewerMouseArea.eventAccepted = false;
+                        clickTimer.start();
+                    }
                 }
 
                 Timer {
@@ -298,21 +309,6 @@ Item {
                         viewerMouseArea.eventAccepted = true
                         viewer.animateMediaOnHeight = true
                         viewer.clicked()
-                    }
-                }
-            }
-
-            MouseArea {
-                // Work around being parented under flickable.contentItem
-                parent: flickable
-                anchors.centerIn: parent
-                width: units.gu(10)
-                height: units.gu(10)
-                enabled: viewer.isVideo && image.status == Image.Ready
-                onClicked: {
-                    if (viewer.isVideo) {
-                        var url = mediaSource.path.toString().replace("file://", "video://");
-                        Qt.openUrlExternally(url);
                     }
                 }
             }
