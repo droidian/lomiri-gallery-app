@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-02-11 13:32+0000\n"
+"PO-Revision-Date: 2021-03-04 20:28+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -154,7 +154,7 @@ msgstr[1] "%1 mediabestanden verwijderen"
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
 #: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
 msgid "Select"
-msgstr "Kiezen"
+msgstr "Selecteren"
 
 #: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
 #: rc/qml/Utility/EditingHUD.qml:76
