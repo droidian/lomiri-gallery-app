@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-03-04 20:28+0000\n"
+"PO-Revision-Date: 2021-03-21 15:22+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "gallery-app/nl/>\n"
@@ -280,7 +280,7 @@ msgstr "Kies de roostergrootte in gu-eenheden tussen 8 en 20 (standaard: 12)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr "Voltooid"
+msgstr "Klaar"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
