@@ -22,7 +22,7 @@ variables:
         ARCH: "amd64"
         ARCH_TRIPLET: "x86_64-linux-gnu"
 
-.gallery:
+.build:
     image: "clickable/ci-16.04-$ARCH:$CLICKABLE_VERSION"
     stage: build
     script: 'clickable clean-build --arch $ARCH'
@@ -31,17 +31,17 @@ variables:
             - "build/$ARCH_TRIPLET/app/*.click"
         expire_in: 1 week
 
-gallery-armhf:
+build-armhf:
     <<: *armhf
-    extends: .gallery
+    extends: .build
 
-gallery-arm64:
+build-arm64:
     <<: *arm64
-    extends: .gallery
+    extends: .build
 
-gallery-amd64:
+build-amd64:
     <<: *amd64
-    extends: .gallery
+    extends: .build
 
 publish:
     stage: publish
@@ -53,9 +53,9 @@ publish:
         - 'clickable publish --arch arm64'
         - 'clickable publish --arch amd64'
     dependencies:
-        - gallery-armhf
-        - gallery-arm64
-        - gallery-amd64
+        - build-armhf
+        - build-arm64
+        - build-amd64
     artifacts:
         paths:
             - build/arm-linux-gnueabihf/app/*.click
