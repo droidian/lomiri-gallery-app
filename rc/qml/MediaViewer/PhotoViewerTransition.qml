@@ -17,7 +17,7 @@
  * Charles Lindsay <chaz@yorba.org>
  */
 
-import QtQuick 2.4
+import QtQuick 2.9
 import "../Utility"
 import "../../js/GraphicsRoutines.js" as GraphicsRoutines
 

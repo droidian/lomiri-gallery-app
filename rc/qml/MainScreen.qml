@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2012-2015 Canonical Ltd
  * Copyright (C) 2017 Emanuele Sorce <emanuele.sorce@hotmail.com>
- * 
+ *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
  * published by the Free Software Foundation.
@@ -18,7 +18,7 @@
  * Charles Lindsay <chaz@yorba.org
  */
 
-import QtQuick 2.4
+import QtQuick 2.9
 import Qt.labs.settings 1.0
 import QtQuick.Controls.Suru 2.2
 import Ubuntu.Components 1.3
@@ -34,13 +34,13 @@ MainView {
     objectName: "overview"
 
     Suru.theme: theme.name === "Ubuntu.Components.Themes.SuruDark" ? Suru.Dark : Suru.Light
-    
+
     backgroundColor: Suru.backgroundColor
 
     anchors.fill: parent
     applicationName: "com.ubuntu.gallery"
     automaticOrientation: application.automaticOrientation
-    
+
     property string mediaCurrentlyInView
     StateSaver.properties: "mediaCurrentlyInView"
 
@@ -48,7 +48,7 @@ MainView {
 
     //fullScreen property is used on autopilot tests
     property bool fullScreen: APP.fullScreenAppMode || APP.fullScreenUserMode
-   
+
     property alias currentPage: pageStack.currentPage
 
     function openMediaFile(media) {
@@ -145,7 +145,7 @@ MainView {
         visible: !(photoViewerLoader.item && photoViewerLoader.item.isPoppedUp)
 
         selectedTabIndex: 1
-        
+
         Tab {
             id: albumsTab
             objectName: "albumsTab"
@@ -182,12 +182,12 @@ MainView {
                                 eventsOverview.head.visible = true;
                                 eventsOverview.head.locked = false;
                             }
-                        } 
+                        }
 
                         onMediaSourcePressed: {
                             eventsOverview.head.visible = false;
                             eventsOverview.head.locked = true;
- 
+
                             photoViewerLoader.load();
                             overview.mediaCurrentlyInView = mediaSource.path;
 
@@ -233,12 +233,12 @@ MainView {
                                 photosOverview.head.visible = true;
                                 photosOverview.head.locked = false;
                             }
-                        } 
+                        }
 
                         onMediaSourcePressed: {
                             photosOverview.head.visible = false;
                             photosOverview.head.locked = true;
- 
+
                             photoViewerLoader.load();
                             overview.mediaCurrentlyInView = mediaSource.path;
 
@@ -326,11 +326,11 @@ MainView {
         id: hudCtx
         active: __isPhotoViewerOpen
     }
- 
+
     actionManager.localContexts: [ hudCtx ]
 
-    SettingsController { id: settings }    
-    
+    SettingsController { id: settings }
+
     Settings {
         property alias defaultViewIndex: tabs.selectedTabIndex
     }
