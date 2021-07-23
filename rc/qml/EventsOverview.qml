@@ -105,13 +105,6 @@ OrganicView {
 
     property list<Action> overviewActions: [
         Action {
-            objectName: "selectButton"
-            text: i18n.tr("Select")
-            iconName: "select"
-            enabled: selection !== null
-            onTriggered: selection.inSelectionMode = true;
-        },
-        Action {
             objectName: "cameraButton"
             text: i18n.tr("Camera")
             visible: !APP.desktopMode
@@ -121,18 +114,6 @@ OrganicView {
     ]
 
     property list<Action> selectActions: [
-        Action {
-            id: addButton
-            objectName: "addButton"
-
-            text: i18n.tr("Add")
-            iconName: "add"
-            enabled: selection.selectedCount > 0
-            onTriggered: __albumPicker = PopupUtils.open(Qt.resolvedUrl("Components/PopupAlbumPicker.qml"),
-                                                         null,
-                                                         {contentHeight: organicEventView.__pickerContentHeight});
-
-        },
         Action {
             objectName: "deleteButton"
 
@@ -154,6 +135,30 @@ OrganicView {
                 overview.pushPage(sharePicker);
                 sharePicker.visible = true;
             }
+        },
+        Action {
+            objectName: "selectAllButton"
+            text: selection.model.count == selection.selectedCount ? i18n.tr("Unselect all") : i18n.tr("Select all")
+            iconName: selection.model.count == selection.selectedCount ? "select-none" : "select"
+            enabled: true
+            onTriggered: {
+                if (selection.model.count == selection.selectedCount) {
+                    selection.unselectAll()
+                } else {
+                    selection.selectAll()
+                }
+            }
+        },
+        Action {
+            id: addButton
+            objectName: "addButton"
+
+            text: i18n.tr("Add")
+            iconName: "add"
+            enabled: selection.selectedCount > 0
+            onTriggered: __albumPicker = PopupUtils.open(Qt.resolvedUrl("Components/PopupAlbumPicker.qml"),
+                                                         null,
+                                                         {contentHeight: organicEventView.__pickerContentHeight});
         }
     ]
 
@@ -175,6 +180,13 @@ OrganicView {
 
     property bool selectionMode: selection.inSelectionMode
 
+    // header: PageHeader {
+    //     trailingActionBar {
+    //         actions: selectionMode ? selectActions : overviewActions
+    //         numberOfSlots: 4
+    //     }
+    //     leadingActionBar.actions: selectionMode ? selectBackAction : null
+    // }
     head.actions: selectionMode ? selectActions : overviewActions
     head.backAction: selectionMode ? selectBackAction : null
     head.locked: true

@@ -64,6 +64,15 @@ Page {
 
     property string pageTitle
 
+    // header: PageHeader {
+    //     trailingActionBar {
+    //         actions: inSelectionMode ? d.selectActions : d.overviewActions
+    //         numberOfSlots: 4
+    //     }
+    //     leadingActionBar.actions: inSelectionMode ? d.selectBackAction : null
+    //     // title: pageTitle
+    // }
+
     head.actions: inSelectionMode ? d.selectActions : d.overviewActions
     head.backAction: inSelectionMode ? d.selectBackAction : null
     head.locked: true
@@ -169,13 +178,6 @@ Page {
                 onTriggered: PopupUtils.open(gridSel);
             },
             Action {
-                objectName: "selectButton"
-                text: i18n.tr("Select")
-                iconName: "select"
-                enabled: d.selection !== null
-                onTriggered: d.selection.inSelectionMode = true;
-            },
-            Action {
                 objectName: "cameraButton"
                 text: i18n.tr("Camera")
                 visible: !APP.desktopMode
@@ -185,17 +187,6 @@ Page {
         ]
 
         property list<Action> selectActions: [
-            Action {
-                id: addButton
-                objectName: "addButton"
-
-                text: i18n.tr("Add")
-                iconName: "add"
-                enabled: d.selection.selectedCount > 0
-                onTriggered: __albumPicker = PopupUtils.open(Qt.resolvedUrl("Components/PopupAlbumPicker.qml"),
-                                                             null,
-                                                             {contentHeight: photosOverview.__pickerContentHeight});
-            },
             Action {
                 objectName: "deleteButton"
 
@@ -218,6 +209,30 @@ Page {
                     overview.pushPage(sharePicker)
                     sharePicker.visible = true;
                 }
+            },
+            Action {
+                objectName: "selectAllButton"
+                text: photosGrid.count == d.selection.selectedMediaCount ? i18n.tr("Unselect all") : i18n.tr("Select all")
+                iconName: photosGrid.count == d.selection.selectedMediaCount ? "select-none" : "select"
+                enabled: true
+                onTriggered: {
+                    if (photosGrid.count == d.selection.selectedMediaCount) {
+                        d.selection.unselectAll()
+                    } else {
+                        d.selection.selectAll()
+                    }
+                }
+            },
+            Action {
+                id: addButton
+                objectName: "addButton"
+
+                text: i18n.tr("Add")
+                iconName: "add"
+                enabled: d.selection.selectedCount > 0
+                onTriggered: __albumPicker = PopupUtils.open(Qt.resolvedUrl("Components/PopupAlbumPicker.qml"),
+                                                             null,
+                                                             {contentHeight: photosOverview.__pickerContentHeight});
             }
         ]
 
