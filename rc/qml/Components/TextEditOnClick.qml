@@ -17,7 +17,7 @@
  * Eric Gregory <eric@yorba.org>
  */
 
-import QtQuick 2.4
+import QtQuick 2.9
 
 // Editable text area that becomes editable when clicked. Editing ends when
 // enter is pressed or when done() is called. The isEditing property indicates
