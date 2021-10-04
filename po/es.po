@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-03-14 12:36+0000\n"
-"Last-Translator: Josué <j2g2rp@gmail.com>\n"
+"PO-Revision-Date: 2021-10-04 12:20+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "gallery-app/es/>\n"
 "Language: es\n"
@@ -73,7 +73,7 @@ msgstr "Añadir álbum nuevo"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr "Nuevo álbum de fotos"
+msgstr "Álbum de fotos nuevo"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
@@ -119,7 +119,7 @@ msgstr "Añadir foto al álbum"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Imposible compartir"
+msgstr "No se puede compartir"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
@@ -231,7 +231,7 @@ msgstr "Tipo de medio: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "photo"
-msgstr "Foto"
+msgstr "foto"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
