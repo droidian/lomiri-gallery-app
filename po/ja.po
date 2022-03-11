@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2021-07-08 16:43+0000\n"
-"Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
+"PO-Revision-Date: 2022-03-11 18:15+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "gallery-app/ja/>\n"
 "Language: ja\n"
@@ -73,11 +73,11 @@ msgstr "新しいアルバムを追加"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr ""
+msgstr "新規写真アルバム"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
-msgstr ""
+msgstr "字幕"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:173
@@ -97,17 +97,16 @@ msgid "Delete album"
 msgstr "アルバムを削除"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "アルバムとその写真を削除"
+msgstr "アルバムと内容の写真を削除"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr ""
+msgstr "yyyy MMM"
 
 #: rc/qml/Components/EventCard.qml:73
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -131,25 +130,22 @@ msgid "Ok"
 msgstr "完了"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "写真を削除"
-msgstr[1] "写真を削除"
+msgstr[0] "%1枚の写真を削除"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "写真を削除"
-msgstr[1] "写真を削除"
+msgstr[0] "%1個の動画を削除"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1個のメディアを削除"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
