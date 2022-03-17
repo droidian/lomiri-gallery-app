@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2014-07-22 02:40+0000\n"
-"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
-"Language-Team: Khmer <km@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-03-17 11:17+0000\n"
+"Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <poknoroyal@outlook.com>\n"
+"Language-Team: Central Khmer <https://translate.ubports.com/projects/ubports/"
+"gallery-app/km/>\n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
-"X-Generator: Launchpad (build 18335)\n"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -34,7 +36,7 @@ msgstr "លុប"
 #: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
 #: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
 msgid "Cancel"
-msgstr "បោះ​បង់"
+msgstr "បោះបង់"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -71,11 +73,11 @@ msgstr "បន្ថែម​អាល់ប៊ុម​ថ្មី"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr ""
+msgstr "អាល់ប៊ុមរូបថតថ្មី"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
-msgstr ""
+msgstr "អក្សររត់"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
 #: rc/qml/PhotosOverview.qml:173
@@ -84,7 +86,7 @@ msgstr "ម៉ាស៊ីន​ថ​ត"
 
 #: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
 msgid "Yes"
-msgstr "បាទ/​ចាស"
+msgstr "បាទ"
 
 #: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
 msgid "No"
@@ -95,17 +97,16 @@ msgid "Delete album"
 msgstr "លុប​អាល់ប៊ុម"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "លុប​អាល់ប៊ុម + មាតិកា"
+msgstr "លុប​អាល់ប៊ុម និងមាតិកា"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr ""
+msgstr "ខខខ ឆឆឆឆ"
 
 #: rc/qml/Components/EventCard.qml:73
 msgid "dd"
-msgstr ""
+msgstr "ថថ"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -118,36 +119,33 @@ msgstr "បន្ថែម​រូបថត​ទៅ​អាល់ប៊ុម
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "ពុំអាចចែករំលែក"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr ""
+msgstr "ពុំអាចចែករំលែករូបថត និងវីដេអូក្នុងពេលតែមួយបានទេ"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "យល់ព្រម"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "លុប​រូបថត"
-msgstr[1] "លុប​រូបថត"
+msgstr[0] "លុប %1 ​រូបថត"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "លុប​រូបថត"
-msgstr[1] "លុប​រូបថត"
+msgstr[0] "លុប %1 វីដេអូ"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "លុប %1 ឯកសារមេឌៀ"
 
 #: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
 #: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
@@ -163,12 +161,12 @@ msgstr "បន្ថែម"
 #: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
 #: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr "ចែក​រំលែក"
+msgstr "ចែករំលែក"
 
 #: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:241
 msgid "Share to"
-msgstr ""
+msgstr "ចែករំលែកទៅ"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
@@ -194,23 +192,23 @@ msgstr "លុប​រូបថត"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr ""
+msgstr "លុបវីដេអូ"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a photo from album"
-msgstr ""
+msgstr "ដករូបថតចេញពីអាល់ប៊ុម"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:248
 msgid "Remove a video from album"
-msgstr ""
+msgstr "ដកវីដេអូចេញពីអាល់ប៊ុម"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:257
 msgid "Remove from Album"
-msgstr ""
+msgstr "ដកចេញពីអាល់ប៊ុម"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:268
 msgid "Remove from Album and Delete"
-msgstr ""
+msgstr "ដកចេញពីអាល់ប៊ុម ហើយលុប"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:315
 msgid "Edit"
@@ -218,44 +216,43 @@ msgstr "កែសម្រួល"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:371
 msgid "Info"
-msgstr ""
+msgstr "ព័ត៌មាន"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:394
 msgid "Informations"
-msgstr ""
+msgstr "ព័ត៌មាន"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:397
 msgid "Media type: "
-msgstr ""
+msgstr "ប្រភេទមេឌៀ៖ "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
-#, fuzzy
 msgid "photo"
 msgstr "រូបថត"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "video"
-msgstr ""
+msgstr "វីដេអូ"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "Media name: "
-msgstr ""
+msgstr "ឈ្មោះមេឌៀ៖ "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Date: "
-msgstr ""
+msgstr "កាលបរិច្ឆេទ៖ "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Time: "
-msgstr ""
+msgstr "ម៉ោង៖ "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:407
 msgid "ok"
-msgstr ""
+msgstr "យល់ព្រម"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr ""
+msgstr "កែរូបថត"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 #: desktop/gallery-app.desktop.in.in.h:1
@@ -264,15 +261,15 @@ msgstr "វិចិត្រសាល"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
-msgstr ""
+msgstr "បិទ/បើកជម្រើស"
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr ""
+msgstr "កំហុសបានកើតឡើងក្នុងការព្យាយាមផ្ទុកមេឌៀ"
 
 #: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
 msgid "Grid Size"
-msgstr ""
+msgstr "ទំហំក្រឡាចត្រង្គ"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
@@ -280,23 +277,23 @@ msgstr ""
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
-msgstr ""
+msgstr "បានបញ្ចប់"
 
 #: rc/qml/PickerScreen.qml:291
 msgid "Pick"
-msgstr "ជ្រើស"
+msgstr "រើស"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
-msgstr "ដាក់​ក្នុង​ធុង​សំរាម;លុប"
+msgstr "ធុង​សំរាម;លុប"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr "ប្រកាស;ផ្ទុក​ឡើង;ភ្ជាប់"
+msgstr "ប្រកាស;ផ្ទុក​ឡើង;ឯកសារភ្ជាប់"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr "មិន​ធ្វើ​វិញ"
+msgstr "មិនធ្វើវិញ"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
@@ -304,7 +301,7 @@ msgstr "បោះបង់​សកម្មភាព;ជំហាន​ថយ�
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr "ធ្វើ​វិញ"
+msgstr "ធ្វើវិញ"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
@@ -372,7 +369,7 @@ msgstr "Underexposed;Overexposed"
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "បញ្ជាក់"
+msgstr "យល់ព្រម"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
