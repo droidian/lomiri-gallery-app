@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-22 21:06+0000\n"
-"PO-Revision-Date: 2022-03-21 11:08+0000\n"
+"PO-Revision-Date: 2022-04-03 18:17+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <poknoroyal@outlook.com>\n"
 "Language-Team: Central Khmer <https://translate.ubports.com/projects/ubports/"
 "gallery-app/km/>\n"
@@ -273,7 +273,7 @@ msgstr "ទំហំក្រឡាចត្រង្គ"
 
 #: rc/qml/PhotosOverview.qml:117
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr ""
+msgstr "ជ្រើសទំហំក្រឡាចត្រង្គ ក្នុងឯកតា GU រវាង ៨ និង១០ (បុរេជម្រើសគឺ ១២)"
 
 #: rc/qml/PhotosOverview.qml:132
 msgid "Finished"
@@ -365,11 +365,11 @@ msgstr "កែ​ការ​បង្ហាញ"
 
 #: rc/qml/Utility/EditingHUD.qml:120
 msgid "Underexposed;Overexposed"
-msgstr "Underexposed;Overexposed"
+msgstr "ប៉ះពាល់ស្រាល;ប៉ះពាល់ខ្លាំង"
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "យល់ព្រម"
+msgstr "អះអាង"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
