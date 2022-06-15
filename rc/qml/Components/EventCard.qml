@@ -21,13 +21,13 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import "../../js/Gallery.js" as Gallery
 import "../Utility"
 
 /*!
 */
-UbuntuShape {
+LomiriShape {
     id: eventCard
 
     /*!
@@ -55,7 +55,7 @@ UbuntuShape {
         font.capitalization: Font.AllUppercase
         horizontalAlignment: Text.AlignHCenter
 
-        /// The event ubuntushape's month/year part, keep as is unless you know what you're doing
+        /// The event lomirishape's month/year part, keep as is unless you know what you're doing
         text: (event) ? Qt.formatDate(event.date, i18n.tr("MMM yyyy")) : ""
         color: theme.palette.normal.baseText
     }
@@ -70,7 +70,7 @@ UbuntuShape {
 
         horizontalAlignment: Text.AlignHCenter
 
-        /// The event ubuntushape's day part, keep as is unless you know what you're doing
+        /// The event lomirishape's day part, keep as is unless you know what you're doing
         text: (event) ? Qt.formatDate(event.date, i18n.tr("dd")) : ""
         color: theme.palette.normal.baseText
     }

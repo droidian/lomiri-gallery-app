@@ -15,8 +15,8 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
-import Ubuntu.Thumbnailer 0.1
+import Lomiri.Components 1.3
+import Lomiri.Thumbnailer 0.1
 import Gallery 1.0
 import "../OrganicView"
 import "../Utility"
@@ -74,7 +74,7 @@ GridView {
         width: photosGrid.cellWidth
         height: photosGrid.cellHeight
 
-        UbuntuShape {
+        LomiriShape {
             id: roundedThumbnail
 
             anchors.centerIn: parent
@@ -86,7 +86,7 @@ GridView {
             property bool isLoading: source.status === Image.Loading
 
             backgroundColor: "black"
-            sourceFillMode: UbuntuShape.PreserveAspectCrop
+            sourceFillMode: LomiriShape.PreserveAspectCrop
             source: Image {
                 id: thumbImage
                 source: "image://thumbnailer/" + mediaSource.path + "?at=" + mediaSource.lastModified

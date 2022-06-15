@@ -20,7 +20,7 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import "../Components"
 
 // Displays a flickable photo stream.

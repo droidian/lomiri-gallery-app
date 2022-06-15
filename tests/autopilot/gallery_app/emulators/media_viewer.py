@@ -5,10 +5,10 @@
 # under the terms of the GNU General Public License version 3, as published
 # by the Free Software Foundation.
 
-from ubuntuuitoolkit import emulators as toolkit_emulators
+from lomiriuitoolkit import emulators as toolkit_emulators
 
 
-class MediaViewer(toolkit_emulators.UbuntuUIToolkitEmulatorBase):
+class MediaViewer(toolkit_emulators.LomiriUIToolkitEmulatorBase):
     """A class that makes it easy to interact with the media viewer"""
 
     def get_edit_spinner(self):

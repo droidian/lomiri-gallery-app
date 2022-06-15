@@ -16,12 +16,12 @@
 
 import QtQuick 2.9
 import QtMultimedia 5.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
-import Ubuntu.Components.Popups 1.3
-import Ubuntu.Content 1.3
-import Ubuntu.Thumbnailer 0.1
-import Ubuntu.Components.Extras 0.2
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
+import Lomiri.Components.Popups 1.3
+import Lomiri.Content 1.3
+import Lomiri.Thumbnailer 0.1
+import Lomiri.Components.Extras 0.2
 import Gallery 1.0
 import "../Components"
 
@@ -124,13 +124,13 @@ Item {
             property real scaleCenterY: 0.0
             Behavior on sizeScale {
                 enabled: !viewer.pinchInProgress
-                UbuntuNumberAnimation {duration: UbuntuAnimation.FastDuration}
+                LomiriNumberAnimation {duration: LomiriAnimation.FastDuration}
             }
             Behavior on scaleCenterX {
-                UbuntuNumberAnimation {duration: UbuntuAnimation.FastDuration}
+                LomiriNumberAnimation {duration: LomiriAnimation.FastDuration}
             }
             Behavior on scaleCenterY {
-                UbuntuNumberAnimation {duration: UbuntuAnimation.FastDuration}
+                LomiriNumberAnimation {duration: LomiriAnimation.FastDuration}
             }
 
             Item {
@@ -152,7 +152,7 @@ Item {
 
                 Behavior on height {
                     enabled: viewer.animateMediaOnHeight 
-                    UbuntuNumberAnimation {}
+                    LomiriNumberAnimation {}
                 }
 
                 Image {
@@ -189,7 +189,7 @@ Item {
                     fillMode: Image.PreserveAspectFit
                     visible: viewer.showThumbnail
                     opacity: status == Image.Ready ? 1.0 : 0.0
-                    Behavior on opacity { UbuntuNumberAnimation {duration: UbuntuAnimation.FastDuration} }
+                    Behavior on opacity { LomiriNumberAnimation {duration: LomiriAnimation.FastDuration} }
 
                 }
 
@@ -215,7 +215,7 @@ Item {
                     height: mediaLoadingErrorIcon.height + units.gu(5) + mediaLoadingErrorLabel.contentHeight
                     visible: opacity > 0
                     opacity: image.status == Image.Error ? 1.0 : 0.0
-                    Behavior on opacity { UbuntuNumberAnimation {duration: UbuntuAnimation.FastDuration} }     
+                    Behavior on opacity { LomiriNumberAnimation {duration: LomiriAnimation.FastDuration} }     
 
                     Icon {
                         id: mediaLoadingErrorIcon

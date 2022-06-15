@@ -19,7 +19,7 @@ from autopilot.testcase import AutopilotTestCase
 from autopilot.introspection import get_proxy_object_for_existing_process
 from pkg_resources import resource_filename
 
-from ubuntuuitoolkit import emulators as toolkit_emulators
+from lomiriuitoolkit import emulators as toolkit_emulators
 from gallery_app.emulators import main_screen
 from gallery_app.emulators.gallery_utils import GalleryUtils
 
@@ -187,7 +187,7 @@ class GalleryTestCase(AutopilotTestCase):
         self.app = self.launch_test_application(
             self.local_location,
             *self.ARGS,
-            emulator_base=toolkit_emulators.UbuntuUIToolkitEmulatorBase)
+            emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
 
     def launch_test_installed(self):
         if model() == 'Desktop':
@@ -198,7 +198,7 @@ class GalleryTestCase(AutopilotTestCase):
             self.app = self.launch_test_application(
                 "gallery-app",
                 *self.ARGS,
-                emulator_base=toolkit_emulators.UbuntuUIToolkitEmulatorBase)
+                emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
         else:
             logger.debug(
                 "Launching installed gallery-app binary for device."
@@ -210,7 +210,7 @@ class GalleryTestCase(AutopilotTestCase):
                 "gallery-app",
                 *self.ARGS,
                 app_type='qt',
-                emulator_base=toolkit_emulators.UbuntuUIToolkitEmulatorBase)
+                emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
 
     def launch_test_click(self):
         '''
@@ -221,7 +221,7 @@ class GalleryTestCase(AutopilotTestCase):
         self.app = self.launch_click_package(
             package_id="com.ubuntu.gallery",
             app_uris=' '.join(self.ARGS),
-            emulator_base=toolkit_emulators.UbuntuUIToolkitEmulatorBase)
+            emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
 
     def ui_update(self):
         """ Gives the program the time to update the UI"""

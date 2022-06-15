@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import "../Utility"
 
 // The user interaction and selection handling for items in the
@@ -62,7 +62,7 @@ Item {
         }
         width: units.gu(4)
         height: width
-        color: isSelected ? theme.palette.normal.positive : UbuntuColors.inkstone
+        color: isSelected ? theme.palette.normal.positive : LomiriColors.inkstone
         radius: 10
         opacity: isSelected ? 0.8 : 0.6
         visible: selection.inSelectionMode && !isEventHeader

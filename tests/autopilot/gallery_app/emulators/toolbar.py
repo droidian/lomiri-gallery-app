@@ -7,7 +7,7 @@
 
 from autopilot.introspection.dbus import StateNotFoundError
 import logging
-from ubuntuuitoolkit import emulators as toolkit_emulators
+from lomiriuitoolkit import emulators as toolkit_emulators
 
 logger = logging.getLogger(__name__)
 

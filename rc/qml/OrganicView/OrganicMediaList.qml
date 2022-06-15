@@ -19,8 +19,8 @@
 
 import QtQuick 2.9
 import Gallery 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Thumbnailer 0.1
+import Lomiri.Components 1.3
+import Lomiri.Thumbnailer 0.1
 import "../Components"
 import "../Utility"
 import "../../js/Gallery.js" as Gallery
@@ -134,7 +134,7 @@ Item {
             width: __photoWidth[patternPhoto]
             height: __photoSize[patternPhoto]
 
-            UbuntuShape {
+            LomiriShape {
                 id: thumbnail
 
                 property bool isLoading: source.status === Image.Loading
@@ -174,7 +174,7 @@ Item {
                 radius: "medium"
 
                 backgroundColor: "black"
-                sourceFillMode: UbuntuShape.PreserveAspectCrop
+                sourceFillMode: LomiriShape.PreserveAspectCrop
                 source: Image {
                     id: thumbImage
                     source: "image://thumbnailer/" + model.mediaSource.path + "?at=" + model.mediaSource.lastModified

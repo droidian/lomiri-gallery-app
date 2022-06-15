@@ -5,10 +5,10 @@
 # under the terms of the GNU General Public License version 3, as published
 # by the Free Software Foundation.
 
-from ubuntuuitoolkit import emulators as toolkit_emulators
+from lomiriuitoolkit import emulators as toolkit_emulators
 
 
-class AlbumEditor(toolkit_emulators.UbuntuUIToolkitEmulatorBase):
+class AlbumEditor(toolkit_emulators.LomiriUIToolkitEmulatorBase):
     """A class that makes it easy to interact with the album editor"""
 
     def close(self):
