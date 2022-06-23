@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-22 21:06+0000\n"
+"POT-Creation-Date: 2022-06-23 09:26+0000\n"
 "PO-Revision-Date: 2021-03-21 15:22+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
-"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
-"gallery-app/nl/>\n"
+"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/gallery-"
+"app/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,14 +27,18 @@ msgstr "Album bewerken"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
-#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
-#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
+#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/EventsOverview.qml:120
+#: rc/qml/MediaViewer/MediaViewer.qml:226
+#: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
+#: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
-#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
-#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
+#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
+#: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
+#: rc/qml/MediaViewer/MediaViewer.qml:238
+#: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
+#: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -58,12 +62,12 @@ msgstr "Patroon"
 msgid "Red"
 msgstr "Rood"
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:66
 msgid "Album"
 msgstr "Album"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
-#: rc/qml/MediaViewer/MediaViewer.qml:340
+#: rc/qml/MediaViewer/MediaViewer.qml:341
 msgid "Add to album"
 msgstr "Toevoegen aan album"
 
@@ -79,18 +83,10 @@ msgstr "Nieuw fotoalbum"
 msgid "Subtitle"
 msgstr "Bijschrift"
 
-#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:173
+#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
+#: rc/qml/PhotosOverview.qml:182
 msgid "Camera"
 msgstr "Camera"
-
-#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
-msgid "Yes"
-msgstr "Ja"
-
-#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
-msgid "No"
-msgstr "Nee"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
@@ -104,7 +100,7 @@ msgstr "Album EN inhoud verwijderen"
 msgid "MMM yyyy"
 msgstr "MMM yyyy"
 
-#: rc/qml/Components/EventCard.qml:73
+#: rc/qml/Components/EventCard.qml:74
 msgid "dd"
 msgstr "dd"
 
@@ -129,45 +125,48 @@ msgstr "Foto's en video's kunnen niet tegelijk worden gedeeld"
 msgid "Ok"
 msgstr "Oké"
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:103
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] "%1 foto verwijderen"
 msgstr[1] "%1 foto's verwijderen"
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] "%1 video verwijderen"
 msgstr[1] "%1 video's verwijderen"
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
 msgstr[0] "%1 mediabestand verwijderen"
 msgstr[1] "%1 mediabestanden verwijderen"
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
-#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
-#: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
-msgid "Select"
+#: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
+#: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
+msgid "Share"
+msgstr "Delen"
+
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+msgid "Unselect all"
+msgstr ""
+
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+#, fuzzy
+msgid "Select all"
 msgstr "Selecteren"
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
 msgstr "Toevoegen"
 
-#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
-#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
-msgid "Share"
-msgstr "Delen"
-
-#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
-#: rc/qml/PhotosOverview.qml:241
+#: rc/qml/EventsOverview.qml:208 rc/qml/MediaViewer/MediaViewer.qml:182
+#: rc/qml/PhotosOverview.qml:259
 msgid "Share to"
 msgstr "Delen met"
 
@@ -175,17 +174,22 @@ msgstr "Delen met"
 msgid "Loading…"
 msgstr "Bezig met laden…"
 
-#: rc/qml/MainScreen.qml:148
+#: rc/qml/MainScreen.qml:152
 msgid "Albums"
 msgstr "Albums"
 
-#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
-#: rc/qml/PickerScreen.qml:154
+#: rc/qml/MainScreen.qml:166 rc/qml/MainScreen.qml:205
+#: rc/qml/PickerScreen.qml:157
 msgid "Events"
 msgstr "Gebeurtenissen"
 
-#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
-#: rc/qml/PickerScreen.qml:203
+#: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
+#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
+msgid "Select"
+msgstr "Selecteren"
+
+#: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
+#: rc/qml/PickerScreen.qml:206
 msgid "Photos"
 msgstr "Foto's"
 
@@ -197,59 +201,60 @@ msgstr "Foto verwijderen"
 msgid "Delete a video"
 msgstr "Video verwijderen"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a photo from album"
 msgstr "Foto uit album verwijderen"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a video from album"
 msgstr "Video uit album verwijderen"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:257
+#: rc/qml/MediaViewer/MediaViewer.qml:258
 msgid "Remove from Album"
 msgstr "Uit album verwijderen"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:268
+#: rc/qml/MediaViewer/MediaViewer.qml:269
 msgid "Remove from Album and Delete"
 msgstr "Uit album en definitief verwijderen"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:315
+#: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
 msgstr "Bewerken"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:371
+#: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
 msgstr "Informatie"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:394
-msgid "Informations"
+#: rc/qml/MediaViewer/MediaViewer.qml:395
+#, fuzzy
+msgid "Information"
 msgstr "Informatie"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:397
+#: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
 msgstr "Soort media: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "photo"
 msgstr "foto"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "video"
 msgstr "video"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:399
+#: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Media name: "
 msgstr "Medianaam: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:400
+#: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Date: "
 msgstr "Datum: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:401
+#: rc/qml/MediaViewer/MediaViewer.qml:402
 msgid "Time: "
 msgstr "Tijd: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:407
+#: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
 msgstr "Oké"
 
@@ -270,19 +275,19 @@ msgstr "Selectie aan/uit"
 msgid "An error has occurred attempting to load media"
 msgstr "Er is een fout opgetreden tijdens het laden van de media"
 
-#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+#: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
 msgstr "Roostergrootte"
 
-#: rc/qml/PhotosOverview.qml:117
+#: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr "Kies de roostergrootte in gu-eenheden tussen 8 en 20 (standaard: 12)"
 
-#: rc/qml/PhotosOverview.qml:132
+#: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
 msgstr "Klaar"
 
-#: rc/qml/PickerScreen.qml:291
+#: rc/qml/PickerScreen.qml:295
 msgid "Pick"
 msgstr "Kiezen"
 
@@ -407,7 +412,8 @@ msgid "Hue"
 msgstr "Kleurtint"
 
 #: desktop/gallery-app.desktop.in.in.h:2
-msgid "Ubuntu Photo Viewer"
+#, fuzzy
+msgid "Photo Viewer"
 msgstr "Ubuntu-fototoepassing"
 
 #: desktop/gallery-app.desktop.in.in.h:3
@@ -417,6 +423,12 @@ msgstr "Blader door je foto's"
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
 msgstr "Foto's;Afbeeldingen;Albums"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nee"
 
 #~ msgid "Delete 1 photo"
 #~ msgstr "1 foto verwijderen"
