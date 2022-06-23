@@ -43,9 +43,9 @@ class GalleryTestCase(AutopilotTestCase):
     tap_press_time = 1
     local_location = "../../src/gallery-app"
 
-    _db = '~/.local/share/com.ubuntu.gallery/' \
+    _db = '~/.local/share/com.ubports.gallery/' \
           'database/gallery.sqlite'
-    _thumbs = '~/.cache/com.ubuntu.gallery/thumbnails'
+    _thumbs = '~/.cache/com.ubports.gallery/thumbnails'
 
     _default_sample_destination_dir = "/tmp/gallery-ap_sd"
 
@@ -219,7 +219,7 @@ class GalleryTestCase(AutopilotTestCase):
         '''
         logger.debug("Launching gallery-app via click package.")
         self.app = self.launch_click_package(
-            package_id="com.ubuntu.gallery",
+            package_id="com.ubports.gallery",
             app_uris=' '.join(self.ARGS),
             emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
 

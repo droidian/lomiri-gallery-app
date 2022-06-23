@@ -139,7 +139,7 @@ MainView {
     }
 
     anchors.fill: parent
-    applicationName: "com.ubuntu.gallery"
+    applicationName: "com.ubports.gallery"
     automaticOrientation: application.automaticOrientation
 
     Component.onCompleted: {

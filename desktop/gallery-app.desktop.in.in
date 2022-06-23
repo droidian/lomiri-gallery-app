@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 _Name=Gallery
-_GenericName=Ubuntu Photo Viewer
+_GenericName=Photo Viewer
 _Comment=Browse your photographs
 _Keywords=Photographs;Pictures;Albums
 Exec=@APP_EXEC@ %u

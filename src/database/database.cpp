@@ -41,7 +41,7 @@ Database::Database(Resource *resource, QObject* parent) :
 {
     
     if (QFile::exists(m_databaseDirectory) && QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
-                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
+                    QDir::separator() + "com.ubports.gallery" + QDir::separator() + "database")) {
         
         QDir vividdir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
         QDir::separator() + "database");
@@ -52,7 +52,7 @@ Database::Database(Resource *resource, QObject* parent) :
     
     if (!QFile::exists(m_databaseDirectory)) {
         if (!QFile::exists(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
-                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database")) {
+                    QDir::separator() + "com.ubports.gallery" + QDir::separator() + "database")) {
             QDir dir;
             bool createOk = dir.mkpath(m_databaseDirectory);
             if (!createOk)
@@ -64,12 +64,12 @@ Database::Database(Resource *resource, QObject* parent) :
                 qWarning() << "Unable to create DB directory" << m_databaseDirectory;
             
             QFile::copy(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
-                    QDir::separator() + "com.ubuntu.gallery" + QDir::separator() + "database/gallery.sqlite", 
+                    QDir::separator() + "com.ubports.gallery" + QDir::separator() + "database/gallery.sqlite", 
                     QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
                     QDir::separator() + "database/gallery.sqlite");
             
             QDir olddir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) +
-                    QDir::separator() + "com.ubuntu.gallery");
+                    QDir::separator() + "com.ubports.gallery");
             bool removeOk = olddir.removeRecursively();
             if (!removeOk)
                 qWarning() << "Unable to remove old directory";

@@ -12,7 +12,7 @@
     },
     "icon": "share/icons/gallery-app.svg",
     "maintainer": "UBports <dev@ubports.com>",
-    "name": "com.ubuntu.gallery",
+    "name": "com.ubports.gallery",
     "title": "Gallery",
     "version": "2.10.9",
     "x-test": {

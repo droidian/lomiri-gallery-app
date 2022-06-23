@@ -59,7 +59,7 @@ Resource::Resource(bool desktopMode, const QString &pictureDir)
         m_videoDirectories.append(QString("/media/" + userName));
     }
 
-    QSettings settings("com.ubuntu.gallery", "com.ubuntu.gallery");
+    QSettings settings("com.ubports.gallery", "com.ubports.gallery");
     int size = settings.beginReadArray("BlacklistedDirs");
     if (size <= 0) {
         settings.endArray();
