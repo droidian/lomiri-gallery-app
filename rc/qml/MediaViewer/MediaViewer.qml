@@ -23,10 +23,10 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import Gallery 1.0
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItem
-import Ubuntu.Content 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
+import Lomiri.Components.ListItems 1.3 as ListItem
+import Lomiri.Content 1.3
 import "../Components"
 import "../Utility"
 import "../../js/Gallery.js" as Gallery
@@ -321,10 +321,10 @@ Item {
                     path = path.replace("file://", "")
                     var editor;
                     try {
-                        Qt.createQmlObject('import QtQuick 2.9; import Ubuntu.Components.Extras 0.2; Item {}', viewerWrapper);
+                        Qt.createQmlObject('import QtQuick 2.9; import Lomiri.Components.Extras 0.2; Item {}', viewerWrapper);
                         editor = overview.pushPage(Qt.resolvedUrl("PhotoEditorPage.qml"), { photo: path });
                     } catch (e) {
-                        console.log("WARNING: Unable to load PhotoEditor from Ubuntu.Components.Extras");
+                        console.log("WARNING: Unable to load PhotoEditor from Lomiri.Components.Extras");
                         return;
                     }
                     editor.done.connect(function(photoWasModified) {

@@ -1,8 +1,8 @@
 Source: gallery-app
 Section: graphics
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9),
+Maintainer: UBports Developers <devs@ubports.com>
+Build-Depends: debhelper-compat (= 12),
                cmake,
                pkg-config,
                dh-apparmor,
@@ -21,11 +21,9 @@ Build-Depends: debhelper (>= 9),
                libexpat1-dev,
                zlib1g-dev,
 Standards-Version: 3.9.5
-# If you don't have commit rights to lp:gallery-app but need to upload
-# packaging changes, just go ahead.  The developers will notice and sync
-# up the code again.
-Vcs-Bzr: lp:gallery-app
-Homepage: https://wiki.ubuntu.com/Touch/
+Homepage: https://gitlab.com/ubports/development/apps/gallery-app
+Vcs-Git: https://gitlab.com/ubports/development/apps/gallery-app.git
+Vcs-Browser: https://gitlab.com/ubports/development/apps/gallery-app
 
 Package: gallery-app
 Architecture: any
@@ -34,13 +32,13 @@ Conflicts: ubuntu-gallery
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libqt5sql5-sqlite,
-         qtdeclarative5-qtquick2-plugin,
+         qml-module-qtquick2,
          qml-module-qtmultimedia | qml-module-qtmultimedia-gles,
-         qml-module-ubuntu-thumbnailer0.1,
-         qtdeclarative5-ubuntu-ui-toolkit-plugin | qtdeclarative5-ubuntu-ui-toolkit-plugin-gles,
-         qtdeclarative5-window-plugin,
-         qtdeclarative5-ubuntu-content1,
-         qtdeclarative5-ubuntu-thumbnailer0.1,
+         qml-module-lomiri-thumbnailer0.1,
+         qml-module-lomiri-components,
+         qml-module-lomiri-layouts,
+         qml-module-qtquick-window2,
+         qml-module-lomiri-content,
 Description: Photo gallery for Ubuntu
  gallery-app is a photo gallery for the Ubuntu platform.
 
@@ -52,8 +50,8 @@ Depends: ${misc:Depends},
          gallery-app (>= ${source:Version}),
          libautopilot-qt (>= 1.4),
          libqt5test5,
-         ubuntu-ui-toolkit-autopilot,
-         unity8-autopilot,
+         lomiri-ui-toolkit-autopilot,
+         lomiri-autopilot,
          python3-pkg-resources,
          python3-autopilot,
 Description: Autopilot tests for the photo gallery for Ubuntu

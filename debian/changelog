@@ -1,3 +1,9 @@
+gallery-app (2.10.9) UNRELEASED; urgency=medium
+
+  * Port to focal
+
+ -- Guido Berhoerster <gber@wopr>  Wed, 15 Jun 2022 10:38:27 +0200
+
 gallery-app (0.0.68) xenial; urgency=medium
 
   * added apparmor profile for gallery-app

@@ -20,7 +20,7 @@
 
 import QtQuick 2.9
 import Gallery 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 /*!
 */

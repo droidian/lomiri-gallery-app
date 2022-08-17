@@ -16,7 +16,7 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Gallery 1.0
 import "AlbumEditor"
 import "AlbumViewer"
@@ -241,7 +241,7 @@ Checkerboard {
             text: i18n.tr("Camera")
             visible: !APP.desktopMode
             iconName: "camera-app-symbolic"
-            onTriggered: Qt.openUrlExternally("appid://com.ubuntu.camera/camera/current-user-version")
+            onTriggered: Qt.openUrlExternally("appid://com.ubports.camera/camera/current-user-version")
         }
     ]
 

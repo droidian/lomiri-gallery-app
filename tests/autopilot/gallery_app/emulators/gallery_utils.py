@@ -4,7 +4,7 @@
 # This program is free software: you can redistribute it and/or modify it
 # under the terms of the GNU General Public License version 3, as published
 # by the Free Software Foundation.
-import ubuntuuitoolkit.emulators
+import lomiriuitoolkit.emulators
 
 from autopilot.testcase import AutopilotTestCase
 
@@ -23,7 +23,7 @@ class GalleryUtils(AutopilotTestCase):
 
     def __init__(self, app):
         self.app = app
-        self.pointing_device = ubuntuuitoolkit.emulators.get_pointing_device()
+        self.pointing_device = lomiriuitoolkit.emulators.get_pointing_device()
 
     def select_many_retry(self, object_type, **kwargs):
         """Returns the item that is searched for with app.select_many

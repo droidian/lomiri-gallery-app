@@ -5,10 +5,10 @@
 # under the terms of the GNU General Public License version 3, as published
 # by the Free Software Foundation.
 
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
 
-class MainScreen(ubuntuuitoolkit.MainView):
+class MainScreen(lomiriuitoolkit.MainView):
     """An emulator class that makes it easy to interact with the gallery app"""
 
     def get_header(self):
@@ -16,7 +16,7 @@ class MainScreen(ubuntuuitoolkit.MainView):
         return self.select_single(AppHeader, objectName='MainView_Header')
 
 
-class AppHeader(ubuntuuitoolkit.Header):
+class AppHeader(lomiriuitoolkit.Header):
     """Header Autopilot helper.
 
     We override this helper because on the gallery the gesture to show the

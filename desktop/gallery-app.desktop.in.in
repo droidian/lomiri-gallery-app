@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 _Name=Gallery
-_GenericName=Ubuntu Photo Viewer
+_GenericName=Photo Viewer
 _Comment=Browse your photographs
 _Keywords=Photographs;Pictures;Albums
 Exec=@APP_EXEC@ %u
@@ -12,9 +12,9 @@ Type=Application
 MimeType=image/jpg;image/jpeg;
 Categories=Graphics;Photography;RasterGraphics;Viewer;
 X-Ayatana-Appmenu-Show-Stubs=false
-X-Ubuntu-Touch=true
-X-Ubuntu-Single-Instance=true
-X-Ubuntu-Default-Department-ID=accessories
-X-Ubuntu-Splash-Show-Header=false
-X-Ubuntu-Splash-Image=@SPLASH@
-X-Ubuntu-Splash-Color=#37a9eb
+X-Lomiri-Touch=true
+X-Lomiri-Single-Instance=true
+X-Lomiri-Default-Department-ID=accessories
+X-Lomiri-Splash-Show-Header=false
+X-Lomiri-Splash-Image=@SPLASH@
+X-Lomiri-Splash-Color=#37a9eb

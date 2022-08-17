@@ -9,7 +9,7 @@ import logging
 
 from autopilot.introspection.dbus import StateNotFoundError
 import autopilot.logging
-import ubuntuuitoolkit
+import lomiriuitoolkit
 
 from gallery_app.emulators import main_screen
 from gallery_app.emulators.gallery_utils import(
@@ -21,7 +21,7 @@ from gallery_app.emulators.gallery_utils import(
 logger = logging.getLogger(__name__)
 
 
-class PopupPhotoViewer(ubuntuuitoolkit.UbuntuUIToolkitCustomProxyObjectBase):
+class PopupPhotoViewer(lomiriuitoolkit.LomiriUIToolkitCustomProxyObjectBase):
     def _get_header(self):
         main = self.get_root_instance().select_single(main_screen.MainScreen)
         return main.select_single('PageHeader',

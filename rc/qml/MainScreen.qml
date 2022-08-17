@@ -21,8 +21,8 @@
 import QtQuick 2.9
 import Qt.labs.settings 1.0
 import QtQuick.Controls.Suru 2.2
-import Ubuntu.Components 1.3
-import Ubuntu.Content 1.3
+import Lomiri.Components 1.3
+import Lomiri.Content 1.3
 import Gallery 1.0
 import "../js/GalleryUtility.js" as GalleryUtility
 import "AlbumEditor"
@@ -33,12 +33,12 @@ MainView {
     id: overview
     objectName: "overview"
 
-    Suru.theme: theme.name === "Ubuntu.Components.Themes.SuruDark" ? Suru.Dark : Suru.Light
+    Suru.theme: theme.name === "Lomiri.Components.Themes.SuruDark" ? Suru.Dark : Suru.Light
 
     backgroundColor: Suru.backgroundColor
 
     anchors.fill: parent
-    applicationName: "com.ubuntu.gallery"
+    applicationName: "com.ubports.gallery"
     automaticOrientation: application.automaticOrientation
 
     property string mediaCurrentlyInView

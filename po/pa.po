@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-22 21:06+0000\n"
+"POT-Creation-Date: 2022-06-23 09:26+0000\n"
 "PO-Revision-Date: 2015-04-18 07:17+0000\n"
 "Last-Translator: Gursharnjit_Singh <ubuntuser13@gmail.com>\n"
 "Language-Team: Punjabi <pa@li.org>\n"
@@ -25,14 +25,18 @@ msgstr "ਐਲਬਮ ਸੋਧ"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
-#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
-#: rc/qml/PhotosOverview.qml:195 rc/qml/Utility/EditingHUD.qml:66
+#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/EventsOverview.qml:120
+#: rc/qml/MediaViewer/MediaViewer.qml:226
+#: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
+#: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr "ਹਟਾਓ"
 
-#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
-#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
-#: rc/qml/PhotosOverview.qml:218 rc/qml/PickerScreen.qml:285
+#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
+#: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
+#: rc/qml/MediaViewer/MediaViewer.qml:238
+#: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
+#: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
 msgstr "ਰੱਦ"
 
@@ -56,12 +60,12 @@ msgstr "ਪੈਟਰਨ"
 msgid "Red"
 msgstr "ਲਾਲ"
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:62
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:66
 msgid "Album"
 msgstr "ਐਲਬਮ"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
-#: rc/qml/MediaViewer/MediaViewer.qml:340
+#: rc/qml/MediaViewer/MediaViewer.qml:341
 msgid "Add to album"
 msgstr "ਐਲਬਮ ਵਿੱਚ ਜੋੜੋ"
 
@@ -77,18 +81,10 @@ msgstr "ਨਵੀਂ ਫ਼ੋਟੋ ਐਲਬਮ"
 msgid "Subtitle"
 msgstr "ਸਬ-ਟਾਈਟਲ"
 
-#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:173
+#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
+#: rc/qml/PhotosOverview.qml:182
 msgid "Camera"
 msgstr "ਕੈਮਰਾ"
-
-#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
-msgid "Yes"
-msgstr "ਹਾਂ"
-
-#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
-msgid "No"
-msgstr "ਨਹੀਂ"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
@@ -103,7 +99,7 @@ msgstr "ਐਲਬਮ +   ਸਮੱਗਰੀ ਹਟਾਓ"
 msgid "MMM yyyy"
 msgstr ""
 
-#: rc/qml/Components/EventCard.qml:73
+#: rc/qml/Components/EventCard.qml:74
 msgid "dd"
 msgstr ""
 
@@ -128,45 +124,48 @@ msgstr ""
 msgid "Ok"
 msgstr ""
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:87
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:103
 #, fuzzy, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] "%1 ਫ਼ੋਟੋਆਂ ਹਟਾਓ"
 msgstr[1] "%1 ਫ਼ੋਟੋਆਂ ਹਟਾਓ"
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:93
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
 #, fuzzy, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] "%1 ਵੀਡੀਓ ਹਟਾਓ"
 msgstr[1] "%1 ਵੀਡੀਓ ਹਟਾਓ"
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:99
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
 #, fuzzy, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
 msgstr[0] "%1 ਵੀਡੀਓ ਹਟਾਓ"
 msgstr[1] "%1 ਵੀਡੀਓ ਹਟਾਓ"
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:199
-#: rc/qml/MainScreen.qml:251 rc/qml/PhotosOverview.qml:166
-#: rc/qml/PickerScreen.qml:192 rc/qml/PickerScreen.qml:239
-msgid "Select"
+#: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
+#: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
+msgid "Share"
+msgstr "ਸਾਂਝਾ ਕਰੋ"
+
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+msgid "Unselect all"
+msgstr ""
+
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+#, fuzzy
+msgid "Select all"
 msgstr "ਚੁਣੋ"
 
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:185
+#: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
 msgstr "ਜੋੜੋ"
 
-#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
-#: rc/qml/PhotosOverview.qml:202 rc/qml/Utility/EditingHUD.qml:71
-msgid "Share"
-msgstr "ਸਾਂਝਾ ਕਰੋ"
-
-#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
-#: rc/qml/PhotosOverview.qml:241
+#: rc/qml/EventsOverview.qml:208 rc/qml/MediaViewer/MediaViewer.qml:182
+#: rc/qml/PhotosOverview.qml:259
 msgid "Share to"
 msgstr "ਸਾਂਝਾ ਕਰੋ"
 
@@ -174,17 +173,22 @@ msgstr "ਸਾਂਝਾ ਕਰੋ"
 msgid "Loading…"
 msgstr "ਲੋਡ ਕਰ ਰਿਹਾ…"
 
-#: rc/qml/MainScreen.qml:148
+#: rc/qml/MainScreen.qml:152
 msgid "Albums"
 msgstr "ਐਲਬਮ"
 
-#: rc/qml/MainScreen.qml:162 rc/qml/MainScreen.qml:201
-#: rc/qml/PickerScreen.qml:154
+#: rc/qml/MainScreen.qml:166 rc/qml/MainScreen.qml:205
+#: rc/qml/PickerScreen.qml:157
 msgid "Events"
 msgstr "ਸਮਾਗਮ"
 
-#: rc/qml/MainScreen.qml:210 rc/qml/MainScreen.qml:253
-#: rc/qml/PickerScreen.qml:203
+#: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
+#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
+msgid "Select"
+msgstr "ਚੁਣੋ"
+
+#: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
+#: rc/qml/PickerScreen.qml:206
 msgid "Photos"
 msgstr "ਫੋਟੋਆਂ"
 
@@ -196,60 +200,61 @@ msgstr "ਫ਼ੋਟੋ ਹਟਾਓ"
 msgid "Delete a video"
 msgstr "ਇੱਕ ਵੀਡੀਓ ਹਟਾਓ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a photo from album"
 msgstr "ਐਲਬਮ ਵਿੱਚੋਂ ਫ਼ੋਟੋ ਹਟਾਓ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a video from album"
 msgstr "ਐਲਬਮ ਤੋਂ ਇੱਕ ਵੀਡੀਓ ਹਟਾਓ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:257
+#: rc/qml/MediaViewer/MediaViewer.qml:258
 msgid "Remove from Album"
 msgstr "ਐਲਬਮ ਤੋਂ ਹਟਾਓ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:268
+#: rc/qml/MediaViewer/MediaViewer.qml:269
 msgid "Remove from Album and Delete"
 msgstr "ਐਲਬਮ ਤੋਂ ਹਟਾਓ ਅਤੇ ਹਟਾਓ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:315
+#: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
 msgstr "ਸੋਧ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:371
+#: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:394
-msgid "Informations"
-msgstr ""
+#: rc/qml/MediaViewer/MediaViewer.qml:395
+#, fuzzy
+msgid "Information"
+msgstr "ਪੁਰਤੀ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:397
+#: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 #, fuzzy
 msgid "photo"
 msgstr "ਫੋਟੋਆਂ"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "video"
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:399
+#: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Media name: "
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:400
+#: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Date: "
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:401
+#: rc/qml/MediaViewer/MediaViewer.qml:402
 msgid "Time: "
 msgstr ""
 
-#: rc/qml/MediaViewer/MediaViewer.qml:407
+#: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
 msgstr ""
 
@@ -270,19 +275,19 @@ msgstr "ਚੋਣ ਬਦਲੋ"
 msgid "An error has occurred attempting to load media"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:116 rc/qml/PhotosOverview.qml:159
+#: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:117
+#: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:132
+#: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
 msgstr ""
 
-#: rc/qml/PickerScreen.qml:291
+#: rc/qml/PickerScreen.qml:295
 msgid "Pick"
 msgstr "ਚੁਣੋ"
 
@@ -407,7 +412,8 @@ msgid "Hue"
 msgstr "ਹਿਊ"
 
 #: desktop/gallery-app.desktop.in.in.h:2
-msgid "Ubuntu Photo Viewer"
+#, fuzzy
+msgid "Photo Viewer"
 msgstr "ਉਬੰਤੂ ਫ਼ੋਟੋ ਦਰਸ਼ਕ"
 
 #: desktop/gallery-app.desktop.in.in.h:3
@@ -417,6 +423,12 @@ msgstr "ਆਪਣੇ ਫ਼ੋਟੋਗ੍ਰਾਫ਼ਾਂ ਦੀ ਝਲਕ ਵੇ�
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
 msgstr "ਫ਼ੋਟੋੋਗ੍ਰਾਫ਼;ਤਸਵੀਰਾਂ;ਐਲਬਮਾਂ"
+
+#~ msgid "Yes"
+#~ msgstr "ਹਾਂ"
+
+#~ msgid "No"
+#~ msgstr "ਨਹੀਂ"
 
 #~ msgid "Delete 1 photo"
 #~ msgstr "1 ਫ਼ੋਟੋ ਹਟਾਓ"

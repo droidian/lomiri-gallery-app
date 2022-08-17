@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import "../Utility"
 
 // A PhotoViewer that is opened and closed with the PhotoViewerTransition.

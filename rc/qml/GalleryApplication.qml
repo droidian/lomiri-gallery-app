@@ -22,7 +22,7 @@
 import QtQuick 2.9
 import QtQuick.Window 2.2
 import "../js/Gallery.js" as Gallery
-import Ubuntu.Components 1.3 // Necessary to make filename@GU.ext images load
+import Lomiri.Components 1.3 // Necessary to make filename@GU.ext images load
 
 Item {
     id: application

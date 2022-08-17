@@ -15,8 +15,8 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
-import Ubuntu.Content 1.3
+import Lomiri.Components 1.3
+import Lomiri.Content 1.3
 import Gallery 1.0
 import "Components"
 import "Controller"
@@ -139,7 +139,7 @@ MainView {
     }
 
     anchors.fill: parent
-    applicationName: "com.ubuntu.gallery"
+    applicationName: "com.ubports.gallery"
     automaticOrientation: application.automaticOrientation
 
     Component.onCompleted: {

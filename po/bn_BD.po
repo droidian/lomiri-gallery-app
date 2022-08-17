@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-31 09:25+0000\n"
+"POT-Creation-Date: 2022-06-23 09:26+0000\n"
 "PO-Revision-Date: 2021-01-31 16:07+0000\n"
 "Last-Translator: imrufbd <imrufbd@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) <https://translate.ubports.com/projects/"
@@ -26,14 +26,18 @@ msgstr "অ্যালবাম সম্পাদনা"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
-#: rc/qml/EventsOverview.qml:139 rc/qml/MediaViewer/MediaViewer.qml:350
-#: rc/qml/PhotosOverview.qml:193 rc/qml/Utility/EditingHUD.qml:66
+#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/EventsOverview.qml:120
+#: rc/qml/MediaViewer/MediaViewer.qml:226
+#: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
+#: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
 msgstr "মুছুন"
 
-#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/MediaSelector.qml:93
-#: rc/qml/EventsOverview.qml:161 rc/qml/MediaViewer/MediaViewer.qml:278
-#: rc/qml/PhotosOverview.qml:216 rc/qml/PickerScreen.qml:289
+#: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
+#: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
+#: rc/qml/MediaViewer/MediaViewer.qml:238
+#: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
+#: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
 msgstr "বাতিল"
 
@@ -57,12 +61,12 @@ msgstr "ছাঁচ"
 msgid "Red"
 msgstr "লাল"
 
-#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:63
+#: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:66
 msgid "Album"
 msgstr "অ্যালবাম"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
-#: rc/qml/MediaViewer/MediaViewer.qml:340
+#: rc/qml/MediaViewer/MediaViewer.qml:341
 msgid "Add to album"
 msgstr "অ্যালবামে সাঁটুন"
 
@@ -78,18 +82,10 @@ msgstr "নতুন ছবি অ্যালবাম"
 msgid "Subtitle"
 msgstr "শিরোভাষা"
 
-#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:116
-#: rc/qml/PhotosOverview.qml:171
+#: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
+#: rc/qml/PhotosOverview.qml:182
 msgid "Camera"
 msgstr "চিত্রযন্ত্র"
-
-#: rc/qml/Components/DeleteDialog.qml:36 rc/qml/MediaViewer/MediaViewer.qml:226
-msgid "Yes"
-msgstr "হ্যাঁ"
-
-#: rc/qml/Components/DeleteDialog.qml:45 rc/qml/MediaViewer/MediaViewer.qml:237
-msgid "No"
-msgstr "না"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
@@ -103,7 +99,7 @@ msgstr "অ্যালবাম ও উপাদানগুলি মুছু
 msgid "MMM yyyy"
 msgstr "মাস বছর"
 
-#: rc/qml/Components/EventCard.qml:73
+#: rc/qml/Components/EventCard.qml:74
 msgid "dd"
 msgstr "দিন"
 
@@ -128,45 +124,48 @@ msgstr "একসাথে ছবি ও চলচিত্র বিনিম�
 msgid "Ok"
 msgstr "ঠিক আছে"
 
-#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:85
+#: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:103
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
 msgstr[0] "%1 ছবি মুছুন"
 msgstr[1] "%1 ছবিগুলো মুছুন"
 
-#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:91
+#: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
 msgstr[0] "%1 চলচিত্র মুছুন"
 msgstr[1] "%1 চলচিত্রগুলো মুছুন"
 
-#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:97
+#: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
 msgstr[0] "%1 বিনোদোপাদান মুছুন"
 msgstr[1] "%1 বিনোদোপদানগুলি মুছুন"
 
-#: rc/qml/EventsOverview.qml:109 rc/qml/MainScreen.qml:200
-#: rc/qml/MainScreen.qml:252 rc/qml/PhotosOverview.qml:164
-#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
-msgid "Select"
-msgstr "নির্বাচন"
-
-#: rc/qml/EventsOverview.qml:128 rc/qml/PhotosOverview.qml:183
-#: rc/qml/Utility/EditingHUD.qml:76
-msgid "Add"
-msgstr "সংযোগ"
-
-#: rc/qml/EventsOverview.qml:146 rc/qml/MediaViewer/MediaViewer.qml:361
+#: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
 msgstr "বিনিময়"
 
-#: rc/qml/EventsOverview.qml:195 rc/qml/MediaViewer/MediaViewer.qml:182
-#: rc/qml/PhotosOverview.qml:235
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+msgid "Unselect all"
+msgstr ""
+
+#: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
+#, fuzzy
+msgid "Select all"
+msgstr "নির্বাচন"
+
+#: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
+#: rc/qml/Utility/EditingHUD.qml:76
+msgid "Add"
+msgstr "সংযোগ"
+
+#: rc/qml/EventsOverview.qml:208 rc/qml/MediaViewer/MediaViewer.qml:182
+#: rc/qml/PhotosOverview.qml:259
 msgid "Share to"
 msgstr "বিনিময় করুন"
 
@@ -174,16 +173,21 @@ msgstr "বিনিময় করুন"
 msgid "Loading…"
 msgstr "লোড হচ্ছে …"
 
-#: rc/qml/MainScreen.qml:149
+#: rc/qml/MainScreen.qml:152
 msgid "Albums"
 msgstr "অ্যালবামগুলি"
 
-#: rc/qml/MainScreen.qml:163 rc/qml/MainScreen.qml:202
+#: rc/qml/MainScreen.qml:166 rc/qml/MainScreen.qml:205
 #: rc/qml/PickerScreen.qml:157
 msgid "Events"
 msgstr "সূচীগুলি"
 
-#: rc/qml/MainScreen.qml:211 rc/qml/MainScreen.qml:254
+#: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
+#: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
+msgid "Select"
+msgstr "নির্বাচন"
+
+#: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
 #: rc/qml/PickerScreen.qml:206
 msgid "Photos"
 msgstr "ছবিগুলি"
@@ -196,59 +200,59 @@ msgstr "ছবি মুছুন"
 msgid "Delete a video"
 msgstr "চলচিত্র মুছুন"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a photo from album"
 msgstr "অ্যালবাম থেকে একটি ছবি সরান"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:248
+#: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a video from album"
 msgstr "অ্যালবাম থেকে একটি চলচিত্র সরান"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:257
+#: rc/qml/MediaViewer/MediaViewer.qml:258
 msgid "Remove from Album"
 msgstr "অ্যালবাম হতে সরান"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:268
+#: rc/qml/MediaViewer/MediaViewer.qml:269
 msgid "Remove from Album and Delete"
 msgstr "অ্যলবাম হতে সরান এবং মুছুন"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:315
+#: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
 msgstr "সম্পাদন"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:371
+#: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
 msgstr "তথ্য"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:394
+#: rc/qml/MediaViewer/MediaViewer.qml:395
 msgid "Information"
 msgstr "তথ্য"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:397
+#: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
 msgstr "বিনোদোপাদানের ধরণ: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "photo"
 msgstr "ছবি"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:398
+#: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "video"
 msgstr "চলচিত্র"
 
-#: rc/qml/MediaViewer/MediaViewer.qml:399
+#: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Media name: "
 msgstr "বিনোদোপাদানের নাম: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:400
+#: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Date: "
 msgstr "তারিখ: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:401
+#: rc/qml/MediaViewer/MediaViewer.qml:402
 msgid "Time: "
 msgstr "সময়: "
 
-#: rc/qml/MediaViewer/MediaViewer.qml:407
+#: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
 msgstr "ঠিক আছে"
 
@@ -269,15 +273,15 @@ msgstr ""
 msgid "An error has occurred attempting to load media"
 msgstr "বিনোদোপাদানটি লোড করতে গিয়ে একটি ত্রুটি দেখা দিয়েছে"
 
-#: rc/qml/PhotosOverview.qml:114 rc/qml/PhotosOverview.qml:157
+#: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:115
+#: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
 
-#: rc/qml/PhotosOverview.qml:130
+#: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
 msgstr ""
 
@@ -406,7 +410,7 @@ msgid "Hue"
 msgstr ""
 
 #: desktop/gallery-app.desktop.in.in.h:2
-msgid "Ubuntu Photo Viewer"
+msgid "Photo Viewer"
 msgstr ""
 
 #: desktop/gallery-app.desktop.in.in.h:3
@@ -416,3 +420,9 @@ msgstr ""
 #: desktop/gallery-app.desktop.in.in.h:4
 msgid "Photographs;Pictures;Albums"
 msgstr ""
+
+#~ msgid "Yes"
+#~ msgstr "হ্যাঁ"
+
+#~ msgid "No"
+#~ msgstr "না"

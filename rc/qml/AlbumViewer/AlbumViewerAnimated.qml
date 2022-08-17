@@ -15,7 +15,7 @@
  */
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Gallery 1.0
 
 /*! @brief AlbumViewerAnimated shows an album, and performs animations when opening and closing

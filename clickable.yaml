@@ -1,0 +1,11 @@
+clickable_minimum_required: '7.4.0'
+
+builder: cmake
+
+framework: ubuntu-sdk-20.04
+
+dependencies_target:
+- libmediainfo-dev
+- libexiv2-dev
+
+kill: 'gallery-app'
