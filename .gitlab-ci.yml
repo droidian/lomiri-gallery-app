@@ -25,7 +25,7 @@ variables:
 .build:
     image: "clickable/ci-20.04-$ARCH:$CLICKABLE_VERSION"
     stage: build
-    script: 'clickable build --clean --arch $ARCH'
+    script: 'clickable build --clean --arch $ARCH --accept-review-errors'
     artifacts:
         paths:
             - "build/$ARCH_TRIPLET/app"
