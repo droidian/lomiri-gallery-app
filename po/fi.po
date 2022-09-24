@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 09:26+0000\n"
-"PO-Revision-Date: 2020-11-23 18:30+0000\n"
+"PO-Revision-Date: 2022-09-24 13:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "gallery-app/fi/>\n"
@@ -377,7 +377,7 @@ msgstr "Underexposed;Overexposed;Alivalottunut;Ylivalottunut"
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr "Hyväksy"
+msgstr "Vahvista"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
