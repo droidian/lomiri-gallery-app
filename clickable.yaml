@@ -1,4 +1,4 @@
-clickable_minimum_required: '7.4.0'
+clickable_minimum_required: '7.5.0'
 
 builder: cmake
 

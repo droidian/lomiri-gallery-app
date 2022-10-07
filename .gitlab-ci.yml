@@ -5,7 +5,7 @@ stages:
 variables:
     GIT_SUBMODULE_STRATEGY: 'recursive'
     DOCKER_DRIVER: overlay2
-    CLICKABLE_VERSION: "7.4.0"
+    CLICKABLE_VERSION: "7.5.0"
 
 .armhf: &armhf
     variables:
