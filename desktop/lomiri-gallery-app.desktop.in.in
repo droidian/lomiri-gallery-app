@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
-_Name=Gallery
-_GenericName=Photo Viewer
-_Comment=Browse your photographs
-_Keywords=Photographs;Pictures;Albums
+Name=Gallery
+GenericName=Photo Viewer
+Comment=Browse your photographs
+Keywords=Photographs;Pictures;Albums
 Exec=@APP_EXEC@ %u
 Icon=@ICON@
 StartupNotify=true

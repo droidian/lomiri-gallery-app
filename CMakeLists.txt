@@ -51,10 +51,6 @@ if (CMAKE_VERSION VERSION_GREATER "3.1")
     set (CMAKE_CXX_STANDARD_REQUIRED ON)
 endif ()
 
-
-find_program(INTLTOOL_MERGE intltool-merge)
-find_program(INTLTOOL_EXTRACT intltool-extract)
-
 # Standard install paths
 include(GNUInstallDirs)
 
@@ -62,6 +58,7 @@ option(INSTALL_TESTS "Install the tests on make install" off)
 option(CLICK_MODE "Installs to a contained location" on)
 
 set(GALLERY lomiri-gallery-app)
+set(GETTEXT_NAME ${PROJECT_NAME})
 set(DESKTOP_FILE ${GALLERY}.desktop)
 set(AUTOPILOT_DIR lomiri_gallery_app)
 set(UBUNTU_MANIFEST_PATH "click/manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
