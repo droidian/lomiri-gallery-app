@@ -11,8 +11,8 @@ from autopilot.introspection.dbus import StateNotFoundError
 import autopilot.logging
 import lomiriuitoolkit
 
-from gallery_app.emulators import main_screen
-from gallery_app.emulators.gallery_utils import(
+from lomiri_gallery_app.emulators import main_screen
+from lomiri_gallery_app.emulators.gallery_utils import(
     GalleryAppException,
     GalleryUtils
 )

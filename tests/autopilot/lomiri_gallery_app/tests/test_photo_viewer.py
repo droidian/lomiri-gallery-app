@@ -13,10 +13,10 @@ from autopilot.matchers import Eventually
 from testtools import skipIf
 from autopilot.platform import model
 
-from gallery_app.emulators import photo_viewer
-from gallery_app.emulators.media_viewer import MediaViewer
-from gallery_app.emulators.events_view import EventsView
-from gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators import photo_viewer
+from lomiri_gallery_app.emulators.media_viewer import MediaViewer
+from lomiri_gallery_app.emulators.events_view import EventsView
+from lomiri_gallery_app.tests import GalleryTestCase
 
 import os
 import shutil

@@ -14,7 +14,7 @@ from autopilot.matchers import Eventually
 from autopilot.introspection.dbus import StateNotFoundError
 from autopilot import logging as autopilot_logging
 
-from gallery_app.emulators.gallery_utils import(
+from lomiri_gallery_app.emulators.gallery_utils import(
     GalleryUtils,
     GalleryAppException,
 )

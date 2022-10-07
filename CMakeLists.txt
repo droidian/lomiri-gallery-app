@@ -1,4 +1,4 @@
-project(gallery-app)
+project(lomiri-gallery-app)
 cmake_minimum_required(VERSION 2.8.9)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
@@ -61,9 +61,9 @@ include(GNUInstallDirs)
 option(INSTALL_TESTS "Install the tests on make install" off)
 option(CLICK_MODE "Installs to a contained location" on)
 
-set(GALLERY gallery-app)
+set(GALLERY lomiri-gallery-app)
 set(DESKTOP_FILE ${GALLERY}.desktop)
-set(AUTOPILOT_DIR gallery_app)
+set(AUTOPILOT_DIR lomiri_gallery_app)
 set(UBUNTU_MANIFEST_PATH "click/manifest.json.in" CACHE INTERNAL "Relative path to the manifest file")
 
 # make non compiled files visible in qtcreator

@@ -11,13 +11,13 @@
 from testtools.matchers import Equals, GreaterThan, LessThan
 from autopilot.matchers import Eventually
 
-from gallery_app.emulators.album_view import AlbumView
-from gallery_app.emulators.albums_view import AlbumsView
-from gallery_app.emulators.media_selector import MediaSelector
-from gallery_app.emulators.photo_viewer import PhotoViewer
-from gallery_app.emulators.photo_viewer import PopupPhotoViewer
-from gallery_app.emulators import album_editor
-from gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.album_view import AlbumView
+from lomiri_gallery_app.emulators.albums_view import AlbumsView
+from lomiri_gallery_app.emulators.media_selector import MediaSelector
+from lomiri_gallery_app.emulators.photo_viewer import PhotoViewer
+from lomiri_gallery_app.emulators.photo_viewer import PopupPhotoViewer
+from lomiri_gallery_app.emulators import album_editor
+from lomiri_gallery_app.tests import GalleryTestCase
 
 import os
 from time import sleep

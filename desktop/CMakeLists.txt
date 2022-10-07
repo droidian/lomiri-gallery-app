@@ -11,7 +11,7 @@ else(CLICK_MODE)
 	set(ICON "${GALLERY}")
 endif(CLICK_MODE)
 
-set(GALLERY_URL_DISPATCHER gallery-app.url-dispatcher)
+set(GALLERY_URL_DISPATCHER ${GALLERY}.url-dispatcher)
 
 configure_file(${DESKTOP_FILE}.in.in ${DESKTOP_FILE}.in @ONLY)
 add_custom_target(${DESKTOP_FILE} ALL

@@ -13,8 +13,8 @@ from autopilot.matchers import Eventually
 from autopilot.platform import model
 from autopilot.introspection.dbus import StateNotFoundError
 
-from gallery_app.tests import GalleryTestCase
-from gallery_app.emulators.events_view import EventsView
+from lomiri_gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.events_view import EventsView
 
 from os import environ as env
 from os.path import exists

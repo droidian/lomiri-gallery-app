@@ -14,8 +14,8 @@ from autopilot.matchers import Eventually
 from autopilot.platform import model
 from autopilot.introspection.dbus import StateNotFoundError
 
-from gallery_app.tests import GalleryTestCase
-from gallery_app.emulators.photos_view import PhotosView
+from lomiri_gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.photos_view import PhotosView
 
 from time import sleep
 from os import environ as env

@@ -11,10 +11,10 @@
 from testtools.matchers import Equals
 from autopilot.matchers import Eventually
 
-from gallery_app.emulators.album_view import AlbumView
-from gallery_app.emulators.media_selector import MediaSelector
-from gallery_app.emulators import album_editor
-from gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.album_view import AlbumView
+from lomiri_gallery_app.emulators.media_selector import MediaSelector
+from lomiri_gallery_app.emulators import album_editor
+from lomiri_gallery_app.tests import GalleryTestCase
 
 from time import sleep
 

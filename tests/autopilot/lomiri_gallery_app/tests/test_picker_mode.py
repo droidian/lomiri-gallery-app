@@ -11,8 +11,8 @@
 from testtools.matchers import Equals
 from autopilot.matchers import Eventually
 
-from gallery_app.emulators.picker_screen import PickerScreen
-from gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.picker_screen import PickerScreen
+from lomiri_gallery_app.tests import GalleryTestCase
 import unittest
 
 

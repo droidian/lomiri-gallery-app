@@ -6,7 +6,7 @@
 # by the Free Software Foundation.
 
 from lomiriuitoolkit import emulators as toolkit_emulators
-from gallery_app.emulators.gallery_utils import GalleryAppException
+from lomiri_gallery_app.emulators.gallery_utils import GalleryAppException
 
 
 class PickerScreen(toolkit_emulators.MainView):
