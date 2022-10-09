@@ -5,7 +5,7 @@
 # under the terms of the GNU General Public License version 3, as published
 # by the Free Software Foundation.
 
-from gallery_app.emulators.gallery_utils import(
+from lomiri_gallery_app.emulators.gallery_utils import(
     GalleryAppException,
     GalleryUtils
 )

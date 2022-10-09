@@ -13,11 +13,11 @@ from autopilot.matchers import Eventually
 from autopilot.platform import model
 from autopilot.introspection.dbus import StateNotFoundError
 
-from gallery_app.tests import GalleryTestCase
-from gallery_app.emulators.album_view import AlbumView
-from gallery_app.emulators.albums_view import AlbumsView
-from gallery_app.emulators.media_selector import MediaSelector
-from gallery_app.emulators import album_editor
+from lomiri_gallery_app.tests import GalleryTestCase
+from lomiri_gallery_app.emulators.album_view import AlbumView
+from lomiri_gallery_app.emulators.albums_view import AlbumsView
+from lomiri_gallery_app.emulators.media_selector import MediaSelector
+from lomiri_gallery_app.emulators import album_editor
 
 from os import environ as env
 

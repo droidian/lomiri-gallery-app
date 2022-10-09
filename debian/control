@@ -1,4 +1,4 @@
-Source: gallery-app
+Source: lomiri-gallery-app
 Section: graphics
 Priority: optional
 Maintainer: UBports Developers <devs@ubports.com>
@@ -21,11 +21,11 @@ Build-Depends: debhelper-compat (= 12),
                libexpat1-dev,
                zlib1g-dev,
 Standards-Version: 3.9.5
-Homepage: https://gitlab.com/ubports/development/apps/gallery-app
-Vcs-Git: https://gitlab.com/ubports/development/apps/gallery-app.git
-Vcs-Browser: https://gitlab.com/ubports/development/apps/gallery-app
+Homepage: https://gitlab.com/ubports/development/apps/lomiri-gallery-app
+Vcs-Git: https://gitlab.com/ubports/development/apps/lomiri-gallery-app.git
+Vcs-Browser: https://gitlab.com/ubports/development/apps/lomiri-gallery-app
 
-Package: gallery-app
+Package: lomiri-gallery-app
 Architecture: any
 Replaces: ubuntu-gallery
 Conflicts: ubuntu-gallery
@@ -39,21 +39,21 @@ Depends: ${misc:Depends},
          qml-module-lomiri-layouts,
          qml-module-qtquick-window2,
          qml-module-lomiri-content,
-Description: Photo gallery for Ubuntu
- gallery-app is a photo gallery for the Ubuntu platform.
+Description: Photo gallery for Ubuntu Touch
+ lomiri-gallery-app is a photo gallery for the Ubuntu Touch platform.
 
-Package: gallery-app-autopilot
+Package: lomiri-gallery-app-autopilot
 Architecture: all
 Replaces: ubuntu-gallery-autopilot
 Conflicts: ubuntu-gallery-autopilot
 Depends: ${misc:Depends},
-         gallery-app (>= ${source:Version}),
+         lomiri-gallery-app (>= ${source:Version}),
          libautopilot-qt (>= 1.4),
          libqt5test5,
          lomiri-ui-toolkit-autopilot,
          lomiri-autopilot,
          python3-pkg-resources,
          python3-autopilot,
-Description: Autopilot tests for the photo gallery for Ubuntu
- gallery-app is a photo gallery for the Ubuntu platform. This package contains
+Description: Autopilot tests for the photo gallery for Ubuntu Touch
+ lomiri-gallery-app is a photo gallery for the Ubuntu platform. This package contains
  autopilot tests for it.

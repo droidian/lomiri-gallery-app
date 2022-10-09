@@ -20,8 +20,8 @@ from autopilot.introspection import get_proxy_object_for_existing_process
 from pkg_resources import resource_filename
 
 from lomiriuitoolkit import emulators as toolkit_emulators
-from gallery_app.emulators import main_screen
-from gallery_app.emulators.gallery_utils import GalleryUtils
+from lomiri_gallery_app.emulators import main_screen
+from lomiri_gallery_app.emulators.gallery_utils import GalleryUtils
 
 from time import sleep
 
@@ -43,9 +43,9 @@ class GalleryTestCase(AutopilotTestCase):
     tap_press_time = 1
     local_location = "../../src/gallery-app"
 
-    _db = '~/.local/share/com.ubports.gallery/' \
+    _db = '~/.local/share/gallery.ubports/' \
           'database/gallery.sqlite'
-    _thumbs = '~/.cache/com.ubports.gallery/thumbnails'
+    _thumbs = '~/.cache/gallery.ubports/thumbnails'
 
     _default_sample_destination_dir = "/tmp/gallery-ap_sd"
 
@@ -116,7 +116,7 @@ class GalleryTestCase(AutopilotTestCase):
         shutil.move(mock_thumbs, thumbs)
 
     def configure_sample_files(self, env_type):
-        self.sample_dir = resource_filename('gallery_app', 'data')
+        self.sample_dir = resource_filename('lomiri_gallery_app', 'data')
         self.sample_destination_dir = \
             self._get_sample_destination_dir(env_type)
         if (os.path.exists(self.sample_destination_dir)):
@@ -146,7 +146,7 @@ class GalleryTestCase(AutopilotTestCase):
 
     def do_reset_config(self):
         config = os.path.expanduser(
-            os.path.join("~", ".config", "gallery-app.conf"))
+            os.path.join("~", ".config", "lomiri-gallery-app.conf"))
         if os.path.exists(config):
             os.remove(config)
 
@@ -219,7 +219,7 @@ class GalleryTestCase(AutopilotTestCase):
         '''
         logger.debug("Launching gallery-app via click package.")
         self.app = self.launch_click_package(
-            package_id="com.ubports.gallery",
+            package_id="gallery.ubports",
             app_uris=' '.join(self.ARGS),
             emulator_base=toolkit_emulators.LomiriUIToolkitEmulatorBase)
 

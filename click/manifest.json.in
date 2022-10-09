@@ -7,12 +7,12 @@
             "apparmor": "gallery.apparmor",
             "content-hub": "gallery-content.json",
             "desktop": "@CMAKE_INSTALL_DATADIR@/applications/@DESKTOP_FILE@",
-            "urls": "share/url-dispatcher/urls/gallery-app.url-dispatcher"
+            "urls": "share/lomiri-url-dispatcher/urls/lomiri-gallery-app.url-dispatcher"
         }
     },
     "icon": "share/icons/gallery-app.svg",
     "maintainer": "UBports <dev@ubports.com>",
-    "name": "com.ubports.gallery",
+    "name": "gallery.ubports",
     "title": "Gallery",
     "version": "2.10.9",
     "x-test": {
