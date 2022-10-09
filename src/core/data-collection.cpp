@@ -17,6 +17,8 @@
  * Jim Nelson <jim@yorba.org>
  */
 
+#include <algorithm>
+
 #include "data-collection.h"
 #include "data-object.h"
 
@@ -402,7 +404,7 @@ void DataCollection::resort(bool fire_signal)
     if (count() <= 1)
         return;
 
-    qSort(m_list.begin(), m_list.end(), m_comparator);
+    std::sort(m_list.begin(), m_list.end(), m_comparator);
 
     if (fire_signal)
         notifyOrderingChanged();

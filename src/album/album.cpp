@@ -18,6 +18,8 @@
  * Charles Lindsay <chaz@yorba.org>
  */
 
+#include <algorithm>
+
 #include "album.h"
 #include "album-collection.h"
 #include "album-default-template.h"
@@ -164,7 +166,7 @@ QVariant Album::addSelectedMediaSources(QVariant mediaList)
     attachMany(adding);
 
     QList<DataObject*> sorted(adding.toList());
-    qSort(sorted.begin(), sorted.end(), contained()->comparator());
+    std::sort(sorted.begin(), sorted.end(), contained()->comparator());
 
     // We return the sorted-first photo that was added, so we can later jump to
     // that page of the album.

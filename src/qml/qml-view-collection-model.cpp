@@ -17,6 +17,8 @@
  * Jim Nelson <jim@yorba.org>
  */
 
+#include <algorithm>
+
 #include "qml-view-collection-model.h"
 
 // core
@@ -773,7 +775,7 @@ void QmlViewCollectionModel::onContentsChanged(const QSet<DataObject*>* added,
         if (notify) {
             // sort indices in reverse order and walk in descending order so they're
             // always accurate as items are "removed"
-            qSort(m_toBeRemoved.begin(), m_toBeRemoved.end(), intReverseLessThan);
+            std::sort(m_toBeRemoved.begin(), m_toBeRemoved.end(), intReverseLessThan);
 
             // Only if we aren't getting a sub-view do we directly map these up to QML.
             if (m_head == 0 && m_limit < 0) {
@@ -803,7 +805,7 @@ void QmlViewCollectionModel::onContentsChanged(const QSet<DataObject*>* added,
             indices.append(m_view->indexOf(object));
         }
 
-        qSort(indices.begin(), indices.end(), intLessThan);
+        std::sort(indices.begin(), indices.end(), intLessThan);
 
         if (!indices.isEmpty()) {
             int index;
