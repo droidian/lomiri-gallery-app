@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 Canonical, Ltd.
+ * Copyright (C) 2014 Canonical Ltd.
  *
  * Authors:
  *  Arthur Mello <arthur.mello@canonical.com>

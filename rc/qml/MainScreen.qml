@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012-2015 Canonical Ltd
+ * Copyright (C) 2012-2015 Canonical Ltd.
  * Copyright (C) 2017 Emanuele Sorce <emanuele.sorce@hotmail.com>
  *
  * This program is free software: you can redistribute it and/or modify

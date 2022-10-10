@@ -1,6 +1,6 @@
 # translation of po_gallery-app-is.po to icelandic
 # Icelandic translation for gallery-app
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd. 2014
 # This file is distributed under the same license as the gallery-app package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.

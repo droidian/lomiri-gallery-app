@@ -1,6 +1,6 @@
 # Gallery app
 
-Initially developed by Canonical, now gallery app is a UBports core app mantained by the community.
+Initially developed by Canonical Ltd., now gallery app is a UBports core app mantained by the community.
 Current developers are: Emanuele Sorce <emanuele.sorce@hotmail.com>
 
 ## Compiling

@@ -1,5 +1,5 @@
 # Tamil translation for gallery-app
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd. 2013
 # This file is distributed under the same license as the gallery-app package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
