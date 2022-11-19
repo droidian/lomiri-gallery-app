@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-23 09:26+0000\n"
-"PO-Revision-Date: 2021-03-21 15:22+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
-"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/gallery-"
-"app/nl/>\n"
+"PO-Revision-Date: 2022-11-19 18:57+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
+"gallery-app/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +73,7 @@ msgstr "Toevoegen aan album"
 
 #: rc/qml/AlbumsOverview.qml:229 rc/qml/Components/PopupAlbumPicker.qml:91
 msgid "Add new album"
-msgstr "Nieuw album toevoegen"
+msgstr "Album samenstellen"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
@@ -94,7 +94,7 @@ msgstr "Album verwijderen"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr "Album EN inhoud verwijderen"
+msgstr "Album mét inhoud verwijderen"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -115,7 +115,7 @@ msgstr "Foto toevoegen aan album"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Delen is niet mogelijk"
+msgstr "Delen mislukt"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
@@ -153,12 +153,11 @@ msgstr "Delen"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Niets selecteren"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Selecteren"
+msgstr "Alles selecteren"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -226,7 +225,6 @@ msgid "Info"
 msgstr "Informatie"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
 msgstr "Informatie"
 
@@ -277,11 +275,11 @@ msgstr "Er is een fout opgetreden tijdens het laden van de media"
 
 #: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
-msgstr "Roostergrootte"
+msgstr "Roosteromvang"
 
 #: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
-msgstr "Kies de roostergrootte in gu-eenheden tussen 8 en 20 (standaard: 12)"
+msgstr "Kies de roosteromvang in gu-eenheden tussen 8 en 20 (standaard: 12)"
 
 #: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
@@ -353,15 +351,15 @@ msgstr "Afbeelding bijsnijden"
 
 #: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
-msgstr "Oorspronkelijke foto herstellen"
+msgstr "Origineel herstellen"
 
 #: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
-msgstr "Wijzigingen verwerpen"
+msgstr "Bewerkingen terugdraaien"
 
 #: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
-msgstr "Alle wijzigingen verwerpen"
+msgstr "Alle bewerkingen terugdraaien"
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
@@ -412,9 +410,8 @@ msgid "Hue"
 msgstr "Kleurtint"
 
 #: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Ubuntu-fototoepassing"
+msgstr "Fotoweergave"
 
 #: desktop/gallery-app.desktop.in.in.h:3
 msgid "Browse your photographs"
