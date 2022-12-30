@@ -5,7 +5,6 @@ stages:
 variables:
     GIT_SUBMODULE_STRATEGY: 'recursive'
     DOCKER_DRIVER: overlay2
-    CLICKABLE_VERSION: "7.5.0"
 
 .armhf: &armhf
     variables:
@@ -23,7 +22,7 @@ variables:
         ARCH_TRIPLET: "x86_64-linux-gnu"
 
 .build:
-    image: "clickable/ci-20.04-$ARCH:$CLICKABLE_VERSION"
+    image: "clickable/ci-20.04-$ARCH"
     stage: build
     script: 'clickable build --clean --arch $ARCH --accept-review-errors'
     artifacts:
@@ -45,7 +44,7 @@ build-amd64:
 
 publish:
     stage: publish
-    image: "clickable/ci-20.04-armhf:$CLICKABLE_VERSION"
+    image: "clickable/ci-20.04-armhf"
     rules:
         - if: $CI_COMMIT_TAG
     script:
