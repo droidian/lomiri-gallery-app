@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2022-11-19 18:57+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
-"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
-"gallery-app/nl/>\n"
+"Language-Team: Dutch <https://translate.ubports.com/projects/ubports/gallery-"
+"app/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "Galerij"
+
+#: lomiri-gallery-app.desktop.in:5
+msgid "Photo Viewer"
+msgstr "Fotoweergave"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "Blader door je foto's"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr "Foto's;Afbeeldingen;Albums"
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -260,11 +280,6 @@ msgstr "Oké"
 msgid "Edit Photo"
 msgstr "Foto bewerken"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "Galerij"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr "Selectie aan/uit"
@@ -408,18 +423,6 @@ msgstr "Verzadiging"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Kleurtint"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-msgid "Photo Viewer"
-msgstr "Fotoweergave"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "Blader door je foto's"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr "Foto's;Afbeeldingen;Albums"
 
 #~ msgid "Yes"
 #~ msgstr "Ja"

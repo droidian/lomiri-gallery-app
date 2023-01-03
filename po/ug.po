@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2017-08-19 08:34+0000\n"
 "Last-Translator: qutghan <qutghan@outlook.com>\n"
 "Language-Team: Uighur <https://ubpweblate.tnvcomp.com/projects/ubports/"
@@ -19,6 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "سۈرەت يىغقۇچ"
+
+#: lomiri-gallery-app.desktop.in:5
+#, fuzzy
+msgid "Photo Viewer"
+msgstr "ئۇبۇنتۇ سۈرەت كۆرگۈ"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "سۈرەتلىرىڭىزگە كۆز يۈگۈرتۈڭ"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr "سۈرەتلەر;رەسىملەر;ئالبوملار"
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -261,11 +282,6 @@ msgstr ""
 msgid "Edit Photo"
 msgstr "سۈرەت تەھىرىرلەش"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "سۈرەت يىغقۇچ"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr ""
@@ -409,19 +425,6 @@ msgstr "تويۇنۇش"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "رەڭگى"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
-msgid "Photo Viewer"
-msgstr "ئۇبۇنتۇ سۈرەت كۆرگۈ"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "سۈرەتلىرىڭىزگە كۆز يۈگۈرتۈڭ"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr "سۈرەتلەر;رەسىملەر;ئالبوملار"
 
 #~ msgid "Yes"
 #~ msgstr "ھەئە"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2023-01-03 08:44+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
@@ -19,6 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "Galleri"
+
+#: lomiri-gallery-app.desktop.in:5
+#, fuzzy
+msgid "Photo Viewer"
+msgstr "Ubuntu fotovisning"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "Se gjennom bilder"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr "Fotografier;Bilder;Album"
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -262,11 +283,6 @@ msgstr "OK"
 msgid "Edit Photo"
 msgstr "Rediger bilde"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "Galleri"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr "Slå på/av utvalg"
@@ -410,19 +426,6 @@ msgstr "Metning"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Kulør"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
-msgid "Photo Viewer"
-msgstr "Ubuntu fotovisning"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "Se gjennom bilder"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr "Fotografier;Bilder;Album"
 
 #~ msgid "Yes"
 #~ msgstr "Ja"

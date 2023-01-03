@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2020-08-04 23:58+0000\n"
 "Last-Translator: Young Kim <rsyh93@gmail.com>\n"
 "Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
@@ -19,6 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "그림 모음"
+
+#: lomiri-gallery-app.desktop.in:5
+#, fuzzy
+msgid "Photo Viewer"
+msgstr "우분투 사진 보기"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "저장된 사진 보기"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr ""
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -261,11 +282,6 @@ msgstr "확인"
 msgid "Edit Photo"
 msgstr "사진 편집"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "그림 모음"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr ""
@@ -409,19 +425,6 @@ msgstr "색 농도"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "색감"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
-msgid "Photo Viewer"
-msgstr "우분투 사진 보기"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "저장된 사진 보기"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr ""
 
 #~ msgid "Yes"
 #~ msgstr "예"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,6 +16,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr ""
+
+#: lomiri-gallery-app.desktop.in:5
+msgid "Photo Viewer"
+msgstr ""
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr ""
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr ""
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -257,11 +277,6 @@ msgstr ""
 msgid "Edit Photo"
 msgstr ""
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr ""
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr ""
@@ -404,16 +419,4 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr ""
-
-#: desktop/gallery-app.desktop.in.in.h:2
-msgid "Photo Viewer"
-msgstr ""
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr ""
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
 msgstr ""

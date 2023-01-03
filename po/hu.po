@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2022-02-05 23:01+0000\n"
 "Last-Translator: Lundrin <berenyi.vilmos@tutanota.com>\n"
 "Language-Team: Hungarian <https://translate.ubports.com/projects/ubports/"
@@ -19,6 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "Galéria"
+
+#: lomiri-gallery-app.desktop.in:5
+#, fuzzy
+msgid "Photo Viewer"
+msgstr "Ubuntu fényképmegjelenítő"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "Fényképek böngészése"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr "Fényképek;Fotók;Képek;Albumok"
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -262,11 +283,6 @@ msgstr "OK"
 msgid "Edit Photo"
 msgstr "Szerkesztés"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "Galéria"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr "Kijelölés megfordítása"
@@ -411,19 +427,6 @@ msgstr "Telítettség"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Árnyalat"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
-msgid "Photo Viewer"
-msgstr "Ubuntu fényképmegjelenítő"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "Fényképek böngészése"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr "Fényképek;Fotók;Képek;Albumok"
 
 #~ msgid "Yes"
 #~ msgstr "Igen"

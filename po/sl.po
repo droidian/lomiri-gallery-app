@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-23 09:26+0000\n"
+"POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2017-06-28 18:00+0000\n"
 "Last-Translator: Kristijan <kiki.tkalec@gmail.com>\n"
 "Language-Team: Slovenian <https://ubpweblate.tnvcomp.com/projects/ubports/"
@@ -20,6 +20,27 @@ msgstr ""
 "%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 2.14.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
+
+#: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
+msgid "Gallery"
+msgstr "Galerija"
+
+#: lomiri-gallery-app.desktop.in:5
+#, fuzzy
+msgid "Photo Viewer"
+msgstr "Ubuntu pregledovalnik fotografij"
+
+#: lomiri-gallery-app.desktop.in:6
+msgid "Browse your photographs"
+msgstr "Brskajte po svojih fotografijah"
+
+#: lomiri-gallery-app.desktop.in:7
+msgid "Photographs;Pictures;Albums"
+msgstr "Fotografije;Slike;Albumi"
+
+#: lomiri-gallery-app.desktop.in:9
+msgid "lomiri-gallery-app"
+msgstr ""
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
@@ -271,11 +292,6 @@ msgstr ""
 msgid "Edit Photo"
 msgstr "Uredi fotografijo"
 
-#: rc/qml/MediaViewer/PopupPhotoViewer.qml:46
-#: desktop/gallery-app.desktop.in.in.h:1
-msgid "Gallery"
-msgstr "Galerija"
-
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
 msgstr "Preklopi izbiro"
@@ -419,19 +435,6 @@ msgstr "Nasičenost"
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
 msgstr "Obarvanost"
-
-#: desktop/gallery-app.desktop.in.in.h:2
-#, fuzzy
-msgid "Photo Viewer"
-msgstr "Ubuntu pregledovalnik fotografij"
-
-#: desktop/gallery-app.desktop.in.in.h:3
-msgid "Browse your photographs"
-msgstr "Brskajte po svojih fotografijah"
-
-#: desktop/gallery-app.desktop.in.in.h:4
-msgid "Photographs;Pictures;Albums"
-msgstr "Fotografije;Slike;Albumi"
 
 #~ msgid "Yes"
 #~ msgstr "Da"
