@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-04 08:06+0000\n"
+"Last-Translator: Muhammad <muhammad23012009@hotmail.com>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/ur/>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -57,7 +59,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr ""
+msgstr "منسوخ کریں"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -103,7 +105,7 @@ msgstr ""
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
 #: rc/qml/PhotosOverview.qml:182
 msgid "Camera"
-msgstr ""
+msgstr "کیمرہ"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
@@ -311,7 +313,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr ""
+msgstr "کالعدم"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
@@ -319,7 +321,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr ""
+msgstr "دوبارہ کریں"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
