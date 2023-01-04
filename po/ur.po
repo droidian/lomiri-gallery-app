@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2023-01-04 19:47+0000\n"
-"Last-Translator: Muhammad <muhammad23012009@hotmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/ur/>\n"
 "Language: ur\n"
@@ -50,8 +50,9 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:226
 #: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
 #: rc/qml/Utility/EditingHUD.qml:66
+#, fuzzy
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
 #: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
