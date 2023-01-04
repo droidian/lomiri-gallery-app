@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2013-12-22 05:47+0000\n"
-"Last-Translator: ST Alfas <Unknown>\n"
-"Language-Team: Malayalam <ml@li.org>\n"
+"PO-Revision-Date: 2023-01-04 19:47+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Malayalam <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/ml/>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
-"X-Generator: Launchpad (build 18335)\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -50,16 +52,18 @@ msgstr "ആല്‍ബം തിരുത്തുക"
 #: rc/qml/MediaViewer/MediaViewer.qml:226
 #: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
 #: rc/qml/Utility/EditingHUD.qml:66
+#, fuzzy
 msgid "Delete"
-msgstr "നീക്കം ചെയ്യുക"
+msgstr "Delete"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
 #: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
 #: rc/qml/MediaViewer/MediaViewer.qml:238
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
+#, fuzzy
 msgid "Cancel"
-msgstr "റദ്ദാക്കുക"
+msgstr "Cancel"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -237,8 +241,9 @@ msgid "Remove from Album and Delete"
 msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:316
+#, fuzzy
 msgid "Edit"
-msgstr ""
+msgstr "Edit"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
