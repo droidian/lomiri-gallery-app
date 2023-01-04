@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-01-04 08:06+0000\n"
+"PO-Revision-Date: 2023-01-04 19:47+0000\n"
 "Last-Translator: Muhammad <muhammad23012009@hotmail.com>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/ur/>\n"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
-msgstr ""
+msgstr "ترمیم"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
