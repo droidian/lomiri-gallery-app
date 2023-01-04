@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-01-03 08:44+0000\n"
+"PO-Revision-Date: 2023-01-04 08:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/nb_NO/>\n"
@@ -381,7 +381,7 @@ msgstr "Forkast alle endringer"
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr "Eksponering"
+msgstr "Lukketid"
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
