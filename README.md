@@ -7,6 +7,16 @@ Current developers are: Emanuele Sorce <emanuele.sorce@hotmail.com>
 
 Is suggested to use the [Clickable](github.com/bhdouglass/clickable) tool created by Brian Douglass
 
+## i18n: Translating lomiri-gallery-app into your Language
+
+You can easily contribute to the localization of this project (i.e. the
+translation into your language) by visiting (and signing up with) the
+Hosted Weblate service:
+https://hosted.weblate.org/projects/lomiri/lomiri-gallery-app
+
+The localization platform of this project is sponsored by Hosted Weblate
+via their free hosting plan for Libre and Open Source Projects.
+
 ## Licensing
 
 The app's source code is licensed under the GNU GPL v3 license, see
