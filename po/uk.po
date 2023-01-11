@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2020-07-03 12:42+0000\n"
-"Last-Translator: Stoian Minaiev <stoyan.minaev@gmail.com>\n"
-"Language-Team: Ukrainian <https://translate.ubports.com/projects/ubports/"
-"gallery-app/uk/>\n"
+"PO-Revision-Date: 2023-01-11 15:55+0000\n"
+"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -26,9 +26,8 @@ msgid "Gallery"
 msgstr "Галерея"
 
 #: lomiri-gallery-app.desktop.in:5
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Переглядачі фотографій Ubuntu"
+msgstr "Перегляд фотографій"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -115,13 +114,12 @@ msgid "Delete album"
 msgstr "Вилучити альбом"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
-#, fuzzy
 msgid "Delete album AND contents"
-msgstr "Вилучити альбом з вмістом"
+msgstr "Видалити альбом та вміст"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr "MMM yyyy"
+msgstr "ММММ рррр"
 
 #: rc/qml/Components/EventCard.qml:74
 msgid "dd"
@@ -138,36 +136,39 @@ msgstr "Додати фотографію до альбому"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Не вдалося оприлюднити"
+msgstr "Неможливо поділитися"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
-msgstr "Не можна оприлюднювати одночасно фотографії і відео"
+msgstr "Неможливо одночасно ділитися фотографіями та відео"
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
 msgstr "Добре"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:103
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] "Вилучити %1 знімків"
-msgstr[1] "Вилучити %1 знімків"
+msgstr[0] "Видалити %1 знімок"
+msgstr[1] "Видалити %1 знімки"
+msgstr[2] "Видалити %1 знімків"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] "Вилучити %1 відео"
-msgstr[1] "Вилучити %1 відео"
+msgstr[0] "Видалити %1 відео"
+msgstr[1] "Видалити %1 відео"
+msgstr[2] "Видалити %1 відео"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
-#, fuzzy, qt-format
+#, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] "Вилучити %1 відео"
-msgstr[1] "Вилучити %1 відео"
+msgstr[0] "Видалити %1 медіафайли"
+msgstr[1] "Видалити %1 медіафайли"
+msgstr[2] "Видалити %1 медіафайли"
 
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
@@ -176,12 +177,11 @@ msgstr "Поділитися"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Зняти виділення з усіх"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Обрати"
+msgstr "Вибрати все"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -246,41 +246,39 @@ msgstr "Редагувати"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
-msgstr ""
+msgstr "Інфо"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
-msgstr "Компенсація"
+msgstr "Інформація"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
-msgstr ""
+msgstr "Тип медіа: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
-#, fuzzy
 msgid "photo"
-msgstr "Фотографії"
+msgstr "фото"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "video"
-msgstr ""
+msgstr "відео"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Media name: "
-msgstr ""
+msgstr "Ім'я медіа: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Date: "
-msgstr ""
+msgstr "Дата: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:402
 msgid "Time: "
-msgstr ""
+msgstr "Час: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
-msgstr ""
+msgstr "добре"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -296,15 +294,17 @@ msgstr "Під час спроби завантаження мультимеді
 
 #: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
-msgstr ""
+msgstr "Розмір сітки"
 
 #: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"Виберіть розмір сітки в одиницях вимірювання від 8 до 20 (за замовчуванням "
+"12)"
 
 #: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
-msgstr ""
+msgstr "Завершено"
 
 #: rc/qml/PickerScreen.qml:295
 msgid "Pick"
@@ -320,7 +320,7 @@ msgstr "Post;Upload;Attach;допис;поділитися;вивантажит�
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr "Вернути"
+msgstr "Скасувати"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
