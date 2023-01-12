@@ -1,8 +1,4 @@
 if(CLICK_MODE)
-    if(NOT BZR_REVNO)
-        set(BZR_REVNO "latest")
-    endif(NOT BZR_REVNO)
-
     execute_process(
       COMMAND dpkg-architecture -qDEB_HOST_ARCH
       OUTPUT_VARIABLE CLICK_ARCH

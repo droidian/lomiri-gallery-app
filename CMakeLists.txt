@@ -1,5 +1,5 @@
-project(lomiri-gallery-app)
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 3.5)
+project(lomiri-gallery-app VERSION 2.10.9 LANGUAGES CXX)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 # Find includes in corresponding build directories
@@ -68,9 +68,6 @@ file(GLOB_RECURSE NON_COMPILED_FILES *.qml *.js *.py *.svg *.png *.in *.json *.d
 add_custom_target(NON_COMPILED_TARGET ALL SOURCES ${NON_COMPILED_FILES})
 
 if(CLICK_MODE)
-    if(NOT DEFINED BZR_SOURCE)
-        set(BZR_SOURCE "lp:gallery-app")
-    endif(NOT DEFINED BZR_SOURCE)
     set(CMAKE_INSTALL_PREFIX /)
     set(CMAKE_INSTALL_BINDIR /)
     set(GALLERY_DIR "")
