@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
 "PO-Revision-Date: 2023-01-16 00:49+0000\n"
-"Last-Translator: Dan <denqwerta@gmail.com>\n"
+"Last-Translator: Sergii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/uk/>\n"
 "Language: uk\n"
@@ -53,7 +53,7 @@ msgstr "Змінити альбом"
 #: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
 #: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr "Вилучити"
+msgstr "Видалити"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
 #: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
@@ -119,7 +119,7 @@ msgstr "Видалити альбом та вміст"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr "ММММ рррр"
+msgstr "MMM yyyy"
 
 #: rc/qml/Components/EventCard.qml:74
 msgid "dd"
@@ -177,7 +177,7 @@ msgstr "Поділитися"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr "Зняти виділення з усіх"
+msgstr "Зняти весь вибір"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Select all"
