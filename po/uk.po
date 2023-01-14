@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-01-11 15:55+0000\n"
+"PO-Revision-Date: 2023-01-16 00:49+0000\n"
 "Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/uk/>\n"
@@ -191,7 +191,7 @@ msgstr "Додати"
 #: rc/qml/EventsOverview.qml:208 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:259
 msgid "Share to"
-msgstr "Поділитися на"
+msgstr "Поділитися з"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
