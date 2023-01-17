@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gallery-app VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-01-07 17:48+0000\n"
+"PO-Revision-Date: 2023-01-18 22:50+0000\n"
 "Last-Translator: Daniel Frost <one@frostinfo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/de/>\n"
@@ -237,7 +237,7 @@ msgstr "Aus Album entfernen und löschen"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Ändern"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
