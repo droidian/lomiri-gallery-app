@@ -1,8 +1,10 @@
-lomiri-gallery-app (2.10.9) UNRELEASED; urgency=medium
+lomiri-gallery-app (3.0.0) focal; urgency=medium
 
-  * Port to focal
+  [ UBports developers ]
+  * Upstream-provided Debian package for lomiri-gallery-app. See
+    upstream ChangeLog for recent changes.
 
- -- Guido Berhoerster <gber@wopr>  Wed, 15 Jun 2022 10:38:27 +0200
+ -- UBports developers <developers@ubports.com>  Wed, 18 Jan 2023 11:42:39 +0100
 
 gallery-app (0.0.68) xenial; urgency=medium
 
