@@ -203,6 +203,6 @@ Item {
     Binding { 
         target: i18n
         property: "domain"
-        value: "gallery-app" 
+        value: "lomiri-gallery-app"
     }
 }
