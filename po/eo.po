@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-02-16 22:38+0000\n"
+"PO-Revision-Date: 2023-02-20 18:39+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/eo/>\n"
@@ -204,7 +204,7 @@ msgstr ""
 #: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
 #: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
-msgstr ""
+msgstr "Elekti"
 
 #: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
 #: rc/qml/PickerScreen.qml:206
