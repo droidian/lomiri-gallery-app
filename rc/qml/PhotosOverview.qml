@@ -182,7 +182,7 @@ Page {
                 text: i18n.tr("Camera")
                 visible: !APP.desktopMode
                 iconName: "camera-app-symbolic"
-                onTriggered: Qt.openUrlExternally("appid://com.ubuntu.camera/camera/current-user-version")
+                onTriggered: Qt.openUrlExternally("appid://camera.ubports/camera/current-user-version")
             }
         ]
 
