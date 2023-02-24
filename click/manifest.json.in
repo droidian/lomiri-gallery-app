@@ -15,6 +15,9 @@
     "name": "gallery.ubports",
     "title": "Gallery",
     "version": "@PROJECT_VERSION@",
+    "migrations": {
+        "old-name": "com.ubuntu.gallery"
+    },
     "x-test": {
         "autopilot": "@AUTOPILOT_DIR@"
     }
