@@ -1,6 +1,62 @@
+2023-02-27 Guido Berhoerster
+
+        * Release 3.0.1 (HEAD -> main, tag: v3.0.1)
+        * Fix icon name in non-click mode (c951c9d1)
+
+2023-02-19 phlostically
+
+        * Translated using Weblate (Esperanto) (53a8050e)
+
+2023-02-19 Nathan Giovannini
+
+        * Translated using Weblate (Italian) (49825f3c)
+
+2023-02-19 Mike Gabriel
+
+        * Merge branch 'personal/lduboeuf/open_camera_fix' into 'main'
+          (3af56c24)
+
+2023-02-18 Lionel Duboeuf
+
+        * Fix camera not opening on events and photos view. fixes
+          https://gitlab.com/ubports/development/apps/lomiri-gallery-app/-/issues/116
+          (aa9dcbde)
+
+2023-02-16 phlostically
+
+        * Translated using Weblate (Esperanto) (7bfc7fb8)
+
+2023-02-05 gnu-ewm
+
+        * Translated using Weblate (Polish) (fdd05af1)
+
+2023-02-03 Sergii Horichenko
+
+        * Translated using Weblate (Ukrainian) (13903235)
+
+2023-02-03 Mike Gabriel
+
+        * Merge branch 'personal/gberh/gettext-domain' into 'main' (c6601183)
+
+2023-02-03 Guido Berhoerster
+
+        * Fix gettext domain set in QML (88669436)
+
+2023-01-24 gnu-ewm
+
+        * Translated using Weblate (Polish) (5cfdfd67)
+
+2023-01-19 Asahi 95
+
+        * Translated using Weblate (Japanese) (0289a491)
+
+2023-01-17 Daniel Frost
+
+        * Translated using Weblate (German) (bf213619)
+
 2023-01-18 Guido Berhoerster
 
-        * Release 3.0.0 (HEAD -> main, tag: v3.0.0)
+        * Release 3.0.0 (3f7cbeff) (tag: v3.0.0)
 
 2023-01-14 Sergii Horichenko
 

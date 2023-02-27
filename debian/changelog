@@ -1,3 +1,10 @@
+lomiri-gallery-app (3.0.1) unstable; urgency=medium
+
+  * Upstream-provided Debian package for lomiri-gallery-app. See
+    upstream ChangeLog for recent changes.
+
+ -- UBports developers <developers@ubports.com>  Mon, 27 Feb 2023 15:33:36 +0100
+
 lomiri-gallery-app (3.0.0) focal; urgency=medium
 
   [ UBports developers ]
