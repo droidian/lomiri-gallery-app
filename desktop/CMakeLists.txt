@@ -10,7 +10,7 @@ else(CLICK_MODE)
     install(DIRECTORY icons/hicolor DESTINATION DESTINATION
         ${CMAKE_INSTALL_DATADIR}/icons FILES_MATCHING PATTERN *.png)
 	set(APP_EXEC "${GALLERY}")
-	set(ICON "${GALLERY}")
+	set(ICON "gallery-app")
 endif(CLICK_MODE)
 
 set(GALLERY_URL_DISPATCHER ${GALLERY}.url-dispatcher)
