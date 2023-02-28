@@ -5,7 +5,7 @@ if(CLICK_MODE)
         ${CMAKE_INSTALL_DATADIR}/icons)
 	set(ICON   "${CMAKE_INSTALL_DATADIR}/icons/${GALLERY}.svg")
     set(SPLASH "${CMAKE_INSTALL_DATADIR}/icons/${GALLERY}-splash.svg")
-	set(APP_EXEC "./${GALLERY}")
+	set(APP_EXEC "lomiri-gallery-app-migrate.py ${GALLERY}")
 else(CLICK_MODE)
     install(DIRECTORY icons/hicolor DESTINATION DESTINATION
         ${CMAKE_INSTALL_DATADIR}/icons FILES_MATCHING PATTERN *.png)
