@@ -65,3 +65,5 @@ target_link_libraries( ${GALLERY}
     )
 
 install(TARGETS ${GALLERY} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+
+install(PROGRAMS lomiri-gallery-app-migrate.py DESTINATION "${GALLERY_DIR}/")
