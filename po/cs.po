@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2021-08-21 07:57+0000\n"
-"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
-"Language-Team: Czech <https://translate.ubports.com/projects/ubports/gallery-"
-"app/cs/>\n"
+"PO-Revision-Date: 2023-03-28 16:38+0000\n"
+"Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.17-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -25,9 +25,8 @@ msgid "Gallery"
 msgstr "Galerie"
 
 #: lomiri-gallery-app.desktop.in:5
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Prohlížeč fotek Ubuntu"
+msgstr "Prohlížeč fotek"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -177,12 +176,11 @@ msgstr "Sdílet"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Zrušit výběr"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Vybrat"
+msgstr "Vybrat vše"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -250,7 +248,6 @@ msgid "Info"
 msgstr "Informace"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
 msgstr "Informace"
 
