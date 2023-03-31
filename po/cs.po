@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-03-28 16:38+0000\n"
+"PO-Revision-Date: 2023-04-02 03:46+0000\n"
 "Last-Translator: Jozef Mlich <jmlich83@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/cs/>\n"
@@ -381,7 +381,7 @@ msgstr "Zahodit všechny změny"
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr "Expozice"
+msgstr "Vystavení"
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
