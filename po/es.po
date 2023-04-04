@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2021-10-04 12:20+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
-"gallery-app/es/>\n"
+"PO-Revision-Date: 2023-04-06 21:55+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.17-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -25,9 +25,8 @@ msgid "Gallery"
 msgstr "Galería"
 
 #: lomiri-gallery-app.desktop.in:5
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Visor de fotos de Ubuntu"
+msgstr "Visor de fotos"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -174,12 +173,11 @@ msgstr "Compartir"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Deselecciona todo"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Seleccionar"
+msgstr "Selecciona todo"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -247,9 +245,8 @@ msgid "Info"
 msgstr "Información"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
-msgstr "Informaciones"
+msgstr "Información"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
