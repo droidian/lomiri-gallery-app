@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-11 19:50+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -49,7 +51,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
 #: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
 #: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
@@ -57,7 +59,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr ""
+msgstr "გაუქმება"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -103,7 +105,7 @@ msgstr ""
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
 #: rc/qml/PhotosOverview.qml:182
 msgid "Camera"
-msgstr ""
+msgstr "კამერა"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
@@ -132,7 +134,7 @@ msgstr ""
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr ""
+msgstr "გაზიარების შეცდომა"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
@@ -140,7 +142,7 @@ msgstr ""
 
 #: rc/qml/Components/UnableShareDialog.qml:30
 msgid "Ok"
-msgstr ""
+msgstr "დიახ"
 
 #: rc/qml/EventsOverview.qml:80 rc/qml/PhotosOverview.qml:103
 #, qt-format
@@ -166,7 +168,7 @@ msgstr[1] ""
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr ""
+msgstr "გაზიარება"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
@@ -202,7 +204,7 @@ msgstr ""
 #: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
 #: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
 msgid "Select"
-msgstr ""
+msgstr "აირჩიეთ"
 
 #: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
 #: rc/qml/PickerScreen.qml:206
@@ -235,7 +237,7 @@ msgstr ""
 
 #: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
-msgstr ""
+msgstr "ჩასწორება"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
@@ -275,7 +277,7 @@ msgstr ""
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
-msgstr ""
+msgstr "სურათის ჩასწორება"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
