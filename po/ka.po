@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-04-11 19:50+0000\n"
+"PO-Revision-Date: 2023-04-11 20:27+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/ka/>\n"
@@ -181,12 +181,12 @@ msgstr ""
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 #: rc/qml/EventsOverview.qml:208 rc/qml/MediaViewer/MediaViewer.qml:182
 #: rc/qml/PhotosOverview.qml:259
 msgid "Share to"
-msgstr ""
+msgstr "გაზიარება"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
