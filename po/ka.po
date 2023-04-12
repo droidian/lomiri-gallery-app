@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-04-12 06:06+0000\n"
+"PO-Revision-Date: 2023-04-13 05:14+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/ka/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
-msgstr ""
+msgstr "გალერეა"
 
 #: lomiri-gallery-app.desktop.in:5
 msgid "Photo Viewer"
-msgstr ""
+msgstr "სურათების დამთვალიერებელი"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -42,7 +42,7 @@ msgstr ""
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:43
 #: rc/qml/AlbumEditor/AlbumEditor.qml:36
 msgid "Edit album"
-msgstr ""
+msgstr "ალბომის ჩასწორება"
 
 #: rc/qml/AlbumEditor/AlbumEditMenu.qml:50
 #: rc/qml/AlbumViewer/AlbumViewer.qml:378 rc/qml/Components/DeleteDialog.qml:32
@@ -63,44 +63,44 @@ msgstr "გაუქმება"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr ""
+msgstr "ნაგულისხმები"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
-msgstr ""
+msgstr "ლურჯი"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:115
 msgid "Green"
-msgstr ""
+msgstr "მწვანე"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:116
 msgid "Pattern"
-msgstr ""
+msgstr "შაბლონი"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:117
 msgid "Red"
-msgstr ""
+msgstr "წითელი"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:66
 msgid "Album"
-msgstr ""
+msgstr "ალბომი"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:341
 msgid "Add to album"
-msgstr ""
+msgstr "ალბომში ჩამატება"
 
 #: rc/qml/AlbumsOverview.qml:229 rc/qml/Components/PopupAlbumPicker.qml:91
 msgid "Add new album"
-msgstr ""
+msgstr "ახალი ალბომის დამატება"
 
 #: rc/qml/AlbumsOverview.qml:233 rc/qml/Components/PopupAlbumPicker.qml:101
 msgid "New Photo Album"
-msgstr ""
+msgstr "ახალი ალბომი"
 
 #: rc/qml/AlbumsOverview.qml:234 rc/qml/Components/PopupAlbumPicker.qml:102
 msgid "Subtitle"
-msgstr ""
+msgstr "სუბტიტრები"
 
 #: rc/qml/AlbumsOverview.qml:241 rc/qml/EventsOverview.qml:109
 #: rc/qml/PhotosOverview.qml:182
@@ -109,28 +109,28 @@ msgstr "კამერა"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
-msgstr ""
+msgstr "ალბომის წაშლა"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr ""
+msgstr "ალბომის და მისი შემცველობის წაშლა"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr ""
+msgstr "თთთ წწწწ"
 
 #: rc/qml/Components/EventCard.qml:74
 msgid "dd"
-msgstr ""
+msgstr "დდ"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
 msgid "Add to Album"
-msgstr ""
+msgstr "ალბომში ჩამატება"
 
 #: rc/qml/Components/PopupAlbumPicker.qml:162 rc/qml/Utility/EditingHUD.qml:77
 msgid "Add Photo to Album"
-msgstr ""
+msgstr "სურათის ჩამატება ალბომში"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
@@ -148,22 +148,22 @@ msgstr "დიახ"
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 სურათის წაშლა"
+msgstr[1] "%1 სურათის წაშლა"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 ვიდეოს წაშლა"
+msgstr[1] "%1 ვიდეოს წაშლა"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 მედია ფაილის წაშლა"
+msgstr[1] "%1 მედია ფაილის წაშლა"
 
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
@@ -172,11 +172,11 @@ msgstr "გაზიარება"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "მონიშვნის ყველაფერზე მოხსნა"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Select all"
-msgstr ""
+msgstr "ყველას მონიშვნა"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -190,16 +190,16 @@ msgstr "გაზიარება"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr ""
+msgstr "იტვირთება…"
 
 #: rc/qml/MainScreen.qml:152
 msgid "Albums"
-msgstr ""
+msgstr "ალბომები"
 
 #: rc/qml/MainScreen.qml:166 rc/qml/MainScreen.qml:205
 #: rc/qml/PickerScreen.qml:157
 msgid "Events"
-msgstr ""
+msgstr "მოვლენები"
 
 #: rc/qml/MainScreen.qml:203 rc/qml/MainScreen.qml:255
 #: rc/qml/PickerScreen.qml:195 rc/qml/PickerScreen.qml:243
@@ -209,31 +209,31 @@ msgstr "აირჩიეთ"
 #: rc/qml/MainScreen.qml:214 rc/qml/MainScreen.qml:257
 #: rc/qml/PickerScreen.qml:206
 msgid "Photos"
-msgstr ""
+msgstr "ფოტოები"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a photo"
-msgstr ""
+msgstr "სურათის წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:215
 msgid "Delete a video"
-msgstr ""
+msgstr "ვიდეოს წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a photo from album"
-msgstr ""
+msgstr "ალბომიდან სურათის წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:249
 msgid "Remove a video from album"
-msgstr ""
+msgstr "ალბომიდან ვიდეოს წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:258
 msgid "Remove from Album"
-msgstr ""
+msgstr "ალბომიდან წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:269
 msgid "Remove from Album and Delete"
-msgstr ""
+msgstr "ალბომიდან მოცილება და წაშლა"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:316
 msgid "Edit"
@@ -241,39 +241,39 @@ msgstr "ჩასწორება"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:372
 msgid "Info"
-msgstr ""
+msgstr "ინფორმაცია"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
 msgid "Information"
-msgstr ""
+msgstr "ინფორმაცია"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
-msgstr ""
+msgstr "მედიის ტიპი: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "photo"
-msgstr ""
+msgstr "ფოტო"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:399
 msgid "video"
-msgstr ""
+msgstr "ვიდეო"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:400
 msgid "Media name: "
-msgstr ""
+msgstr "მედიის სახელი: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:401
 msgid "Date: "
-msgstr ""
+msgstr "თარიღი: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:402
 msgid "Time: "
-msgstr ""
+msgstr "დრო: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
-msgstr ""
+msgstr "დიახ"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -281,15 +281,15 @@ msgstr "სურათის ჩასწორება"
 
 #: rc/qml/MediaViewer/PopupPhotoViewer.qml:183
 msgid "Toggle Selection"
-msgstr ""
+msgstr "მონიშვნის გადართვა"
 
 #: rc/qml/MediaViewer/SingleMediaViewer.qml:241
 msgid "An error has occurred attempting to load media"
-msgstr ""
+msgstr "შეცდომა მედიის ჩატვირთვისას"
 
 #: rc/qml/PhotosOverview.qml:132 rc/qml/PhotosOverview.qml:175
 msgid "Grid Size"
-msgstr ""
+msgstr "ბადის ზომა"
 
 #: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
-msgstr ""
+msgstr "დასრულდა"
 
 #: rc/qml/PickerScreen.qml:295
 msgid "Pick"
@@ -305,63 +305,63 @@ msgstr "აირჩიეთ"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
-msgstr ""
+msgstr "ნაგავი;წაშლა"
 
 #: rc/qml/Utility/EditingHUD.qml:72
 msgid "Post;Upload;Attach"
-msgstr ""
+msgstr "პოსტი;ატვირთვა;მიმაგრება"
 
 #: rc/qml/Utility/EditingHUD.qml:81
 msgid "Undo"
-msgstr ""
+msgstr "დაბრუნება"
 
 #: rc/qml/Utility/EditingHUD.qml:82
 msgid "Cancel Action;Backstep"
-msgstr ""
+msgstr "გაუქმების ქმედება"
 
 #: rc/qml/Utility/EditingHUD.qml:86
 msgid "Redo"
-msgstr ""
+msgstr "გამეორება"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
-msgstr ""
+msgstr "თავიდან"
 
 #: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
-msgstr ""
+msgstr "ავტომატური გაუმჯობესება"
 
 #: rc/qml/Utility/EditingHUD.qml:92
 msgid "Adjust the image automatically"
-msgstr ""
+msgstr "სურათის ავტომატური გასწორება"
 
 #: rc/qml/Utility/EditingHUD.qml:93
 msgid "Automatically Adjust Photo"
-msgstr ""
+msgstr "სურათის ავტომატური გასწორება"
 
 #: rc/qml/Utility/EditingHUD.qml:98
 msgid "Rotate"
-msgstr ""
+msgstr "დატრიალება"
 
 #: rc/qml/Utility/EditingHUD.qml:99
 msgid "Turn Clockwise"
-msgstr ""
+msgstr "საათის ისრის მიმართულებით მოტრიალება"
 
 #: rc/qml/Utility/EditingHUD.qml:100
 msgid "Rotate the image clockwise"
-msgstr ""
+msgstr "სურათის საათის ისრის მიმართულებით შებრუნება"
 
 #: rc/qml/Utility/EditingHUD.qml:105
 msgid "Crop"
-msgstr ""
+msgstr "ამოჭრა"
 
 #: rc/qml/Utility/EditingHUD.qml:106
 msgid "Trim;Cut"
-msgstr ""
+msgstr "ამოჭრა;დაჭრა"
 
 #: rc/qml/Utility/EditingHUD.qml:107
 msgid "Crop the image"
-msgstr ""
+msgstr "სურათის ამოჭრა"
 
 #: rc/qml/Utility/EditingHUD.qml:112
 msgid "Revert to Original"
@@ -369,7 +369,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:113
 msgid "Discard Changes"
-msgstr ""
+msgstr "ცვლილებების გაუქმება"
 
 #: rc/qml/Utility/EditingHUD.qml:114
 msgid "Discard all changes"
@@ -377,7 +377,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:118
 msgid "Exposure"
-msgstr ""
+msgstr "ექსპოზიცია"
 
 #: rc/qml/Utility/EditingHUD.qml:119
 msgid "Adjust the exposure"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:121 rc/qml/Utility/EditingHUD.qml:162
 msgid "Confirm"
-msgstr ""
+msgstr "დადასტურება"
 
 #: rc/qml/Utility/EditingHUD.qml:125
 msgid "Compensation"
@@ -397,11 +397,11 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:159
 msgid "Color Balance"
-msgstr ""
+msgstr "ფერების ბალანსი"
 
 #: rc/qml/Utility/EditingHUD.qml:160
 msgid "Adjust color balance"
-msgstr ""
+msgstr "ფერთა ბალანსის დარეგულირება"
 
 #: rc/qml/Utility/EditingHUD.qml:161
 msgid "Saturation;Hue"
@@ -409,16 +409,16 @@ msgstr ""
 
 #: rc/qml/Utility/EditingHUD.qml:166
 msgid "Brightness"
-msgstr ""
+msgstr "სიკაშკაშე"
 
 #: rc/qml/Utility/EditingHUD.qml:177
 msgid "Contrast"
-msgstr ""
+msgstr "კონტრასტი"
 
 #: rc/qml/Utility/EditingHUD.qml:188
 msgid "Saturation"
-msgstr ""
+msgstr "გაჯერებულობა"
 
 #: rc/qml/Utility/EditingHUD.qml:199
 msgid "Hue"
-msgstr ""
+msgstr "ჰუე"
