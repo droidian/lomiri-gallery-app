@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-04-11 20:27+0000\n"
+"PO-Revision-Date: 2023-04-12 06:06+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/ka/>\n"
@@ -301,7 +301,7 @@ msgstr ""
 
 #: rc/qml/PickerScreen.qml:295
 msgid "Pick"
-msgstr ""
+msgstr "აირჩიეთ"
 
 #: rc/qml/Utility/EditingHUD.qml:67
 msgid "Trash;Erase"
