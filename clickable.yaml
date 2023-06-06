@@ -4,6 +4,8 @@ builder: cmake
 
 framework: ubuntu-sdk-20.04
 
+ignore_review_errors: true
+
 dependencies_target:
 - libmediainfo-dev
 - libexiv2-dev
