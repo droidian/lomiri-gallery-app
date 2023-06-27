@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-28 04:34+0000\n"
+"Last-Translator: \"Rudra Harsh V.Singh\" <rudraHarsh45@proton.me>\n"
+"Language-Team: English (Canada) <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/en_CA/>\n"
 "Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -49,7 +51,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:351 rc/qml/PhotosOverview.qml:193
 #: rc/qml/Utility/EditingHUD.qml:66
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
 #: rc/qml/AlbumEditor/AlbumEditor.qml:39 rc/qml/Components/DeleteDialog.qml:45
 #: rc/qml/Components/MediaSelector.qml:93 rc/qml/EventsOverview.qml:166
@@ -57,7 +59,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
@@ -81,7 +83,7 @@ msgstr ""
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:107 rc/qml/MainScreen.qml:66
 msgid "Album"
-msgstr ""
+msgstr "Album"
 
 #: rc/qml/AlbumViewer/AlbumViewer.qml:372
 #: rc/qml/MediaViewer/MediaViewer.qml:341
@@ -192,7 +194,7 @@ msgstr ""
 
 #: rc/qml/MainScreen.qml:152
 msgid "Albums"
-msgstr ""
+msgstr "Albums"
 
 #: rc/qml/MainScreen.qml:166 rc/qml/MainScreen.qml:205
 #: rc/qml/PickerScreen.qml:157
