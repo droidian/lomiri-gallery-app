@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-14 02:25+0000\n"
+"Last-Translator: \"Rudra Harsh V.Singh\" <rudraHarsh45@proton.me>\n"
+"Language-Team: Sanskrit <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/sa/>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -57,7 +59,7 @@ msgstr ""
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr ""
+msgstr "निरसयतु"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
