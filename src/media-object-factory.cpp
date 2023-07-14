@@ -59,6 +59,8 @@ MediaObjectFactory::MediaObjectFactory(bool desktopMode, Resource *res)
 
 MediaObjectFactory::~MediaObjectFactory()
 {
+    m_workerThread.requestInterruption();
+    listNotEmptyCondition.wakeAll();
     m_workerThread.quit();
     m_workerThread.wait();
 }
@@ -146,6 +148,10 @@ void MediaObjectFactoryWorker::runCreate()
         createMutex.lock();
         if (createQueue.isEmpty()) {
             listNotEmptyCondition.wait(&createMutex);
+
+            if (QThread::currentThread()->isInterruptionRequested()) {
+                break;
+            }
         }
 
         path = createQueue.takeFirst();
