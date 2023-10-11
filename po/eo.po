@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-02-20 18:39+0000\n"
+"PO-Revision-Date: 2023-10-11 22:04+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/eo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
@@ -168,7 +168,7 @@ msgstr[1] ""
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr ""
+msgstr "Diskonigi"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
