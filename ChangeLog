@@ -1,6 +1,108 @@
+2023-10-15 Mike Gabriel
+
+        * Release 3.0.2 (HEAD -> main, tag: 3.0.2)
+
+2023-10-11 phlostically
+
+        * Translated using Weblate (Esperanto) (f5deb549)
+
+2023-08-22 Mike Gabriel
+
+        * Merge branch 'fix/hanging-on-exit' into 'main' (69a18c07)
+
+2023-07-14 Maciej Sopylo
+
+        * Fix MediaObjectFactory worker not quitting (0ad0e050)
+
+2023-08-13 Abdullah AL Shohag
+
+        * Translated using Weblate (Bengali (Bangladesh)) (d1c59e36)
+
+2023-06-30 Rudra Harsh V.Singh
+
+        * Translated using Weblate (Sanskrit) (ae4f5141)
+
+2023-07-07 NPL
+
+        * Translated using Weblate (Japanese) (36119e47)
+
+2023-07-01 Hosted Weblate
+
+        * Update translation files (0cc06537)
+
+2023-06-30 Weblate
+
+        * Added translation using Weblate (Sanskrit) (513edb75)
+
+2023-06-27 Rudra Harsh V.Singh
+
+        * Translated using Weblate (English (Canada)) (1dde8332)
+
+2023-06-26 Rudra Harsh V.Singh
+
+        * Translated using Weblate (Hindi) (2e08c08c)
+
+2023-04-12 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (ecad6435)
+
+2023-06-06 Guido Berhoerster
+
+        * Merge branch 'add_review_error' into 'main' (1a45689c)
+
+2023-03-30 Danfro
+
+        * add ignore review errors to clickable.yaml to allow local building
+          (777ece97)
+
+2023-04-12 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (9ca38f43)
+
+2023-04-11 Temuri Doghonadze
+
+        * Translated using Weblate (Georgian) (0d08d7fa)
+        * Translated using Weblate (Georgian) (9f737792)
+
+2023-04-04 gallegonovato
+
+        * Translated using Weblate (Spanish) (0871fb14)
+
+2023-03-31 Jozef Mlich
+
+        * Translated using Weblate (Czech) (9284ea5e)
+
+2023-03-30 Sylke Vicious
+
+        * Translated using Weblate (Italian) (a7e34c7c)
+
+2023-03-27 Jozef Mlich
+
+        * Translated using Weblate (Czech) (86b6d827)
+
+2023-03-15 Mike Gabriel
+
+        * Merge branch 'personal/gberh/click-migrate' into 'main' (61d32073)
+
+2023-02-28 Guido Berhoerster
+
+        * Use session-migration for migration in Debian (2433d336)
+
+2023-02-24 Guido Berhoerster
+
+        * Add migrations to manifest (3ebb5b26)
+
+2023-02-28 Guido Berhoerster
+
+        * Add migration wrapper script (92ceff2d)
+
+2023-02-26 Luna Jernberg
+
+        * Translated using Weblate (Swedish) (0cd50e5d)
+
 2023-02-27 Guido Berhoerster
 
-        * Release 3.0.1 (HEAD -> main, tag: v3.0.1)
+        * Release 3.0.1 (0501dcd9) (tag: v3.0.1)
         * Fix icon name in non-click mode (c951c9d1)
 
 2023-02-19 phlostically

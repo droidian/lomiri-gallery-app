@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(lomiri-gallery-app VERSION 3.0.1 LANGUAGES CXX)
+project(lomiri-gallery-app VERSION 3.0.2 LANGUAGES CXX)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 # Find includes in corresponding build directories
