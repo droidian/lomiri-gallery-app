@@ -8,21 +8,21 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2020-08-04 23:58+0000\n"
-"Last-Translator: Young Kim <rsyh93@gmail.com>\n"
-"Language-Team: Korean <https://translate.ubports.com/projects/ubports/"
-"gallery-app/ko/>\n"
+"PO-Revision-Date: 2024-02-11 17:32+0000\n"
+"Last-Translator: ancalina <yuntk2008@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
 msgid "Gallery"
-msgstr "그림 모음"
+msgstr "사진"
 
 #: lomiri-gallery-app.desktop.in:5
 #, fuzzy
