@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2020-10-29 01:02+0000\n"
-"Last-Translator: George Kitsopoulos <gkitsopoulos@tutanota.com>\n"
-"Language-Team: Greek <https://translate.ubports.com/projects/ubports/gallery-"
-"app/el/>\n"
+"PO-Revision-Date: 2024-03-11 08:26+0000\n"
+"Last-Translator: Giannis Vassilopoulos <jv23040320@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.5-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -31,7 +31,7 @@ msgstr "Προβολή φωτογραφιών Ubuntu"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
-msgstr "Περιηγηθείτε στις φωτογραφίες σας"
+msgstr "Περιήγηση στις φωτογραφίες σας"
 
 #: lomiri-gallery-app.desktop.in:7
 msgid "Photographs;Pictures;Albums"
@@ -61,11 +61,11 @@ msgstr "Διαγραφή"
 #: rc/qml/MediaViewer/MediaViewer.qml:279 rc/qml/PhotosOverview.qml:240
 #: rc/qml/PickerScreen.qml:289
 msgid "Cancel"
-msgstr "Ακύρωση"
+msgstr "Ακύρωση"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:113
 msgid "Default"
-msgstr "Προκαθορισμένο"
+msgstr "Προεπιλογή"
 
 #: rc/qml/AlbumViewer/AlbumCoverList.qml:114
 msgid "Blue"
@@ -119,11 +119,11 @@ msgstr "Διαγραφή άλμπουμ ΚΑΙ περιεχομένων"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
-msgstr "MMM yyyy"
+msgstr "μήν έτος"
 
 #: rc/qml/Components/EventCard.qml:74
 msgid "dd"
-msgstr "dd"
+msgstr "ημ"
 
 #: rc/qml/Components/MediaSelector.qml:59
 #: rc/qml/Components/MediaSelector.qml:81
@@ -136,7 +136,7 @@ msgstr "Προσθήκη φωτογραφίας στο άλμπουμ"
 
 #: rc/qml/Components/UnableShareDialog.qml:25
 msgid "Unable to share"
-msgstr "Αδύνατη η κοινοποίηση"
+msgstr "Αδυναμία διαμοιρασμού"
 
 #: rc/qml/Components/UnableShareDialog.qml:26
 msgid "Unable to share photos and videos at the same time"
@@ -174,12 +174,11 @@ msgstr "Διαμοιρασμός"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Αποεπιλογή όλων"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Επιλογή"
+msgstr "Επιλογή όλων"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -193,7 +192,7 @@ msgstr "Διαμοιρασμός με"
 
 #: rc/qml/LoadingScreen.qml:39
 msgid "Loading…"
-msgstr "Γίνεται φόρτωση…"
+msgstr "Φόρτωση…"
 
 #: rc/qml/MainScreen.qml:152
 msgid "Albums"
@@ -247,7 +246,6 @@ msgid "Info"
 msgstr "Πληροφορίες"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
 msgstr "Πληροφορίες"
 
@@ -277,7 +275,7 @@ msgstr "Ώρα: "
 
 #: rc/qml/MediaViewer/MediaViewer.qml:408
 msgid "ok"
-msgstr "OK"
+msgstr "Εντάξει"
 
 #: rc/qml/MediaViewer/PhotoEditorPage.qml:26
 msgid "Edit Photo"
@@ -331,7 +329,7 @@ msgstr "Επανάληψη"
 
 #: rc/qml/Utility/EditingHUD.qml:87
 msgid "Reapply;Make Again"
-msgstr "Εφαρμόστε ξανά;Επανάληψη"
+msgstr "Εφαρμογή ξανά;Επανάληψη"
 
 #: rc/qml/Utility/EditingHUD.qml:91
 msgid "Auto Enhance"
