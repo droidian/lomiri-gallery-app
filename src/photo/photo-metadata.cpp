@@ -134,7 +134,11 @@ PhotoMetadata* PhotoMetadata::fromFile(const char* filepath)
             result->m_keysPresent.insert(QString(i->key().c_str()));
 
         return result;
+#if EXIV2_TEST_VERSION(0,28,0)
+    } catch (Exiv2::Error& e) {
+#else
     } catch (Exiv2::AnyError& e) {
+#endif
         qDebug("Error loading image metadata: %s", e.what());
         delete result;
         return NULL;
@@ -165,7 +169,11 @@ Orientation PhotoMetadata::orientation() const
     if (m_keysPresent.find(EXIF_ORIENTATION_KEY) == m_keysPresent.end())
         return DEFAULT_ORIENTATION;
 
+#if EXIV2_TEST_VERSION(0,28,0)
+    uint32_t orientation_code = exif_data[EXIF_ORIENTATION_KEY].toUint32();
+#else
     long orientation_code = exif_data[EXIF_ORIENTATION_KEY].toLong();
+#endif
     if (orientation_code < MIN_ORIENTATION || orientation_code > MAX_ORIENTATION)
         return DEFAULT_ORIENTATION;
 
@@ -244,7 +252,11 @@ void PhotoMetadata::setDateTimeDigitized(const QDateTime& digitized)
         if (!m_keysPresent.contains(EXIF_DATETIMEDIGITIZED_KEY))
             m_keysPresent.insert(EXIF_DATETIMEDIGITIZED_KEY);
  
+#if EXIV2_TEST_VERSION(0,28,0)
+    } catch (Exiv2::Error& e) {
+#else
     } catch (Exiv2::AnyError& e) {
+#endif
         qDebug("Do not set DateTimeDigitized, error reading image metadata; %s", e.what());
         return;
     }
@@ -259,7 +271,11 @@ bool PhotoMetadata::save() const
     try {
         m_image->writeMetadata();
         return true;
+#if EXIV2_TEST_VERSION(0,28,0)
+    } catch (Exiv2::Error& e) {
+#else
     } catch (Exiv2::AnyError& e) {
+#endif
         return false;
     }
 }

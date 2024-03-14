@@ -59,7 +59,11 @@ public:
 private:
     PhotoMetadata(const char* filepath);
     
+#if EXIV2_TEST_VERSION(0,28,0)
+    Exiv2::Image::UniquePtr m_image;
+#else
     Exiv2::Image::AutoPtr m_image;
+#endif
     QSet<QString> m_keysPresent;
     QFileInfo m_fileSourceInfo;
 };
