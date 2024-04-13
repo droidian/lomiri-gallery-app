@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2021-05-03 03:41+0000\n"
-"Last-Translator: Enceka <enceka@yeah.net>\n"
-"Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
-"ubports/gallery-app/zh_Hans/>\n"
+"PO-Revision-Date: 2024-04-20 01:07+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"lomiri/lomiri-gallery-app/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.5-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -25,9 +25,8 @@ msgid "Gallery"
 msgstr "相册"
 
 #: lomiri-gallery-app.desktop.in:5
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Ubuntu 照片浏览器"
+msgstr "照片查看器"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -171,12 +170,11 @@ msgstr "分享"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "全不选"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "选择"
+msgstr "全选"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -244,7 +242,6 @@ msgid "Info"
 msgstr "详情"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
 msgstr "信息"
 
