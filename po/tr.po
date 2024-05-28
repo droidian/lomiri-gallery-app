@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2020-02-06 20:21+0000\n"
-"Last-Translator: Ege Öz <ege.oz@tutanota.com>\n"
-"Language-Team: Turkish <https://translate.ubports.com/projects/ubports/"
-"gallery-app/tr/>\n"
+"PO-Revision-Date: 2024-05-29 17:23+0000\n"
+"Last-Translator: Ali Beyaz <alipolatbeyaz@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/lomiri/"
+"lomiri-gallery-app/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 5.6-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -25,9 +25,8 @@ msgid "Gallery"
 msgstr "Galeri"
 
 #: lomiri-gallery-app.desktop.in:5
-#, fuzzy
 msgid "Photo Viewer"
-msgstr "Ubuntu Fotoğraf Görüntüleyici"
+msgstr "Fotoğraf Görüntüleyici"
 
 #: lomiri-gallery-app.desktop.in:6
 msgid "Browse your photographs"
@@ -174,12 +173,11 @@ msgstr "Paylaş"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
-msgstr ""
+msgstr "Tüm seçimleri kaldır"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Seç"
+msgstr "Tümünü seç"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -247,9 +245,8 @@ msgid "Info"
 msgstr "Bilgi"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
-msgstr "Bilgiler"
+msgstr "Bilgi"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:398
 msgid "Media type: "
@@ -298,6 +295,8 @@ msgstr "Izgara Boyutu"
 #: rc/qml/PhotosOverview.qml:133
 msgid "Select the grid size in gu units between 8 and 20 (default is 12)"
 msgstr ""
+"Gu birimleri cinsinden ızgara boyutunu 8 ila 20 arasında seçin (varsayılan "
+"12'dir)"
 
 #: rc/qml/PhotosOverview.qml:148
 msgid "Finished"
