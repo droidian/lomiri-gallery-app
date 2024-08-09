@@ -103,17 +103,19 @@ Item {
     property variant coverElement: album !== null ?
                                        coverList.elementForCoverName(album.coverNickname) : coverList.getDefault();
 
-    // Read-only
-    property bool isTextEditing: title.isEditing || subtitle.isEditing
+    readonly property alias isTextEditing: cover.isTextEditing
 
     // Stops editing title/subtitle.
     function editingDone() {
-        title.done();
-        subtitle.done();
+        title.focus = false
+        subtitle.focus = false
+        cover.isTextEditing = false
     }
 
     Item {
         id: cover
+
+        property bool isTextEditing: false
 
         // Read-only
         property int previewPixelWidth: coverImagePreviewLeft.width
@@ -240,34 +242,58 @@ Item {
                     width: parent.width
                 }
 
-                TextEditOnClick {
+                TextEdit{
                     id: title
                     objectName: "albumTitleField"
-
-                    text: (album) ? album.title : ""
-                    onTextUpdated: album.title = text
-
-                    editable: !isPreview
-
-                    anchors.top: titleContainer.top
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: parent.width
-
+                    anchors{
+                        top: titleContainer.top
+                        left: parent.left
+                        right: parent.right
+                    }
+                    readOnly: isPreview
+                    enabled: !readOnly // do not block mouse clicks when readOnly
                     opacity: titleOpacity
                     color: "#ffffff"
-
-                    fontFamily: "Ubuntu"
-                    fontPixelSize: albumCover.height * 0.09
+                    font.family: "Ubuntu"
+                    font.pixelSize: albumCover.height * 0.09
                     smooth: true
-                    textFormat: TextEdit.PlainText
-
                     wrapMode: Text.Wrap
                     horizontalAlignment: Text.AlignHCenter
 
-                    onEnterPressed: {
-                        // If the user hits enter, start editing the subtitle.
-                        done();
-                        subtitle.start(-1, -1);
+                    text: album ? album.title : ""
+
+                    // workaround to limit lineCount
+                    // Idea taken from: https://bugreports.qt-project.org/browse/QTBUG-12304
+                    // this workaround should be replaceable with maximumLength property in Qt 5.15
+                    readonly property int maximumLineCount: 2
+                    property string previousText: ""
+                    onTextChanged: {
+                        if (lineCount > maximumLineCount) {
+                            var cursor = cursorPosition;
+                            text = previousText;
+                            cursorPosition = cursor > text.length ? text.length : cursor - 1;
+                        }
+
+                        // Save text so we can revert if necessary.
+                        previousText = text;
+                    }
+
+                    Keys.onPressed: {
+                        // when pressing enter: give focus to subtitle + don't insert line break character to title
+                        if (event.key === Qt.Key_Return) {
+                            subtitle.forceActiveFocus()
+                            event.accepted = true
+                        }
+                    }
+
+                    // commit changes when leaving or destroying the text field
+                    onActiveFocusChanged: {
+                        if (!activeFocus && album)
+                            album.title = text
+                    }
+                    Component.onDestruction: {
+                        if (album)
+                            album.title = text
                     }
                 }
             }
@@ -295,30 +321,56 @@ Item {
                     width: parent.width
                 }
 
-                TextEditOnClick {
+                TextEdit{
                     id: subtitle
                     objectName: "albumSubtitleField"
-
-                    text: (album) ? album.subtitle : ""
-                    onTextUpdated: album.subtitle = text
-
-                    editable: !isPreview
-
-                    anchors.top: subtitleContainer.top
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    width: parent.width
-
+                    anchors{
+                        top: subtitleContainer.top
+                        left: parent.left
+                        right: parent.right
+                    }
+                    readOnly: isPreview
+                    enabled: !readOnly // do not block mouse clicks when readOnly
                     opacity: titleOpacity
                     color: "#ffffff"
-
-                    fontFamily: "Ubuntu"
-
-                    fontPixelSize: albumCover.height * 0.07
+                    font.family: "Ubuntu"
+                    font.pixelSize: albumCover.height * 0.07
                     smooth: true
-                    textFormat: TextEdit.PlainText
-
                     wrapMode: Text.Wrap
                     horizontalAlignment: Text.AlignHCenter
+
+                    text: album ? album.subtitle : ""
+
+                    // workaround to limit lineCount
+                    // Idea taken from: https://bugreports.qt-project.org/browse/QTBUG-12304
+                    // this workaround should be replaceable with maximumLength property in Qt 5.15
+                    readonly property int maximumLineCount: 2
+                    property string previousText: ""
+                    onTextChanged: {
+                        if (lineCount > maximumLineCount) {
+                            var cursor = cursorPosition;
+                            text = previousText;
+                            cursorPosition = cursor > text.length ? text.length : cursor - 1;
+                        }
+
+                        // Save text so we can revert if necessary.
+                        previousText = text;
+                    }
+
+                    Keys.onPressed: {
+                        // when pressing enter: leave focus + don't insert line break character to title
+                        if (event.key === Qt.Key_Return) {
+                            subtitle.focus = false
+                            event.accepted = true
+                        }
+                    }
+
+                    // commit changes when leaving or destroying the text field
+                    onActiveFocusChanged: {
+                        if (!activeFocus)
+                            album.subtitle = text
+                    }
+                    Component.onDestruction: album.subtitle = text
                 }
             }
         }

@@ -32,7 +32,6 @@ rc/qml/Components/MediaSelector.qml
 rc/qml/Components/MouseAreaWithMultipoint.qml
 rc/qml/Components/PopupAlbumPicker.qml
 rc/qml/Components/SwipeArea.qml
-rc/qml/Components/TextEditOnClick.qml
 rc/qml/Components/UnableShareDialog.qml
 rc/qml/Controller/SettingsController.qml
 rc/qml/EventsOverview.qml
