@@ -196,6 +196,9 @@ FocusScope {
                     textUpdated(text)
             }
 
+            // Commit latest text when TextEdit gets destroyed
+            Component.onDestruction: textUpdated(text)
+
             onPaintedHeightChanged: height = paintedHeight;
         }
     }
