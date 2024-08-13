@@ -45,8 +45,13 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(EXIV2 REQUIRED exiv2)
 pkg_check_modules(MEDIAINFO REQUIRED libmediainfo)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Werror")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall")
 set(CMAKE_EXE_LINKER_FLAGS "-s")
+
+option(ENABLE_WERROR "Treat all build warnings as errors" OFF)
+if (ENABLE_WERROR)
+    add_compile_options ("-Werror")
+endif ()
 
 # Activate C++11 on Cmake >= 3.1
 if (CMAKE_VERSION VERSION_GREATER "3.1")
