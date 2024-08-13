@@ -367,10 +367,13 @@ Item {
 
                     // commit changes when leaving or destroying the text field
                     onActiveFocusChanged: {
-                        if (!activeFocus)
+                        if (!activeFocus && album)
                             album.subtitle = text
                     }
-                    Component.onDestruction: album.subtitle = text
+                    Component.onDestruction: {
+                        if (album)
+                            album.subtitle = text
+                    }
                 }
             }
         }
