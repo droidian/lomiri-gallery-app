@@ -98,5 +98,6 @@ add_subdirectory(rc)
 add_subdirectory(src)
 
 if(BUILD_TESTING)
+    find_package(Qt5Test)
     add_subdirectory(tests)
 endif()
