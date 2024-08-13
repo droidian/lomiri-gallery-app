@@ -36,7 +36,6 @@ add_executable(mediaobjectfactory
     ${MEDIAOBJECTFACTORY_MOCS}
     )
 
-qt5_use_modules(mediaobjectfactory Widgets Core Quick Qml Test)
 add_test(mediaobjectfactory mediaobjectfactory -xunitxml -o test_mediaobjectfactory.xml)
 set_tests_properties(mediaobjectfactory PROPERTIES
     TIMEOUT ${CTEST_TESTING_TIMEOUT}
@@ -48,4 +47,9 @@ target_link_libraries(mediaobjectfactory
     gallery-media
     gallery-util
     gallery-video
+    Qt5::Core
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::Test
+    Qt5::Widgets
     )

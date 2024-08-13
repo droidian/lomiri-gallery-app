@@ -48,8 +48,6 @@ add_executable(${GALLERY}
     ${gallery_SRCS}
     )
 
-qt5_use_modules(${GALLERY} Widgets Core Qml Quick Sql DBus Gui)
-
 target_link_libraries( ${GALLERY}
     gallery-album
     gallery-core
@@ -62,6 +60,13 @@ target_link_libraries( ${GALLERY}
     gallery-util
     gallery-video
     ${CONTENTHUB_LIBRARIES}
+    Qt5::Core
+    Qt5::DBus
+    Qt5::Gui
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::Sql
+    Qt5::Widgets
     )
 
 install(TARGETS ${GALLERY} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})

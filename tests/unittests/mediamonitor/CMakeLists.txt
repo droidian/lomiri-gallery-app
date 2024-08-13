@@ -17,8 +17,6 @@ include_directories(
 
 add_executable(mediamonitor tst_mediamonitor.cpp)
 
-qt5_use_modules(mediamonitor Quick Test)
-
 add_test(mediamonitor mediamonitor -xunitxml -o test_mediamonitor.xml)
 
 set_tests_properties(mediamonitor PROPERTIES
@@ -33,4 +31,6 @@ target_link_libraries(mediamonitor
     gallery-medialoader
     gallery-database
     gallery-album
+    Qt5::Quick
+    Qt5::Test
     )

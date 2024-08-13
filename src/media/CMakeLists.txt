@@ -28,5 +28,7 @@ add_library(${GALLERY_MEDIA_LIB}
     ${gallery_media_SRCS}
     )
 
-qt5_use_modules(${GALLERY_MEDIA_LIB} Core Quick)
-
+target_link_libraries(${GALLERY_MEDIA_LIB}
+    Qt5::Core
+    Qt5::Quick
+    )

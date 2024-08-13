@@ -33,5 +33,7 @@ add_library(${GALLERY_CORE_LIB}
     ${gallery_core_SRCS}
     )
 
-qt5_use_modules(${GALLERY_CORE_LIB} Core Quick)
-
+target_link_libraries(${GALLERY_CORE_LIB}
+    Qt5::Core
+    Qt5::Quick
+    )

@@ -29,8 +29,6 @@ add_library(${GALLERY_UTIL_LIB}
     ${gallery_util_SRCS}
     )
 
-qt5_use_modules(${GALLERY_UTIL_LIB} Widgets Core)
-
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "^arm")
     set(GL_LIBRARIES ${GLESv2_LIBRARIES})
 else()
@@ -39,4 +37,6 @@ endif()
 
 target_link_libraries( ${GALLERY_UTIL_LIB}
     ${GL_LIBRARIES}
+    Qt5::Core
+    Qt5::Widgets
     )

@@ -18,5 +18,8 @@ add_library(${GALLERY_VIDEO_LIB}
     ${gallery_video_SRCS}
     )
 
-qt5_use_modules(${GALLERY_VIDEO_LIB} Widgets Core Qml)
-
+target_link_libraries(${GALLERY_VIDEO_LIB}
+    Qt5::Core
+    Qt5::Qml
+    Qt5::Widgets
+    )
