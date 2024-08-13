@@ -89,11 +89,14 @@ endif(CLICK_MODE)
 set (GETTEXT_PACKAGE "${GALLERY}")
 
 # Tests
-enable_testing()
+include(CTest)
 
 add_subdirectory(click)
 add_subdirectory(desktop)
 add_subdirectory(po)
 add_subdirectory(rc)
 add_subdirectory(src)
-add_subdirectory(tests)
+
+if(BUILD_TESTING)
+    add_subdirectory(tests)
+endif()
