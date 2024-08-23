@@ -42,7 +42,6 @@ add_executable(photo-metadata
     ${PHOTOMETADATA_MOCS}
     )
 
-qt5_use_modules(photo-metadata Widgets Core Quick Qml Test)
 add_test(photo-metadata photo-metadata -xunitxml -o test_video.xml)
 set_tests_properties(photo-metadata PROPERTIES
     TIMEOUT ${CTEST_TESTING_TIMEOUT}
@@ -56,4 +55,9 @@ target_link_libraries(photo-metadata
     gallery-util
     gallery-video
     ${EXIV2_LIBRARIES}
+    Qt5::Core
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::Test
+    Qt5::Widgets
     )

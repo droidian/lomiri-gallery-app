@@ -13,8 +13,6 @@ add_executable(resource
     tst_resource.cpp
     )
 
-qt5_use_modules(resource Quick Test)
-
 add_test(resource resource -xunitxml -o test_resource.xml)
 set_tests_properties(resource PROPERTIES
     TIMEOUT ${CTEST_TESTING_TIMEOUT}
@@ -23,4 +21,6 @@ set_tests_properties(resource PROPERTIES
 
 target_link_libraries(resource
     gallery-util
+    Qt5::Quick
+    Qt5::Test
     )

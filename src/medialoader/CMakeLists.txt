@@ -28,8 +28,6 @@ add_library(${GALLERY_MEDIALOADER_LIB}
     ${gallery_medialoader_SRCS}
     )
 
-qt5_use_modules(${GALLERY_MEDIALOADER_LIB} Core Quick)
-
 if(CLICK_MODE)
     set(EXIV2_LIBRARIES
         ${CMAKE_EXE_LINK_STATIC_CXX_FLAGS}
@@ -43,4 +41,6 @@ target_link_libraries( ${GALLERY_MEDIALOADER_LIB}
     ${GSTLIB_LDFLAGS}
     ${MEDIAINFO_LIBRARIES}
     gallery-util
+    Qt5::Core
+    Qt5::Quick
     )

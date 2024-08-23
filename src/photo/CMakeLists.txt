@@ -27,8 +27,11 @@ add_library(${GALLERY_PHOTO_LIB}
     ${gallery_photo_SRCS}
     )
 
-qt5_use_modules(${GALLERY_PHOTO_LIB} Widgets Core Qml Quick Xml)
-
 target_link_libraries( ${GALLERY_PHOTO_LIB}
     ${EXIV2_LIBRARIES}
+    Qt5::Core
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::Widgets
+    Qt5::Xml
     )

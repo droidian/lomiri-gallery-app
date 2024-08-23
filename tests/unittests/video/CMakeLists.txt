@@ -31,7 +31,6 @@ add_executable(video
     ${TST_VIDEO_MOCS}
     )
 
-qt5_use_modules(video Widgets Core Qml Quick Test)
 add_test(video video -xunitxml -o test_video.xml)
 set_tests_properties(video PROPERTIES
     TIMEOUT ${CTEST_TESTING_TIMEOUT}
@@ -49,4 +48,9 @@ target_link_libraries(video
     gallery-qml
     gallery-util
     gallery-video
+    Qt5::Core
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::Test
+    Qt5::Widgets
     )
