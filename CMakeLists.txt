@@ -73,10 +73,10 @@ add_custom_target(NON_COMPILED_TARGET ALL SOURCES ${NON_COMPILED_FILES})
 if(CLICK_MODE)
     set(CMAKE_INSTALL_PREFIX /)
     set(CMAKE_INSTALL_BINDIR /)
-    set(GALLERY_DIR "")
+    set(GALLERY_DIR ${CMAKE_INSTALL_PREFIX})
     add_definitions("-DCLICK_MODE=1")
 else(CLICK_MODE)
-    set(GALLERY_DIR ${CMAKE_INSTALL_DATADIR}/${GALLERY})
+    set(GALLERY_DIR ${CMAKE_INSTALL_FULL_DATADIR}/${GALLERY})
 endif(CLICK_MODE)
 
 # for dh_translations to extract the domain

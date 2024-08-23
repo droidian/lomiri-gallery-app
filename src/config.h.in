@@ -48,11 +48,11 @@ inline void setOrganization() {
 inline QString galleryDirectory()
 {
     if (qEnvironmentVariableIsSet(SNAP_PATH)) {
-        return QString("%1/@CMAKE_INSTALL_PREFIX@/@GALLERY_DIR@").arg(QString(qgetenv(SNAP_PATH)));
+        return QString("%1/@GALLERY_DIR@").arg(QString(qgetenv(SNAP_PATH)));
     } if (isClick()) {
         return QString(".");
     } else if (isRunningInstalled()) {
-        return QString("@CMAKE_INSTALL_PREFIX@/@GALLERY_DIR@");
+        return QString("@GALLERY_DIR@");
     } else {
         return QString("@gallery_src_SOURCE_DIR@");
     }
