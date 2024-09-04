@@ -14,6 +14,6 @@ endif(CLICK_MODE)
 
 if(NOT CLICK_MODE)
     install(FILES gallery-content.json
-            DESTINATION ${CMAKE_INSTALL_DATADIR}/content-hub/peers/ RENAME lomiri-gallery-app)
+            DESTINATION ${CMAKE_INSTALL_DATADIR}/lomiri-content-hub/peers/ RENAME lomiri-gallery-app)
 endif(NOT CLICK_MODE)
 
