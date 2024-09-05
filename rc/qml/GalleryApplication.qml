@@ -199,14 +199,4 @@ Item {
         visible: status === Loader.Ready
         source: APP.pickModeEnabled ? Qt.resolvedUrl("PickerScreen.qml") : Qt.resolvedUrl("MainScreen.qml")
     }
-
-    Binding { 
-        target: i18n
-        property: "domain"
-        value: "lomiri-gallery-app"
-    }
-
-    Component.onCompleted: {
-        i18n.bindtextdomain("lomiri-gallery-app", i18nDirectory);
-    }
 }

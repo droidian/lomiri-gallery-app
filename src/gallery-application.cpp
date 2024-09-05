@@ -74,6 +74,13 @@ GalleryApplication::GalleryApplication(int& argc, char** argv)
       m_mediaLoadedTimer(this),
       m_mediaLoaded(false)
 {
+    QCoreApplication::setApplicationName("gallery.ubports");
+
+    textdomain("lomiri-gallery-app");
+    std::string localeDir = galleryLocaleDirectory().toStdString();
+    bindtextdomain("lomiri-gallery-app", localeDir.c_str());
+    bind_textdomain_codeset("lomiri-gallery-app", "UTF-8");
+
     m_bguSize = QProcessEnvironment::systemEnvironment().value("GRID_UNIT_PX", "8").toInt();
     if (m_bguSize <= 0)
         m_bguSize = 8;
@@ -233,7 +240,6 @@ void GalleryApplication::createView()
     rootContext->setContextProperty("DEVICE_WIDTH", QVariant(size.width()));
     rootContext->setContextProperty("DEVICE_HEIGHT", QVariant(size.height()));
     rootContext->setContextProperty("FORM_FACTOR", QVariant(m_cmdLineParser->formFactor()));
-    rootContext->setContextProperty("i18nDirectory", galleryLocaleDirectory());
 
     // Set ourselves up to expose functionality to run external commands from QML...
     m_view->engine()->rootContext()->setContextProperty("APP", this);

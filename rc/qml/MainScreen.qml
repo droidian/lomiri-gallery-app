@@ -38,7 +38,6 @@ MainView {
     backgroundColor: Suru.backgroundColor
 
     anchors.fill: parent
-    applicationName: "gallery.ubports"
     automaticOrientation: application.automaticOrientation
 
     property string mediaCurrentlyInView
