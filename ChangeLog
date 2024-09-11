@@ -1,6 +1,195 @@
+2024-09-11 Mike Gabriel
+
+        * Release 3.1.0 (HEAD -> main, tag: v3.1.0)
+        * .gitlab-ci.yml: Use UBports GitLab runner. (b36e4bcb)
+
+2024-09-04 Ratchanan Srirattanamet
+
+        * Merge branch 'personal/sunweaver/non-click-content-hub-fix' into
+          'main' (0e1654fd)
+
+2024-09-04 Mike Gabriel
+
+        * click/CMakeLists.txt: Use new DATADIR path for (lomiri-)content-hub
+          peer configurations. (cb6eb0ff)
+        * click/CMakeLists.txt: Install gallery-content.json as
+          DATADIR/content-hub/peers/lomiri-gallery-app when built in
+          non-click mode. (9a337676)
+        * Merge branch 'fix/album-title-edit' into 'main' (1ba77a99)
+
+2024-08-13 Matthias Dahlmanns
+
+        * also check if album exists when committing new subtitle (5919794b)
+
+2024-08-09 Matthias Dahlmanns
+
+        * replace custom TextEditOnClick component by simple TextEdit
+          (790b6975)
+        * fix: don't discard text changes in TextEditOnClick component
+          (0e5df7e1)
+
+2024-09-04 Mike Gabriel
+
+        * Merge branch 'fix/nonclickSplash' into 'main' (f0d0375e)
+
+2024-08-13 OPNA2608
+
+        * desktop: Fix icons (17e97086)
+
+2024-09-04 Mike Gabriel
+
+        * Merge branch 'add/BUILD_TESTING' into 'main' (f282156f)
+
+2024-08-13 OPNA2608
+
+        * Move Qt5Test finding to top-level BUILD_TESTING conditional
+          (56767d9b)
+        * CMakeLists.txt: Make tests optional (322d579f)
+
+2024-08-23 Mike Gabriel
+
+        * Merge branch 'add/werrorOption' into 'main' (052ba07f)
+
+2024-08-13 OPNA2608
+
+        * debian/rules: Set ENABLE_WERROR to ON for UBports builds (8adfb9a2)
+        * CMakeLists.txt: Add ENABLE_WERROR option (efdb35bc)
+
+2024-08-23 Mike Gabriel
+
+        * Merge branch 'fix/gnuInstallDirs' into 'main' (379d46fe)
+
+2024-08-13 OPNA2608
+
+        * Fix GNUInstallDirs variable concatenations in CMake (3df7555e)
+
+2024-08-23 Mike Gabriel
+
+        * Merge branch 'fix/qt5_use_modules' into 'main' (b5dcf53c)
+
+2024-08-13 OPNA2608
+
+        * Stop using qt5_use_modules (0149c8d4)
+
+2024-08-06 umesaburo sagawa
+
+        * Translated using Weblate (Japanese) (e4cc1bb3)
+
+2024-07-22 Jiri Grönroos
+
+        * Translated using Weblate (Finnish) (9ac8988c)
+
+2024-06-07 Mike Gabriel
+
+        * Merge branch 'exiv2-0.28' into 'main' (afa019b5)
+
+2024-03-14 Pino Toscano
+
+        * Support Exiv2 0.28+ (be63c6d3)
+
+2024-05-28 Ali Beyaz
+
+        * Translated using Weblate (Turkish) (ff36991b)
+
+2024-04-13 复予
+
+        * Translated using Weblate (Chinese (Simplified)) (499351fa)
+
+2024-03-09 saveurlinux
+
+        * Translated using Weblate (French) (14dda040)
+
+2024-03-06 Giannis Vassilopoulos
+
+        * Translated using Weblate (Greek) (eeb5595f)
+
+2024-02-11 ancalina
+
+        * Translated using Weblate (Korean) (eb369e02)
+
+2023-12-28 Hosted Weblate
+
+        * Update translation files (21effbea)
+
+2023-12-27 Weblate
+
+        * Added translation using Weblate (Chinese (Simplified)
+          (zh_LATN@pinyin)) (1240bfc4)
+        * Added translation using Weblate (Tamil (Sri Lanka)) (77a0d194)
+        * Added translation using Weblate (German (Walser)) (e5134a94)
+        * Added translation using Weblate (Meadow Mari) (19664a8e)
+        * Added translation using Weblate (Crimean Tatar) (17a79725)
+        * Added translation using Weblate (Chuvash) (d092915f)
+        * Added translation using Weblate (Silesian) (6933f24d)
+        * Added translation using Weblate (Latin) (bfc22216)
+        * Added translation using Weblate (Venetian) (d1581be8)
+        * Added translation using Weblate (Ossetian) (7fc05336)
+        * Added translation using Weblate (Sami (Northern)) (d43f9202)
+        * Added translation using Weblate (Greenlandic) (b4adb2a1)
+        * Added translation using Weblate (Assamese) (54137ac7)
+        * Added translation using Weblate (Haitian) (1adbabb0)
+        * Added translation using Weblate (Cornish) (676f82bf)
+        * Added translation using Weblate (Frisian) (0c154b4b)
+        * Added translation using Weblate (Kashubian) (7b7b5ca6)
+        * Added translation using Weblate (Aragonese) (dc403a8a)
+        * Added translation using Weblate (Tibetan) (9d429313)
+        * Added translation using Weblate (Filipino) (c2a8a8c8)
+        * Added translation using Weblate (Tigrinya) (bbe1ef51)
+        * Added translation using Weblate (Tatar) (858a43d0)
+
+2023-12-27 Hosted Weblate
+
+        * Update translation files (5967c40e)
+
+2023-12-26 Weblate
+
+        * Added translation using Weblate (Italian (it_CARES)) (7e8e4082)
+
+2023-11-08 gallegonovato
+
+        * Translated using Weblate (Spanish) (48dfb8c4)
+
+2023-10-18 Hosted Weblate
+
+        * Update translation files (eba8fcc8)
+
+2023-10-17 Weblate
+
+        * Added translation using Weblate (Xhosa) (287046ec)
+        * Added translation using Weblate (Manx) (ce1b9064)
+        * Added translation using Weblate (Corsican) (bfaade15)
+        * Added translation using Weblate (Chechen) (3d5e2a74)
+        * Added translation using Weblate (Wolof) (a991d4e0)
+        * Added translation using Weblate (Uzbek) (bfeac486)
+        * Added translation using Weblate (Kyrgyz) (c5e9c233)
+        * Added translation using Weblate (Kurdish) (b8b63871)
+        * Added translation using Weblate (Sotho (Southern)) (c8113c08)
+        * Added translation using Weblate (Kannada) (dc8a602f)
+        * Added translation using Weblate (Kazakh) (656ac7c0)
+        * Added translation using Weblate (Faroese) (3e73b2e8)
+        * Added translation using Weblate (Nepali) (1999468c)
+        * Added translation using Weblate (Norwegian Nynorsk) (73b8dfaa)
+        * Added translation using Weblate (Interlingua) (0f0ba545)
+        * Added translation using Weblate (Swahili) (a38e7c59)
+        * Added translation using Weblate (Afrikaans) (cf8b4aa8)
+        * Added translation using Weblate (Vietnamese) (444ca252)
+        * Added translation using Weblate (Odia) (b8828e4c)
+        * Added translation using Weblate (Occitan) (9275bf2d)
+        * Added translation using Weblate (Bengali) (3e1a45cb)
+        * Added translation using Weblate (Estonian) (ba407e15)
+        * Added translation using Weblate (Irish) (0cca9518)
+
+2023-10-11 phlostically
+
+        * Translated using Weblate (Esperanto) (48eb83ca)
+
+2023-10-11 Serhii Horichenko
+
+        * Translated using Weblate (Russian) (9f54b08e)
+
 2023-10-15 Mike Gabriel
 
-        * Release 3.0.2 (HEAD -> main, tag: 3.0.2)
+        * Release 3.0.2 (e03f86a6) (tag: v3.0.2)
 
 2023-10-11 phlostically
 

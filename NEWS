@@ -1,0 +1,17 @@
+Overview of changes in lomiri-gallery-app 3.1.0
+
+  - click/CMakeLists.txt: Install gallery-content.json as
+    DATADIR/lomiri-content-hub/peers/lomiri-gallery-app when built in
+    non-click mode.
+  - Also check if album exists when committing new subtitle.
+  - Replace custom TextEditOnClick component by simple TextEdit.
+  - Fix: don't discard text changes in TextEditOnClick component.
+  - desktop: Fix icons.
+  - Move Qt5Test finding to top-level BUILD_TESTING conditional.
+  - CMakeLists.txt: Make tests optional.
+  - CMakeLists.txt: Add ENABLE_WERROR option.
+  - CMake: Fix GNUInstallDirs variable concatenations in CMake.
+  - CMake: Stop using qt5_use_modules.
+  - Support Exiv2 0.28+.
+  - Translation updates (thanks to all contributors on
+    hosted.weblate.org).
