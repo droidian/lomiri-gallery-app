@@ -1,6 +1,18 @@
+# https://stackoverflow.com/a/77477765
+workflow:
+  rules:
+    - if: $CI_PROJECT_NAMESPACE =~ /^ubports\//
+      variables:
+        # Use our own GitLab runner
+        RUNNER_TAG: "ubports"
+    - if: $CI_PROJECT_NAMESPACE !~ /^ubports\//
+      variables:
+        # Use shared runner if run outside our namespace
+        RUNNER_TAG: "saas-linux-small-amd64"
+
 default:
   tags:
-    - ubports
+    - $RUNNER_TAG
 
 stages:
     - build
