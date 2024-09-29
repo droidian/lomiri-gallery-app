@@ -205,4 +205,8 @@ Item {
         property: "domain"
         value: "lomiri-gallery-app"
     }
+
+    Component.onCompleted: {
+        i18n.bindtextdomain("lomiri-gallery-app", i18nDirectory);
+    }
 }

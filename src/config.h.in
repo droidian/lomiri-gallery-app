@@ -45,6 +45,17 @@ inline void setOrganization() {
     QCoreApplication::setOrganizationName("gallery.ubports");
 }
 
+inline QString galleryLocaleDirectory()
+{
+    if (qEnvironmentVariableIsSet(SNAP_PATH)) {
+        return QString("%1/@CMAKE_INSTALL_FULL_LOCALEDIR@").arg(QString(qgetenv(SNAP_PATH)));
+    } else if (isClick()) {
+        return QString("%1/@CMAKE_INSTALL_FULL_LOCALEDIR@").arg(QDir::currentPath());
+    } else {
+        return QString("@CMAKE_INSTALL_FULL_LOCALEDIR@");
+    }
+}
+
 inline QString galleryDirectory()
 {
     if (qEnvironmentVariableIsSet(SNAP_PATH)) {

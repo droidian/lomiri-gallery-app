@@ -17,6 +17,7 @@
  * Charles Lindsay <chaz@yorba.org>
  */
 
+#include "config.h"
 #include "gallery-application.h"
 #include "gallery-manager.h"
 
@@ -232,6 +233,7 @@ void GalleryApplication::createView()
     rootContext->setContextProperty("DEVICE_WIDTH", QVariant(size.width()));
     rootContext->setContextProperty("DEVICE_HEIGHT", QVariant(size.height()));
     rootContext->setContextProperty("FORM_FACTOR", QVariant(m_cmdLineParser->formFactor()));
+    rootContext->setContextProperty("i18nDirectory", galleryLocaleDirectory());
 
     // Set ourselves up to expose functionality to run external commands from QML...
     m_view->engine()->rootContext()->setContextProperty("APP", this);
