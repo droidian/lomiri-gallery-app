@@ -42,7 +42,7 @@ inline bool isRunningInstalled()
 }
 
 inline void setOrganization() {
-    QCoreApplication::setOrganizationName("@APP_PACKAGE_NAME@");
+    QCoreApplication::setOrganizationName("gallery.ubports");
 }
 
 inline QString galleryDirectory()
