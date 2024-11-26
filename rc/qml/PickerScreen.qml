@@ -139,7 +139,6 @@ MainView {
     }
 
     anchors.fill: parent
-    applicationName: "gallery.ubports"
     automaticOrientation: application.automaticOrientation
 
     Component.onCompleted: {

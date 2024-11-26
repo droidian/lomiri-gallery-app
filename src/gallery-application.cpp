@@ -17,6 +17,7 @@
  * Charles Lindsay <chaz@yorba.org>
  */
 
+#include "config.h"
 #include "gallery-application.h"
 #include "gallery-manager.h"
 
@@ -73,6 +74,13 @@ GalleryApplication::GalleryApplication(int& argc, char** argv)
       m_mediaLoadedTimer(this),
       m_mediaLoaded(false)
 {
+    QCoreApplication::setApplicationName("gallery.ubports");
+
+    textdomain("lomiri-gallery-app");
+    std::string localeDir = galleryLocaleDirectory().toStdString();
+    bindtextdomain("lomiri-gallery-app", localeDir.c_str());
+    bind_textdomain_codeset("lomiri-gallery-app", "UTF-8");
+
     m_bguSize = QProcessEnvironment::systemEnvironment().value("GRID_UNIT_PX", "8").toInt();
     if (m_bguSize <= 0)
         m_bguSize = 8;
