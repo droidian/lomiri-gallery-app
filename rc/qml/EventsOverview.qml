@@ -123,20 +123,6 @@ OrganicView {
             onTriggered: PopupUtils.open(deleteDialog, null);
         },
         Action {
-            objectName: "shareButton"
-            text: i18n.tr("Share")
-            iconName: "share"
-            enabled: selection.selectedMediaCount > 0
-            onTriggered: {
-                if (selection.isMixed) {
-                    PopupUtils.open(unableShareDialog, null);
-                    return;
-                }
-                overview.pushPage(sharePicker);
-                sharePicker.visible = true;
-            }
-        },
-        Action {
             objectName: "selectAllButton"
             text: selection.model.count == selection.selectedCount ? i18n.tr("Unselect all") : i18n.tr("Select all")
             iconName: selection.model.count == selection.selectedCount ? "select-none" : "select"
