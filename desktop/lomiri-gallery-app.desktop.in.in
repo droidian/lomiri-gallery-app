@@ -6,7 +6,6 @@ Comment=Browse your photographs
 Keywords=Photographs;Pictures;Albums
 Exec=@APP_EXEC@ %u
 Icon=@ICON@
-StartupNotify=true
 Terminal=false
 Type=Application
 MimeType=image/jpg;image/jpeg;
