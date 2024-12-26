@@ -296,7 +296,7 @@ Item {
                         && mouse.x < width / 2 + units.gu(5)
                         && mouse.y > height / 2 - units.gu(5)
                         && mouse.y < height / 2 + units.gu(5)) {
-                        var url = mediaSource.path.toString().replace("file://", "video://");
+                        var url = mediaSource.path.toString();
                         Qt.openUrlExternally(url);
                     } else {
                         viewerMouseArea.eventAccepted = false;
