@@ -1,0 +1,2 @@
+# ignore, .desktop file is arch-indep and thus in -common bin:pkg, the executable is arch-specific and in lomiri-gallery-app bin:pkg
+lomiri-gallery-app-common: desktop-command-not-in-package lomiri-gallery-app [usr/share/applications/lomiri-gallery-app.desktop]

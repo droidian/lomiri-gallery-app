@@ -1,1 +1,1 @@
-gallery-app: binary-without-manpage usr/bin/gallery-app
+lomiri-gallery-app: no-manual-page [usr/bin/lomiri-gallery-app]
