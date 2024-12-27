@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : (("
-"n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 "
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : "
+"((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 "
 "== 80) ? 2 : 3));\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
