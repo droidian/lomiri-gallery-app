@@ -50,7 +50,7 @@ ListView {
     }
 
     spacing: units.gu(5)
-    orientation: ListView.Horizontal
+    orientation: overview.staticRotationAngle == 0 ? ListView.Horizontal : ListView.Vertical
     snapMode: ListView.SnapOneItem
     highlightRangeMode: ListView.StrictlyEnforceRange
     highlightFollowsCurrentItem: true
