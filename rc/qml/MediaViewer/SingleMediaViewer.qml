@@ -27,6 +27,7 @@ import "../Components"
 
 Item {
     id: viewer
+
     property bool pinchInProgress: zoomPinchArea.active
     property var mediaSource
     property size thumbSize: Qt.size(viewer.width * 1.05, viewer.height * 1.05)
@@ -87,7 +88,9 @@ Item {
 
     PinchArea {
         id: zoomPinchArea
-        anchors.fill: parent
+        anchors.centerIn: parent
+        width: overview.staticRotationAngle == 0 ? parent.width : parent.height
+        height: overview.staticRotationAngle == 0 ? parent.height : parent.width
 
         property real initialZoom
         property real maximumScale: 3.0
@@ -95,6 +98,14 @@ Item {
         property real maximumZoom: 5.0
         property bool active: false
         property var center
+
+        Connections {
+            target: overview
+            function onStaticRotationAngleChanged () {
+                width: overview.staticRotationAngle == 0 ? parent.width : parent.height
+                height: overview.staticRotationAngle == 0 ? parent.height : parent.width
+            }
+        }
 
         onPinchStarted: {
             active = true;
