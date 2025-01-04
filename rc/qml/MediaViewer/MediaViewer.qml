@@ -22,6 +22,7 @@
 
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
+import QtSensors 5.0
 import Gallery 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
@@ -119,6 +120,19 @@ Item {
         id: galleryPhotoViewer
         objectName: "mediaListView"
 
+        width: overview.staticRotationAngle == 0 ? parent.width : parent.height
+        height: overview.staticRotationAngle == 0 ? parent.height : parent.width
+
+        rotation: overview.staticRotationAngle
+
+        Behavior on rotation {
+            RotationAnimator {
+                duration: LomiriAnimation.BriskDuration
+                easing: LomiriAnimation.StandardEasing
+                direction: RotationAnimator.Shortest
+            }
+        }
+
         // When the user clicks the back button.
         signal closeRequested()
         signal editRequested(variant photo) // The user wants to edit this photo.
@@ -142,7 +156,7 @@ Item {
             pageForward();
         }
 
-        anchors.fill: parent
+        anchors.centerIn: parent
 
         onCurrentIndexChanged: {
             if (model)
