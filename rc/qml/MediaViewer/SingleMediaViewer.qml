@@ -87,7 +87,9 @@ Item {
 
     PinchArea {
         id: zoomPinchArea
-        anchors.fill: parent
+        anchors.centerIn: parent
+        width: overview.staticRotationAngle == 0 ? parent.width : parent.height
+        height: overview.staticRotationAngle == 0 ? parent.height : parent.width
 
         property real initialZoom
         property real maximumScale: 3.0

@@ -22,6 +22,7 @@
 
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
+import QtSensors 5.0
 import Gallery 1.0
 import Lomiri.Components 1.3
 import Lomiri.Components.Popups 1.3
@@ -153,6 +154,15 @@ Item {
             id: media
             objectName: "openedMedia" + index
             mediaSource: model.mediaSource
+            rotation: overview.staticRotationAngle
+
+            Behavior on rotation {
+                RotationAnimator {
+                    duration: LomiriAnimation.BriskDuration
+                    easing: LomiriAnimation.StandardEasing
+                    direction: RotationAnimator.Shortest
+                }
+            }
 
             width: galleryPhotoViewer.width
             height: galleryPhotoViewer.height
