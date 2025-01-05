@@ -41,6 +41,7 @@ Depends: ${misc:Depends},
          qml-module-lomiri-components-extras,
          qml-module-lomiri-layouts,
          qml-module-qtquick-window2,
+         qml-module-gsettings1.0,
          qml-module-lomiri-content,
          qml-module-qtquick-controls2-suru,
 Description: Gallery App for Lomiri Operating Environment
