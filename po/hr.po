@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2025-02-04 07:51+0000\n"
+"PO-Revision-Date: 2025-02-04 19:29+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/hr/>\n"
@@ -169,7 +169,7 @@ msgstr[1] ""
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
 msgid "Share"
-msgstr ""
+msgstr "Podijeli"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
 msgid "Unselect all"
