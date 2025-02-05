@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gallery-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2025-02-04 19:29+0000\n"
+"PO-Revision-Date: 2025-02-05 20:43+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/hr/>\n"
@@ -110,11 +110,11 @@ msgstr "Kamera"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:51
 msgid "Delete album"
-msgstr ""
+msgstr "Izbriši album"
 
 #: rc/qml/Components/DeleteOrDeleteWithContentsDialog.qml:60
 msgid "Delete album AND contents"
-msgstr ""
+msgstr "Izbriši album i sadržaj"
 
 #: rc/qml/Components/EventCard.qml:59
 msgid "MMM yyyy"
@@ -149,22 +149,25 @@ msgstr "U redu"
 #, qt-format
 msgid "Delete %1 photo"
 msgid_plural "Delete %1 photos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Izbriši %1 fotografiju"
+msgstr[1] "Izbriši %1 fotografije"
+msgstr[2] "Izbriši %1 fotografija"
 
 #: rc/qml/EventsOverview.qml:86 rc/qml/PhotosOverview.qml:109
 #, qt-format
 msgid "Delete %1 video"
 msgid_plural "Delete %1 videos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Izbriši %1 video"
+msgstr[1] "Izbriši %1 videa"
+msgstr[2] "Izbriši %1 videa"
 
 #: rc/qml/EventsOverview.qml:92 rc/qml/PhotosOverview.qml:115
 #, qt-format
 msgid "Delete %1 media file"
 msgid_plural "Delete %1 media files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Izbriši %1 medijsku datoteku"
+msgstr[1] "Izbriši %1 medijske datoteke"
+msgstr[2] "Izbriši %1 medijskih datoteka"
 
 #: rc/qml/EventsOverview.qml:127 rc/qml/MediaViewer/MediaViewer.qml:362
 #: rc/qml/PhotosOverview.qml:200 rc/qml/Utility/EditingHUD.qml:71
