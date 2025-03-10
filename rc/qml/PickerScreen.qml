@@ -150,6 +150,8 @@ MainView {
         anchors.fill: parent
 
         StateSaver.properties: "selectedTabIndex"
+        // Select Photos tab by default
+        selectedTabIndex: 1
 
         Tab {
             id: eventsTab
