@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2012-2015 Canonical Ltd.
+ * Copyright (C) 2025 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
@@ -205,13 +206,11 @@ Item {
                     opacity: 0.8
                 }
 
-                Icon {
-                    // Display a play icon if the thumbnail is from a video
+                // Display a play icon if the thumbnail is from a video
+                PlayIcon {
                     anchors.centerIn: parent
-                    width: units.gu(5)
-                    height: units.gu(5)
-                    name: "media-playback-start"
-                    color: "white"
+                    width: units.gu(5.5)
+                    height: width
                     visible: model.mediaSource.type === MediaSource.Video && thumbImage.status == Image.Ready
                 }
 

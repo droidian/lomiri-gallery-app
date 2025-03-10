@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013-2015 Canonical Ltd.
+ * Copyright (C) 2025 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
@@ -20,6 +21,7 @@ import Lomiri.Thumbnailer 0.1
 import Gallery 1.0
 import "../OrganicView"
 import "../Utility"
+import "../Components"
 import "../../js/Gallery.js" as Gallery
 import "../../js/GalleryUtility.js" as GalleryUtility
 
@@ -108,13 +110,11 @@ GridView {
                 opacity: 0.8
             }
 
-            Icon {
-                // Display a play icon if the thumbnail is from a video
+            // Display a play icon if the thumbnail is from a video
+            PlayIcon {
                 anchors.centerIn: parent
-                width: units.gu(5)
-                height: units.gu(5)
-                name: "media-playback-start"
-                color: "white"
+                width: units.gu(5.5)
+                height: width
                 visible: mediaSource.type === MediaSource.Video && thumbImage.status == Image.Ready
             }
 

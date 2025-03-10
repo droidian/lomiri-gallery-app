@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2011-2015 Canonical Ltd.
+ * Copyright (C) 2025 UBports Foundation
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 3 as
@@ -20,6 +21,7 @@
 import QtQuick 2.9
 import Lomiri.Components 1.3
 import Gallery 1.0
+import "../../Components"
 import "../../../js/Gallery.js" as Gallery
 
 /*!
@@ -83,13 +85,11 @@ Item {
         }
     }
 
-	Icon {
-		// Display a play icon if the thumbnail is from a video
-		anchors.centerIn: parent
-		width: units.gu(5)
-		height: units.gu(5)
-		name: "media-playback-start"
-		color: "white"
-		visible: isLoaded && mediaSource.type === MediaSource.Video
-	}
+    // Display a play icon if the thumbnail is from a video
+    PlayIcon {
+        anchors.centerIn: parent
+        width: units.gu(5.5)
+        height: width
+        visible: isLoaded && mediaSource.type === MediaSource.Video
+    }
 }
