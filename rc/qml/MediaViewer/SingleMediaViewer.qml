@@ -1,5 +1,6 @@
 /*
  * Copyright 2014-2015 Canonical Ltd.
+ * Copyright (C) 2025 UBports Foundation
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -245,14 +246,11 @@ Item {
                 }
             }
 
-            Icon {
-				// If the media is a video, show a 'play' icon
-                width: units.gu(6)
-                height: units.gu(6)
+            // If the media is a video, show a 'play' icon
+            PlayIcon {
                 anchors.centerIn: parent
-                name: "media-playback-start"
-                color: "white"
-                opacity: 0.8
+                width: units.gu(7)
+                height: width
                 visible: viewer.isVideo && image.status == Image.Ready
             }
 
