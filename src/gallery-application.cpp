@@ -75,6 +75,7 @@ GalleryApplication::GalleryApplication(int& argc, char** argv)
       m_mediaLoaded(false)
 {
     QCoreApplication::setApplicationName("gallery.ubports");
+    QCoreApplication::setOrganizationName(QCoreApplication::applicationName());
 
     textdomain("lomiri-gallery-app");
     std::string localeDir = galleryLocaleDirectory().toStdString();

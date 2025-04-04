@@ -41,9 +41,6 @@ Resource::Resource(bool desktopMode, const QString &pictureDir)
       m_databaseDirectory(""),
       m_thumbnailDirectory("")
 {
-    if (isClick()) {
-        setOrganization();
-    }
     if (!pictureDir.isEmpty() && QDir(pictureDir).exists()) {
         m_mediaDirectories.append(pictureDir);
     } else {
@@ -59,7 +56,7 @@ Resource::Resource(bool desktopMode, const QString &pictureDir)
         m_videoDirectories.append(QString("/media/" + userName));
     }
 
-    QSettings settings("gallery.ubports", "gallery.ubports");
+    QSettings settings;
     int size = settings.beginReadArray("BlacklistedDirs");
     if (size <= 0) {
         settings.endArray();
