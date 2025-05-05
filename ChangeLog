@@ -1,6 +1,94 @@
+2025-05-05 Mike Gabriel
+
+        * Release 3.1.1 (HEAD -> main, tag: v3.1.1)
+
+2025-04-04 Mike Gabriel
+
+        * Merge branch 'fix/configLocation' into 'main' (5463c62c)
+
+2025-02-14 OPNA2608
+
+        * Always set organizationName, use {application,organization}Name for
+          settings location (e57306da)
+
+2025-04-04 Mike Gabriel
+
+        * Merge branch 'main_-_pickermodetab' into 'main' (452fd873)
+
+2025-03-10 Kugi Eusebio
+
+        * Set Photos tab as default when in picker mode (bf8fe96d)
+
+2025-04-04 Mike Gabriel
+
+        * Merge branch 'main_-_playicon' into 'main' (22fb0280)
+
+2025-03-10 kugiigi
+
+        * Redesigned play icon for better visibility (a8da103f)
+
+2025-02-05 Milo Ivir
+
+        * Translated using Weblate (Croatian) (2148a972)
+        * Translated using Weblate (Croatian) (a0916831)
+
+2025-02-04 Milo Ivir
+
+        * Translated using Weblate (Croatian) (10aa6b48)
+
+2025-02-01 Milo Ivir
+
+        * Translated using Weblate (Croatian) (9ce1b82b)
+
+2025-01-12 தமிழ்நேரம்
+
+        * Translated using Weblate (Tamil) (ce07d557)
+
+2024-12-27 Hosted Weblate
+
+        * Update translation files (69953f51)
+
+2024-11-26 Mike Gabriel
+
+        * Merge branch 'fix/bindtextdomain' into 'main' (e55a725a)
+
+2024-09-05 OPNA2608
+
+        * Migrate i18n init to C++ (d5451eb1)
+
+2024-09-30 OPNA2608
+
+        * Call i18n.bindtextdomain with buildtime-determined locale path
+          (efe9457d)
+
+2024-10-22 Ratchanan Srirattanamet
+
+        * Merge branch 'personal/sunweaver/app-package-name-gone' into 'main'
+          (929c8d3a)
+
+2024-10-22 Mike Gabriel
+
+        * src/config.h.in: Enforce 'gallery.ubports' as organization name,
+          APP_PACKAGE_NAME CMake variable has been dropped a while
+          ago. (66671313)
+
+2024-10-12 ikozyris
+
+        * Translated using Weblate (Greek) (7ba980e5)
+
+2024-09-22 Ratchanan Srirattanamet
+
+        * Merge branch 'personal/sunweaver/shared-runner-for-contributors'
+          into 'main' (11f36986)
+
+2024-09-22 Mike Gabriel
+
+        * .gitlab-ci.yml: use shared runner if run outside our namespace.
+          (3e00107a)
+
 2024-09-11 Mike Gabriel
 
-        * Release 3.1.0 (HEAD -> main, tag: v3.1.0)
+        * Release 3.1.0 (77247658) (tag: v3.1.0)
         * .gitlab-ci.yml: Use UBports GitLab runner. (b36e4bcb)
 
 2024-09-04 Ratchanan Srirattanamet
