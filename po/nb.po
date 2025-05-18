@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gallery-app\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 12:10+0000\n"
-"PO-Revision-Date: 2023-01-07 17:48+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2025-05-18 18:23+0000\n"
+"Last-Translator: Ida Brenna <ida@larald.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/lomiri/"
 "lomiri-gallery-app/nb_NO/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:16+0000\n"
 
 #: lomiri-gallery-app.desktop.in:4 rc/qml/MediaViewer/PopupPhotoViewer.qml:46
@@ -176,9 +176,8 @@ msgid "Unselect all"
 msgstr "Fravelg alt"
 
 #: rc/qml/EventsOverview.qml:141 rc/qml/PhotosOverview.qml:215
-#, fuzzy
 msgid "Select all"
-msgstr "Velg"
+msgstr "Velg alle"
 
 #: rc/qml/EventsOverview.qml:156 rc/qml/PhotosOverview.qml:230
 #: rc/qml/Utility/EditingHUD.qml:76
@@ -246,7 +245,6 @@ msgid "Info"
 msgstr "Info"
 
 #: rc/qml/MediaViewer/MediaViewer.qml:395
-#, fuzzy
 msgid "Information"
 msgstr "Informasjon"
 
