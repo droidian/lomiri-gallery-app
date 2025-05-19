@@ -1,61 +1,65 @@
 Source: lomiri-gallery-app
 Section: graphics
 Priority: optional
-Maintainer: UBports Developers <devs@ubports.com>
-Build-Depends: debhelper-compat (= 12),
-               dh-migrations,
+Maintainer: Debian UBports Team <team+ubports@tracker.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           Marius Gripsgard <marius@ubports.com>,
+Build-Depends: debhelper-compat (= 13),
                cmake,
-               pkg-config,
+               pkgconf,
                dh-apparmor,
-               dh-translations,
+               dh-user-session-migration,
                libexiv2-dev,
-               libgl1-mesa-dev | libgl-dev,
+               libgl-dev,
                libgles2-mesa-dev,
                libmediainfo-dev,
                libqt5opengl5-dev,
                libqt5svg5,
-               qt5-default,
                qtbase5-dev,
                qtdeclarative5-dev,
                python3-all:any,
 # for static linking of exiv2 in click mode
                libexpat1-dev,
                zlib1g-dev,
-Standards-Version: 3.9.5
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
 Homepage: https://gitlab.com/ubports/development/apps/lomiri-gallery-app
-Vcs-Git: https://gitlab.com/ubports/development/apps/lomiri-gallery-app.git
-Vcs-Browser: https://gitlab.com/ubports/development/apps/lomiri-gallery-app
+Vcs-Git: https://salsa.debian.org/ubports-team/lomiri-gallery-app.git
+Vcs-Browser: https://salsa.debian.org/ubports-team/lomiri-gallery-app
 
 Package: lomiri-gallery-app
 Architecture: any
-Replaces: ubuntu-gallery
-Conflicts: ubuntu-gallery
 Depends: ${misc:Depends},
          ${shlibs:Depends},
+         lomiri-gallery-app-common (<< ${source:Version}.1~),
+         lomiri-gallery-app-common (>= ${source:Version}),
          libqt5sql5-sqlite,
-         python3:any,
          qml-module-qtquick2,
          qml-module-qtmultimedia | qml-module-qtmultimedia-gles,
-         qml-module-lomiri-thumbnailer0.1,
+         qml-module-lomiri-thumbnailer,
          qml-module-lomiri-components,
+         qml-module-lomiri-components-extras,
          qml-module-lomiri-layouts,
          qml-module-qtquick-window2,
          qml-module-lomiri-content,
-Description: Photo gallery for Ubuntu Touch
- lomiri-gallery-app is a photo gallery for the Ubuntu Touch platform.
+         qml-module-qtquick-controls2-suru,
+Description: Gallery App for Lomiri Operating Environment
+ This app is a core app for Ubuntu Touch's shell Lomiri. Ubuntu Touch is
+ a mobile OS developed by the UBports Foundation. Lomiri is its operating
+ environment optimized for touch based human-machine interaction, but
+ also supports convergence (i.e. switching between tablet/phone and
+ desktop mode).
+ .
+ This package provides Lomiri's Gallery App.
 
-Package: lomiri-gallery-app-autopilot
+Package: lomiri-gallery-app-common
 Architecture: all
-Replaces: ubuntu-gallery-autopilot
-Conflicts: ubuntu-gallery-autopilot
 Depends: ${misc:Depends},
-         lomiri-gallery-app (>= ${source:Version}),
-         libautopilot-qt (>= 1.4),
-         libqt5test5,
-         lomiri-ui-toolkit-autopilot,
-         lomiri-autopilot,
-         python3-pkg-resources,
-         python3-autopilot,
-Description: Autopilot tests for the photo gallery for Ubuntu Touch
- lomiri-gallery-app is a photo gallery for the Ubuntu platform. This package contains
- autopilot tests for it.
+Description: Gallery App for Lomiri Operating Environment (arch-indep files)
+ This app is a core app for Ubuntu Touch's shell Lomiri. Ubuntu Touch is
+ a mobile OS developed by the UBports Foundation. Lomiri is its operating
+ environment optimized for touch based human-machine interaction, but
+ also supports convergence (i.e. switching between tablet/phone and
+ desktop mode).
+ .
+ This package provides the arch-indep files of Lomiri's Gallery App.

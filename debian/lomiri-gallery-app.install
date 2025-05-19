@@ -1,8 +1,1 @@
-usr/bin/lomiri-gallery-app
-usr/share/applications
-usr/share/content-hub
-usr/share/lomiri-gallery-app
-usr/share/icons
-usr/share/locale/*/LC_MESSAGES/lomiri-gallery-app.mo
-usr/share/lomiri-url-dispatcher/urls/*
-debian/apparmor/lomiri-gallery-app etc/apparmor.d
+usr/bin/
